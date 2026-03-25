@@ -29,14 +29,8 @@ class Game:
             
             try:
                 answer = int(input("Introduce el número de tu respuesta: "))
-                if answer == question['answer']:
-                    print("¡Respuesta correcta!")
-                    self.__player.add_points(config.POINTS_CORRECT)
-                else:
-                    print("Respuesta incorrecta.")
-                    self.__player.lose_life()
-                    penalty = config.POINTS_PENALTY[self.__player.difficulty]
-                    self.__player.sub_points(penalty)
+                self.__evaluate_answer(answer, question['answer'])
+                
             except ValueError:
                 print("Entrada no válida. Se considera como respuesta incorrecta.")
                 self.__player.lose_life()
@@ -46,19 +40,20 @@ class Game:
         print(f"\nJuego terminado. Tu puntuación final es: {self.__player.score}")
         input("Presiona Enter para volver al menú principal...")
 
+    def __evaluate_answer(self, answer: int, correct_answer: int) -> bool:
+        if answer == correct_answer:
+            print("¡Respuesta correcta!")
+            self.__player.add_points(config.POINTS_CORRECT)
+        else:
+            print("Respuesta incorrecta.")
+            self.__player.lose_life()
+            penalty = config.POINTS_PENALTY[self.__player.difficulty]
+            self.__player.sub_points(penalty)
+
 
     def reset_game(self):
         self.__player.reset_lives()
-        self.__player.add_points(-self.__player.score)  # Reset score to 0
+        self.__player.reset_score()
         self.__questions = []
 
-    @staticmethod
-    def set_difficulty() -> str:
-        option = menu.DIFFICULTY_MENU.choose()
-        # Devuelve el valor en inglés
-        return config.DIFFICULTY_LEVELS.get(option, "easy")
-
-    @staticmethod
-    def set_category() -> str:
-        option = menu.CATEGORY_MENU.choose()
-        return config.get_category_name(option)
+    

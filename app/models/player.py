@@ -45,4 +45,7 @@ class Player:
 
     def sub_points(self, score: int):
         self.__score = max(0, self.__score - score)
+
+    def reset_score(self):
+        self.__score = 0
     
