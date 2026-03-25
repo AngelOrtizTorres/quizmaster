@@ -4,7 +4,7 @@ import random
 import app.config as config
 
 @typechecked
-class Question:
+class QuestionManager:
 
     def __init__(self, difficulty: str, category: str):
         self.__difficulty = difficulty
