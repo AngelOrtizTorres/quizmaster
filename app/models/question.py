@@ -21,11 +21,12 @@ class Question:
     
     def __load_questions(self) -> list:
         try:
-            with open(config.QUESTIONS_FILE, 'r') as file:
+            file_path = config.QUESTIONS_FILE[self.__difficulty.lower()]
+            with open(file_path, 'r', encoding='utf-8') as file:
                 questions = json.load(file)
-                return questions.get(self.__difficulty, {}).get(self.__category, [])
+                return questions.get(self.__category, [])
         except FileNotFoundError:
-            print(f"Error: {config.QUESTIONS_FILE} file not found.")
+            print(f"Error: {file_path} file not found.")
             return []
 
     def get_random_questions(self, num_questions: int = 10) -> list:
