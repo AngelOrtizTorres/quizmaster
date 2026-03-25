@@ -7,6 +7,6 @@ DIFFICULTY_MENU = Menu("Dificultad Fácil", "Dificultad Media", "Dificultad Dif�
                        title = "\nELIGE UNA DIFICULTAD")
 
 CATEGORY_MENU = Menu(
-    "General", "Ciencia", "Historia", "Deportes", "Entretenimiento", "Programación",
+    "General", "Ciencia", "Historia", "Deportes", "Videojuegos", "Programación",
     title="\nELIGE LA CATEGORÍA DE LAS PREGUNTAS"
 )
