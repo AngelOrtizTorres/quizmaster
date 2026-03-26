@@ -1,7 +1,7 @@
 from app.models.player import Player
 import app.config as config
 from app.models.question import QuestionManager
-import app.menus as menu
+from app.storage import save_result
 
 class Game:
 
@@ -37,8 +37,20 @@ class Game:
                 penalty = config.POINTS_PENALTY[self.__player.difficulty]
                 self.__player.sub_points(penalty)
         
-        print(f"\nJuego terminado. Tu puntuación final es: {self.__player.score}")
+        if self.__player.is_alive():
+            print(f"\nFelicidades, has ganado. Tu puntuación final es: {self.__player.score}")
+            save = input("¿Deseas guardar tu resultado en el ranking? (s/n): ").strip().lower()
+            if save == 's':
+                save_result(self.__player)
+                print("Resultado guardado en el ranking.")
+            else:
+                print("Resultado no guardado.")
+        else:
+            print(f"\nHas perdido todas tus vidas. Tu puntuación final es: {self.__player.score}")
+            
         input("Presiona Enter para volver al menú principal...")
+            
+        
 
     def __evaluate_answer(self, answer: int, correct_answer: int) -> bool:
         if answer == correct_answer:

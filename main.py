@@ -1,6 +1,7 @@
 import time
 import app.config as config
 from app.game import Game
+from app.storage import get_top3
 import app.utils as utils
 import app.menus as menus
 from app.models.player import Player
@@ -40,10 +41,37 @@ while True:
             utils.clear_terminal()            
 
         case 4:
+            utils.show_instructions()
             input("Pulsa ENTER para volver al menú principal...")
             utils.clear_terminal()
 
         case 5:
+            print("Top 3 jugadores por dificultad:")
+
+            print("Fácil:")
+            top = get_top3("easy")
+            if top:
+                for i, r in enumerate(top, start=1):
+                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
+            else:
+                print("  (sin resultados)")
+
+            print("\nMedia:")
+            top = get_top3("medium")
+            if top:
+                for i, r in enumerate(top, start=1):
+                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
+            else:
+                print("  (sin resultados)")
+
+            print("\nDifícil:")
+            top = get_top3("hard")
+            if top:
+                for i, r in enumerate(top, start=1):
+                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
+            else:
+                print("  (sin resultados)")
+
             input("\nPulsa ENTER para volver al menú principal...")
             utils.clear_terminal()
 
@@ -53,9 +81,6 @@ while True:
             game = Game(player, question_manager)
             game.play()
             utils.clear_terminal()
-            if player.lives > 0:
-                input("Pulsa ENTER para volver al menú principal...")
-                utils.clear_terminal()
 
         case 7:
             print(f"\n¡Nos vemos en la próxima {name}!\n")
