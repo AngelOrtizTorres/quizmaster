@@ -1,4 +1,5 @@
 from typeguard import typechecked
+from app.models.lifelines import FiftyFifty, Hint, Roulette
     
 @typechecked
 class Player:
@@ -9,6 +10,9 @@ class Player:
         self.__category = category
         self.__lives = 3
         self.__score = 0
+        self.fifty_fifty = FiftyFifty()
+        self.hint = Hint()
+        self.roulette = Roulette()
 
     @property
     def name(self) -> str:

@@ -28,6 +28,48 @@ class Game:
                 print(f"{idx}. {option}")
             
             try:
+                options = question['options']
+                correct = question['options'][question['answer'] - 1]
+
+                while True:
+                    use = input("\n¿Deseas usar un comodín? (s/n): ").strip().lower()
+                    if use != 's':
+                        break
+
+                    available = []
+                    if self.__player.fifty_fifty.is_available:
+                        available.append('f: 50/50')
+                    if self.__player.hint.is_available:
+                        available.append('h: pista')
+                    if self.__player.roulette.is_available:
+                        available.append('r: ruleta')
+
+                    if not available:
+                        print("No te quedan comodines.")
+                        break
+
+                    print("Comodines disponibles: " + " | ".join(available))
+                    choice = input("Elige un comodín: ").strip().lower()
+
+                    if choice == 'f' and self.__player.fifty_fifty.is_available:
+                        options = self.__player.fifty_fifty.use(options, correct)
+                        print("\nOpciones tras 50/50:")
+                        for idx, opt in enumerate(options, 1):
+                            print(f"{idx}. {opt}")
+
+                    elif choice == 'h' and self.__player.hint.is_available:
+                        print(f"\nPista: {self.__player.hint.use(question['hint'])}")
+
+                    elif choice == 'r' and self.__player.roulette.is_available:
+                        options = self.__player.roulette.use(options, correct)
+                        print("\nOpciones tras ruleta:")
+                        for idx, opt in enumerate(options, 1):
+                            print(f"{idx}. {opt}")
+
+                    else:
+                        print("Opción no válida o comodín ya usado.")
+
+
                 answer = int(input("Introduce el número de tu respuesta: "))
                 self.__evaluate_answer(answer, question['answer'])
                 
