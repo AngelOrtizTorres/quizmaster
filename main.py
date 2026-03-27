@@ -9,24 +9,36 @@ from app.models.question import QuestionManager
 
 utils.clear_terminal()
 
-name = input("\nPara empezar escribe tu nombre: ")
-selected_difficulty = "easy"
-selected_category = "Programación"
+while True:
+    name = input("\nPara empezar escribe tu nombre: ").strip()
+    if name:
+        utils.clear_terminal()
+        break
+    print("El nombre no puede estar vacío. Inténtalo de nuevo.")
+    
+selected_difficulty = ""
+selected_category = ""
     
 def set_difficulty() -> str:
     option = menus.DIFFICULTY_MENU.choose()
-    return config.DIFFICULTY_LEVELS.get(option, "easy")
+    return config.DIFFICULTY_LEVELS.get(option)
 
 def set_category() -> str:
     option = menus.CATEGORY_MENU.choose()
-    return config.CATEGORIES.get(option, "Programación")
+    return config.CATEGORIES.get(option)
 
 while True:
     main_option = menus.MAIN_MENU.choose()
     utils.clear_terminal()
     match main_option:
         case 1:
-            name = input("\nEscribe aquí tu nombre: ")
+            while True:
+                new_name = input("\nEscribe aquí tu nombre: ").strip()
+                if new_name:
+                    name = new_name
+                    utils.clear_terminal()
+                    break
+                print("El nombre no puede estar vacío. Inténtalo de nuevo.")
 
         case 2:
             selected_difficulty = set_difficulty()
@@ -48,7 +60,7 @@ while True:
         case 5:
             print("Top 3 jugadores por dificultad:")
 
-            print("Fácil:")
+            print("\nFácil:")
             top = get_top3("easy")
             if top:
                 for i, r in enumerate(top, start=1):
@@ -76,10 +88,20 @@ while True:
             utils.clear_terminal()
 
         case 6:
+            if not selected_difficulty or not selected_category:
+                print("\nDebes elegir categoría y dificultad antes de jugar.")
+                input("Pulsa ENTER para volver al menú principal...")
+                utils.clear_terminal()
+                continue
+
             player = Player(name, selected_difficulty, selected_category)
             question_manager = QuestionManager(player.difficulty, player.category)
             game = Game(player, question_manager)
             game.play()
+
+            # Al terminar la partida, forzar a re-elegir categoría y dificultad
+            selected_difficulty = ""
+            selected_category = ""
             utils.clear_terminal()
 
         case 7:

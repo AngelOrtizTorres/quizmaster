@@ -71,7 +71,7 @@ class Game:
 
 
                 answer = int(input("Introduce el número de tu respuesta: "))
-                self.__evaluate_answer(answer, question['answer'])
+                self.__evaluate_answer(answer, options, correct)
                 
             except ValueError:
                 print("Entrada no válida. Se considera como respuesta incorrecta.")
@@ -94,15 +94,20 @@ class Game:
             
         
 
-    def __evaluate_answer(self, answer: int, correct_answer: int) -> bool:
-        if answer == correct_answer:
-            print("¡Respuesta correcta!")
-            self.__player.add_points(config.POINTS_CORRECT)
+    def __evaluate_answer(self, answer: int, options: list, correct_option: str) -> None:
+        if 1 <= answer <= len(options):
+            selected = options[answer - 1]
+            if selected == correct_option:
+                print("¡Respuesta correcta!")
+                self.__player.add_points(config.POINTS_CORRECT)
+            else:
+                print("Respuesta incorrecta.")
+                self.__player.lose_life()
+                self.__player.sub_points(config.POINTS_PENALTY[self.__player.difficulty])
         else:
-            print("Respuesta incorrecta.")
+            print("Opción no válida.")
             self.__player.lose_life()
-            penalty = config.POINTS_PENALTY[self.__player.difficulty]
-            self.__player.sub_points(penalty)
+            self.__player.sub_points(config.POINTS_PENALTY[self.__player.difficulty])
 
 
     def reset_game(self):
