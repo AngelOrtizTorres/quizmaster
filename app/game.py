@@ -1,3 +1,4 @@
+from colorama import Fore, Style
 from app.models.player import Player
 import app.config as config
 from app.models.question import QuestionManager
@@ -20,7 +21,6 @@ class Game:
     def play(self):
         for question in self.__questions:
             if not self.__player.is_alive():
-                print("¡Has perdido todas tus vidas! Fin del juego.")
                 break
             
             print(f"\nPregunta: {question['question']}")
@@ -98,21 +98,15 @@ class Game:
         if 1 <= answer <= len(options):
             selected = options[answer - 1]
             if selected == correct_option:
-                print("¡Respuesta correcta!")
+                print(Fore.GREEN + "¡Respuesta correcta!" + Style.RESET_ALL)
                 self.__player.add_points(config.POINTS_CORRECT)
             else:
-                print("Respuesta incorrecta.")
+                print(Fore.RED + "Respuesta incorrecta." + Style.RESET_ALL)
                 self.__player.lose_life()
                 self.__player.sub_points(config.POINTS_PENALTY[self.__player.difficulty])
         else:
             print("Opción no válida.")
             self.__player.lose_life()
             self.__player.sub_points(config.POINTS_PENALTY[self.__player.difficulty])
-
-
-    def reset_game(self):
-        self.__player.reset_lives()
-        self.__player.reset_score()
-        self.__questions = []
 
     

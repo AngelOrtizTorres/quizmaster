@@ -15,7 +15,7 @@ while True:
         utils.clear_terminal()
         break
     print("El nombre no puede estar vacío. Inténtalo de nuevo.")
-    
+
 selected_difficulty = ""
 selected_category = ""
     
@@ -93,15 +93,12 @@ while True:
                 input("Pulsa ENTER para volver al menú principal...")
                 utils.clear_terminal()
                 continue
-
+            
             player = Player(name, selected_difficulty, selected_category)
             question_manager = QuestionManager(player.difficulty, player.category)
             game = Game(player, question_manager)
+            utils.counter_start()
             game.play()
-
-            # Al terminar la partida, forzar a re-elegir categoría y dificultad
-            selected_difficulty = ""
-            selected_category = ""
             utils.clear_terminal()
 
         case 7:

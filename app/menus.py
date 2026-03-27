@@ -1,7 +1,9 @@
+import app.utils as utils
+
 from app.menu import Menu
 
 MAIN_MENU = Menu("Cambiar nombre del jugador","Elegir dificultad del juego", "Elegir categoría de las preguntas", "Leer instrucciones",
-                 "Ver la clasificación", "Empezar a jugar", "Salir", title = "QuizMaster - Menú Principal")
+                 "Ver la clasificación", "Empezar a jugar", "Salir", title = utils.get_banner())
 
 DIFFICULTY_MENU = Menu("Dificultad Fácil", "Dificultad Media", "Dificultad Difícil",
                        title = "\nELIGE UNA DIFICULTAD")
