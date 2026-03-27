@@ -1,11 +1,19 @@
 import time
 import app.config as config
 from app.game import Game
-from app.storage import get_top3
+from app.storage import show_ranking
 import app.utils as utils
 import app.menus as menus
 from app.models.player import Player
 from app.models.question import QuestionManager
+
+def set_difficulty() -> str:
+    option = menus.DIFFICULTY_MENU.choose()
+    return config.DIFFICULTY_LEVELS.get(option)
+
+def set_category() -> str:
+    option = menus.CATEGORY_MENU.choose()
+    return config.CATEGORIES.get(option)
 
 utils.clear_terminal()
 
@@ -18,14 +26,6 @@ while True:
 
 selected_difficulty = ""
 selected_category = ""
-    
-def set_difficulty() -> str:
-    option = menus.DIFFICULTY_MENU.choose()
-    return config.DIFFICULTY_LEVELS.get(option)
-
-def set_category() -> str:
-    option = menus.CATEGORY_MENU.choose()
-    return config.CATEGORIES.get(option)
 
 while True:
     main_option = menus.MAIN_MENU.choose()
@@ -58,32 +58,7 @@ while True:
             utils.clear_terminal()
 
         case 5:
-            print("Top 3 jugadores por dificultad:")
-
-            print("\nFácil:")
-            top = get_top3("easy")
-            if top:
-                for i, r in enumerate(top, start=1):
-                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
-            else:
-                print("  (sin resultados)")
-
-            print("\nMedia:")
-            top = get_top3("medium")
-            if top:
-                for i, r in enumerate(top, start=1):
-                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
-            else:
-                print("  (sin resultados)")
-
-            print("\nDifícil:")
-            top = get_top3("hard")
-            if top:
-                for i, r in enumerate(top, start=1):
-                    print(f"{i}. {r['name']} - {r['category']} - {r['score']} pts - {r['lives']} vidas")
-            else:
-                print("  (sin resultados)")
-
+            show_ranking()
             input("\nPulsa ENTER para volver al menú principal...")
             utils.clear_terminal()
 
@@ -95,10 +70,13 @@ while True:
                 continue
             
             player = Player(name, selected_difficulty, selected_category)
-            question_manager = QuestionManager(player.difficulty, player.category)
-            game = Game(player, question_manager)
-            utils.counter_start()
-            game.play()
+            try:
+                question_manager = QuestionManager(player.difficulty, player.category)
+                game = Game(player, question_manager)
+                game.play()
+            except FileNotFoundError as e:
+                print(f"\nError: {e}")
+                input("Pulsa ENTER para volver al menú principal...")
             utils.clear_terminal()
 
         case 7:

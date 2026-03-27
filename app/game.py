@@ -1,8 +1,9 @@
+import app.utils as utils
 from colorama import Fore, Style
 from app.models.player import Player
 import app.config as config
 from app.models.question import QuestionManager
-from app.storage import save_result
+from app.storage import ask_save_results
 
 class Game:
 
@@ -19,6 +20,13 @@ class Game:
         return self.__questions
     
     def play(self):
+        if not self.__questions:
+            print("\nNo hay preguntas disponibles para esta categoría y dificultad.")
+            input("Presiona Enter para volver al menú principal...")
+            return
+        
+        utils.counter_start()
+        
         for question in self.__questions:
             if not self.__player.is_alive():
                 break
@@ -81,19 +89,12 @@ class Game:
         
         if self.__player.is_alive():
             print(f"\nFelicidades, has ganado. Tu puntuación final es: {self.__player.score}")
-            save = input("¿Deseas guardar tu resultado en el ranking? (s/n): ").strip().lower()
-            if save == 's':
-                save_result(self.__player)
-                print("Resultado guardado en el ranking.")
-            else:
-                print("Resultado no guardado.")
+            ask_save_results(self.__player)
         else:
             print(f"\nHas perdido todas tus vidas. Tu puntuación final es: {self.__player.score}")
             
         input("Presiona Enter para volver al menú principal...")
             
-        
-
     def __evaluate_answer(self, answer: int, options: list, correct_option: str) -> None:
         if 1 <= answer <= len(options):
             selected = options[answer - 1]
@@ -108,5 +109,4 @@ class Game:
             print("Opción no válida.")
             self.__player.lose_life()
             self.__player.sub_points(config.POINTS_PENALTY[self.__player.difficulty])
-
     

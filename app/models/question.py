@@ -26,8 +26,7 @@ class QuestionManager:
                 questions = json.load(file)
                 return questions.get(self.__category, [])
         except FileNotFoundError:
-            print(f"Error: {file_path} file not found.")
-            return []
+            raise FileNotFoundError(f"No se encontró el archivo de preguntas para la dificultad '{self.__difficulty}'")
 
     def get_random_questions(self, num_questions: int = 10) -> list:
         if not self.__questions:

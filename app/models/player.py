@@ -10,9 +10,9 @@ class Player:
         self.__category = category
         self.__lives = 3
         self.__score = 0
-        self.fifty_fifty = FiftyFifty()
-        self.hint = Hint()
-        self.roulette = Roulette()
+        self.__fifty_fifty = FiftyFifty()
+        self.__hint = Hint()
+        self.__roulette = Roulette()
 
     @property
     def name(self) -> str:
@@ -33,6 +33,18 @@ class Player:
     @property
     def score(self) -> int:
         return self.__score
+    
+    @property
+    def fifty_fifty(self) -> FiftyFifty:
+        return self.__fifty_fifty
+    
+    @property
+    def hint(self) -> Hint:
+        return self.__hint
+    
+    @property
+    def roulette(self) -> Roulette:
+        return self.__roulette
     
     def reset_lives(self):
         self.__lives = 3
