@@ -80,6 +80,10 @@ class Game:
 
                 answer = int(input("Introduce el número de tu respuesta: "))
                 self.__evaluate_answer(answer, options, correct)
+
+                print(f"\nExplicación: {question['explanation']}")
+                input("\nPresiona Enter para continuar...")
+                utils.clear_terminal()
                 
             except ValueError:
                 print("Entrada no válida. Se considera como respuesta incorrecta.")
