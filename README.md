@@ -1,2 +1,128 @@
-# quizmaster
-Interactive terminal quiz game built with Python and Textual. Features multiple topic categories, three difficulty levels, hints system, persistent leaderboard and ranking. Developed with clean architecture separating game logic from the TUI layer.
+# QuizMaster
+
+A modular quiz game built in Python, designed with a clear separation between core logic and interface layer — allowing the same backend to power a CLI, a TUI, and eventually a GUI without modification.
+
+---
+
+## Roadmap
+
+| Version | Interface | Status |
+|---------|-----------|--------|
+| v1.0.0 | CLI | ✅ Complete |
+| v2.0.0 | TUI (Textual) | 🚧 In progress |
+| v3.0.0 | GUI | 📋 Planned |
+
+---
+
+## Features
+
+- 10 questions per game across 6 categories: General, Science, History, Sports, Video Games, and Programming
+- 3 difficulty levels with dynamic score penalties (Easy, Medium, Hard)
+- 3 lifelines per game — each single-use:
+  - **50/50** — eliminates two incorrect options
+  - **Hint** — reveals a clue for the current question
+  - **Roulette** — randomly eliminates 0 to 3 incorrect options (intentional risk mechanic)
+- Local ranking system — Top 3 per difficulty
+- Animated countdown before each game
+
+---
+
+## Screenshots
+
+> CLI (v1.0.0)
+
+<!-- Main menu -->
+![Main menu](assets/main-menu.png)
+
+<!-- In-game question -->
+![Gameplay](assets/gameplay.png)
+
+<!-- Ranking screen -->
+![Ranking](assets/ranking.png)
+
+---
+
+## Project Structure
+
+```
+quizmaster/
+├── app/
+│   ├── models/
+│   │   ├── lifelines.py     # FiftyFifty, Hint, Roulette
+│   │   ├── player.py        # Player state and scoring
+│   │   └── question.py      # Question loading and randomization
+│   ├── config.py            # Game constants and file paths
+│   ├── game.py              # Core game loop
+│   ├── menu.py              # Reusable menu component
+│   ├── menus.py             # Menu instances
+│   ├── storage.py           # Ranking persistence
+│   └── utils.py             # Terminal utilities and ASCII art
+├── data/
+│   ├── questions/
+│   │   ├── easy.json
+│   │   ├── medium.json
+│   │   └── hard.json
+│   └── ranking.json
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Getting Started
+
+**Requirements:** Python 3.10+
+
+```bash
+git clone https://github.com/AngelOrtizTorres/quizmaster.git
+cd quizmaster
+pip install -r requirements.txt
+python main.py
+```
+
+---
+
+## Gameplay
+
+1. Enter your name
+2. Select a difficulty and category
+3. Answer 10 multiple choice questions
+4. Use lifelines strategically — once used, they're gone
+5. Lose all 3 lives and the game ends early
+6. Finish all questions and optionally save your score to the ranking
+
+**Scoring:**
+
+| Result | Points |
+|--------|--------|
+| Correct answer | +5 |
+| Wrong answer — Easy | -1 |
+| Wrong answer — Medium | -2 |
+| Wrong answer — Hard | -3 |
+
+---
+
+## Design Decisions
+
+- **Interface-agnostic core** — `app/` has no dependency on any interface. CLI, TUI, and GUI versions import from it without modification.
+- **Encapsulated lifelines** — each lifeline is its own class, keeping state and behavior isolated.
+- **Roulette mechanic** — eliminating 0 options is a valid outcome by design; the uncertainty is the point.
+- **JSON persistence** — no database dependency for a local game; keeps the project self-contained.
+
+---
+
+## Dependencies
+
+- [colorama](https://pypi.org/project/colorama/) — cross-platform terminal colors
+- [typeguard](https://pypi.org/project/typeguard/) — runtime type checking
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
+
+---
+
+*Ángel Ortiz Torres*
