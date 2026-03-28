@@ -1,1297 +1,2174 @@
 {
-    "Programación": [
+    "General": [
         {
-            "pregunta": "¿Qué tipo de datos en Python se utiliza para almacenar texto?",
-            "opciones": [
-                "String",
-                "List",
-                "Integer",
-                "Boolean"
+            "question": "¿Cuántos huesos tiene la columna vertebral humana?",
+            "options": [
+                "33",
+                "24",
+                "26",
+                "40"
             ],
-            "respuesta": 1,
-            "explicacion": "El tipo de dato String se usa para almacenar secuencias de caracteres.",
-            "pista": "Es una palabra que empieza con 'S' y significa 'cadena' en inglés."
+            "answer": 1,
+            "explanation": "La columna vertebral adulta está compuesta por 33 vértebras divididas en cinco regiones: cervical, torácica, lumbar, sacra y coccígea.",
+            "hint": "Más de 30, menos de 40."
         },
         {
-            "pregunta": "¿Qué operador se utiliza en Python para la potencia de un número?",
-            "opciones": [
-                "^",
-                "**",
-                "/",
-                "%"
+            "question": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+            "options": [
+                "Hierro",
+                "Flúor",
+                "Fósforo",
+                "Francio"
             ],
-            "respuesta": 2,
-            "explicacion": "El operador '**' se usa en Python para realizar potencias.",
-            "pista": "Es dos asteriscos seguidos."
+            "answer": 1,
+            "explanation": "Fe viene del latín 'ferrum', nombre del hierro. Es el metal más usado en la industria y el cuarto elemento más abundante en la corteza terrestre.",
+            "hint": "Su símbolo viene del latín, no del español."
         },
         {
-            "pregunta": "¿Qué función en Python permite leer la entrada del usuario?",
-            "opciones": [
-                "input()",
-                "read()",
-                "get()",
-                "scanf()"
+            "question": "¿Cuál es la capital de Australia?",
+            "options": [
+                "Sídney",
+                "Canberra",
+                "Melbourne",
+                "Brisbane"
             ],
-            "respuesta": 1,
-            "explicacion": "La función input() se usa para leer la entrada de datos desde el teclado.",
-            "pista": "Su nombre implica lo que hace: tomar una entrada."
+            "answer": 2,
+            "explanation": "Canberra es la capital de Australia, no Sídney como muchos creen. Fue construida específicamente como capital para resolver la rivalidad entre Sídney y Melbourne.",
+            "hint": "No es la ciudad más grande ni la más famosa del país."
         },
         {
-            "pregunta": "¿Qué significa 'self' dentro de un método de una clase en Python?",
-            "opciones": [
-                "Una variable global",
-                "El objeto mismo",
-                "Una función externa",
-                "Un parámetro opcional"
+            "question": "¿Cuántos gramos tiene una libra?",
+            "options": [
+                "453",
+                "350",
+                "500",
+                "560"
             ],
-            "respuesta": 2,
-            "explicacion": "'self' hace referencia al objeto actual dentro de un método de clase.",
-            "pista": "Es una convención utilizada en la programación orientada a objetos."
+            "answer": 1,
+            "explanation": "Una libra equivale a aproximadamente 453,59 gramos, una unidad de medida todavía usada en países anglosajones.",
+            "hint": "Está entre 400 y 500 gramos."
         },
         {
-            "pregunta": "¿Cuál es la diferencia entre 'append()' y 'extend()' en Python?",
-            "opciones": [
-                "'append()' agrega un solo elemento, 'extend()' agrega varios",
-                "'append()' es más rápido",
-                "'extend()' modifica la lista original",
-                "'append()' es recursivo"
+            "question": "¿Qué océano es el más grande del mundo?",
+            "options": [
+                "Atlántico",
+                "Pacífico",
+                "Índico",
+                "Ártico"
             ],
-            "respuesta": 1,
-            "explicacion": "append() agrega un solo elemento al final, mientras que extend() agrega todos los elementos de un iterable.",
-            "pista": "Ambos se usan para agregar elementos a una lista."
+            "answer": 2,
+            "explanation": "El océano Pacífico es el más grande y profundo del planeta, cubriendo más de un tercio de la superficie terrestre.",
+            "hint": "Su nombre significa 'pacífico' o tranquilo, dado por Magallanes."
         },
         {
-            "pregunta": "¿Qué hace la función 'range()' en Python?",
-            "opciones": [
-                "Devuelve una lista de números",
-                "Genera una secuencia de números",
-                "Crea una variable aleatoria",
-                "Devuelve un número aleatorio"
+            "question": "¿Cuántos lados tiene un hexágono?",
+            "options": [
+                "5",
+                "7",
+                "8",
+                "6"
             ],
-            "respuesta": 2,
-            "explicacion": "La función range() genera una secuencia de números que se puede iterar.",
-            "pista": "Se utiliza en bucles como 'for'."
+            "answer": 4,
+            "explanation": "Un hexágono tiene 6 lados y 6 ángulos. Los panales de abejas tienen forma hexagonal.",
+            "hint": "El prefijo 'hexa-' significa seis en griego."
         },
         {
-            "pregunta": "¿Cómo se puede definir una función en Python?",
-            "opciones": [
-                "def funcion():",
-                "create funcion():",
-                "function() { }",
-                "function = () => {}"
+            "question": "¿Qué país tiene la mayor superficie del mundo?",
+            "options": [
+                "China",
+                "Canadá",
+                "Estados Unidos",
+                "Rusia"
             ],
-            "respuesta": 1,
-            "explicacion": "En Python, las funciones se definen utilizando la palabra clave 'def'.",
-            "pista": "Es la palabra clave más común para definir funciones."
+            "answer": 4,
+            "explanation": "Rusia es el país más grande del mundo con más de 17 millones de km², casi el doble que el segundo, Canadá.",
+            "hint": "Se extiende por Europa y Asia."
         },
         {
-            "pregunta": "¿Qué significa el error 'IndexError' en Python?",
-            "opciones": [
-                "Acceder a un índice fuera del rango",
-                "Error en la indentación",
-                "Un valor es nulo",
-                "Un archivo no encontrado"
+            "question": "¿Cuántos cromosomas tiene una célula humana normal?",
+            "options": [
+                "46",
+                "23",
+                "48",
+                "92"
             ],
-            "respuesta": 1,
-            "explicacion": "'IndexError' ocurre cuando intentas acceder a un índice que no existe en una lista o cadena.",
-            "pista": "Está relacionado con los índices en las listas."
+            "answer": 1,
+            "explanation": "Las células humanas tienen 46 cromosomas organizados en 23 pares, uno de cada par heredado de cada progenitor.",
+            "hint": "Son 23 pares."
         },
         {
-            "pregunta": "¿Qué estructura de datos en Python permite almacenar elementos sin repetirlos?",
-            "opciones": [
-                "Lista",
-                "Conjunto",
-                "Diccionario",
-                "Tupla"
+            "question": "¿Qué instrumento mide la presión atmosférica?",
+            "options": [
+                "Barómetro",
+                "Termómetro",
+                "Higrómetro",
+                "Anemómetro"
             ],
-            "respuesta": 2,
-            "explicacion": "Un conjunto (set) en Python almacena elementos únicos, sin duplicados.",
-            "pista": "Es como una lista, pero sin repeticiones."
+            "answer": 1,
+            "explanation": "El barómetro es el instrumento diseñado para medir la presión atmosférica, útil para predecir cambios meteorológicos.",
+            "hint": "Su nombre incluye la raíz griega 'baros', que significa peso."
         },
         {
-            "pregunta": "¿Qué comando se utiliza para importar una biblioteca externa en Python?",
-            "opciones": [
-                "import",
-                "require",
-                "include",
-                "use"
+            "question": "¿Cuántos minutos tiene un día completo?",
+            "options": [
+                "1.200",
+                "1.600",
+                "2.400",
+                "1.440"
             ],
-            "respuesta": 1,
-            "explicacion": "Para importar un módulo o biblioteca en Python, se utiliza la palabra clave 'import'.",
-            "pista": "Es una palabra clave, muy sencilla y directa."
+            "answer": 4,
+            "explanation": "Un día tiene 24 horas × 60 minutos = 1.440 minutos en total.",
+            "hint": "Multiplica 24 por 60."
         },
         {
-            "pregunta": "¿Cómo se crea un diccionario vacío en Python?",
-            "opciones": [
-                "{}",
-                "[]",
-                "()",
-                "dict()"
-            ],
-            "respuesta": 1,
-            "explicacion": "Un diccionario vacío se crea usando las llaves '{}' o dict().",
-            "pista": "Es un contenedor clave-valor."
-        },
-        {
-            "pregunta": "¿Qué operador lógico se usa para verificar si dos condiciones son verdaderas en Python?",
-            "opciones": [
-                "&",
-                "and",
-                "or",
-                "&&"
-            ],
-            "respuesta": 2,
-            "explicacion": "El operador 'and' se utiliza para comprobar si dos condiciones son verdaderas.",
-            "pista": "Es uno de los operadores más comunes para combinaciones de condiciones."
-        },
-        {
-            "pregunta": "¿Cuál es el propósito de la función 'lambda' en Python?",
-            "opciones": [
-                "Definir una función anónima",
-                "Crear una variable",
-                "Modificar un diccionario",
-                "Definir una constante"
-            ],
-            "respuesta": 1,
-            "explicacion": "Una función lambda permite crear funciones pequeñas y anónimas.",
-            "pista": "Es una forma de crear funciones en una sola línea."
-        },
-        {
-            "pregunta": "¿Qué se entiende por 'list comprehension' en Python?",
-            "opciones": [
-                "Creación de listas de manera compacta",
-                "Creación de diccionarios",
-                "Conversión de listas a tuplas",
-                "Acceso a listas con índices negativos"
-            ],
-            "respuesta": 1,
-            "explicacion": "List comprehension permite crear nuevas listas de manera compacta y eficiente.",
-            "pista": "Suele ser un solo renglón que utiliza corchetes."
-        },
-        {
-            "pregunta": "¿Cómo puedes verificar el tipo de una variable en Python?",
-            "opciones": [
-                "type()",
-                "isinstance()",
-                "check()",
-                "kind()"
-            ],
-            "respuesta": 1,
-            "explicacion": "La función type() devuelve el tipo de la variable.",
-            "pista": "Es la forma más directa y rápida de obtener el tipo."
-        },
-        {
-            "pregunta": "¿Qué función permite ordenar una lista en Python?",
-            "opciones": [
-                "sort()",
-                "order()",
-                "arrange()",
-                "sorted()"
-            ],
-            "respuesta": 1,
-            "explicacion": "La función sort() ordena los elementos de una lista en su lugar.",
-            "pista": "Es similar a 'sorted()', pero ordena la lista directamente."
-        },
-        {
-            "pregunta": "¿Qué hace el operador '%' en Python?",
-            "opciones": [
-                "División",
-                "Multiplicación",
-                "Resto de una división",
-                "Elevación a potencia"
-            ],
-            "respuesta": 3,
-            "explicacion": "El operador '%' devuelve el resto de una división.",
-            "pista": "Es común en operaciones matemáticas."
-        },
-        {
-            "pregunta": "¿Cómo se puede agregar un comentario en una sola línea en Python?",
-            "opciones": [
-                "//",
-                "/* comentario */",
-                "#",
-                "comment:"
-            ],
-            "respuesta": 3,
-            "explicacion": "Los comentarios en Python se crean con el símbolo '#'.",
-            "pista": "Este símbolo indica que todo lo que sigue es ignorado por el intérprete."
-        },
-        {
-            "pregunta": "¿Cómo se definen múltiples variables con un solo comando en Python?",
-            "opciones": [
-                "x = y = z = 0",
-                "x, y = 0",
-                "var1 var2 = 1",
-                "x & y = 2"
-            ],
-            "respuesta": 1,
-            "explicacion": "Se pueden asignar múltiples variables de la misma forma, separando con '='.",
-            "pista": "Es una forma compacta de inicializar varias variables a la vez."
-        },
-        {
-            "pregunta": "¿Cuál es la principal diferencia entre una lista y una tupla en Python?",
-            "opciones": [
-                "Las listas son inmutables",
-                "Las tuplas son mutables",
-                "Las listas pueden cambiar, las tuplas no",
-                "Las listas no pueden contener elementos repetidos"
-            ],
-            "respuesta": 3,
-            "explicacion": "Las tuplas son inmutables, lo que significa que no puedes modificar sus elementos después de su creación.",
-            "pista": "Piensa en una lista como algo que puedes modificar y en una tupla como algo que no."
-        }
-    ],
-    "Geografía": [
-        {
-            "pregunta": "¿Cuál es el país más grande de África por superficie?",
-            "opciones": [
-                "Sudáfrica",
-                "Argelia",
-                "Nigeria",
-                "Egipto"
-            ],
-            "respuesta": 2,
-            "explicacion": "Argelia es el país más grande de África, con una vasta extensión de desiertos y montañas.",
-            "pista": "Está en el norte de África y tiene una costa mediterránea."
-        },
-        {
-            "pregunta": "¿Cuál es el río más largo de América del Sur?",
-            "opciones": [
+            "question": "¿Qué río es el más largo del mundo?",
+            "options": [
                 "Amazonas",
-                "Paraná",
-                "Orinoco",
-                "Magdalena"
+                "Yangtsé",
+                "Misisipi",
+                "Nilo"
             ],
-            "respuesta": 1,
-            "explicacion": "El río Amazonas es el más largo y caudaloso de América del Sur, y uno de los más largos del mundo.",
-            "pista": "Este río atraviesa varios países y tiene una vasta selva a sus alrededores."
+            "answer": 4,
+            "explanation": "El Nilo es generalmente considerado el río más largo del mundo con unos 6.650 km, aunque el Amazonas le disputa ese título según el método de medición.",
+            "hint": "Está en África y fue vital para una civilización antigua."
         },
         {
-            "pregunta": "¿Cuál es la capital de Canadá?",
-            "opciones": [
-                "Montreal",
-                "Vancouver",
-                "Ottawa",
-                "Toronto"
+            "question": "¿Cuántos huesos tiene la mano humana?",
+            "options": [
+                "27",
+                "19",
+                "23",
+                "31"
             ],
-            "respuesta": 3,
-            "explicacion": "Ottawa es la capital de Canadá, situada en la provincia de Ontario.",
-            "pista": "Es una ciudad conocida por su arquitectura gubernamental y su proximidad al río Ottawa."
+            "answer": 1,
+            "explanation": "La mano humana tiene 27 huesos divididos en carpos, metacarpos y falanges.",
+            "hint": "Es más de 25."
         },
         {
-            "pregunta": "¿En qué continente se encuentra el desierto del Sahara?",
-            "opciones": [
+            "question": "¿En qué continente se encuentra el desierto del Sahara?",
+            "options": [
                 "Asia",
-                "América",
-                "Europa",
+                "América del Sur",
+                "Australia",
                 "África"
             ],
-            "respuesta": 4,
-            "explicacion": "El Sahara es el desierto cálido más grande del mundo, y se encuentra en el continente africano.",
-            "pista": "Es conocido por sus vastas dunas de arena."
+            "answer": 4,
+            "explanation": "El Sahara es el desierto caliente más grande del mundo y se encuentra en el norte de África, abarcando varios países.",
+            "hint": "Es el continente más grande por población."
         },
         {
-            "pregunta": "¿Qué país tiene más islas en el mundo?",
-            "opciones": [
-                "Suecia",
-                "Canadá",
-                "Noruega",
-                "Australia"
+            "question": "¿Cuántos mililitros tiene un litro?",
+            "options": [
+                "1.000",
+                "10",
+                "100",
+                "10.000"
             ],
-            "respuesta": 1,
-            "explicacion": "Suecia tiene más de 267,000 islas, lo que lo convierte en el país con más islas.",
-            "pista": "Este país está ubicado en el norte de Europa."
+            "answer": 1,
+            "explanation": "Un litro equivale a 1.000 mililitros. El prefijo 'mili-' significa una milésima parte.",
+            "hint": "El prefijo 'mili' indica la milésima parte."
         },
         {
-            "pregunta": "¿Cuál es la montaña más alta del mundo?",
-            "opciones": [
-                "K2",
-                "Everest",
-                "Makalu",
-                "Kangchenjunga"
+            "question": "¿Qué glándula regula el metabolismo en el cuerpo humano?",
+            "options": [
+                "Páncreas",
+                "Tiroides",
+                "Hipófisis",
+                "Suprarrenal"
             ],
-            "respuesta": 2,
-            "explicacion": "El monte Everest, con 8,848 metros sobre el nivel del mar, es la montaña más alta del mundo.",
-            "pista": "Se encuentra en la frontera entre Nepal y China."
+            "answer": 2,
+            "explanation": "La glándula tiroides regula el metabolismo, el crecimiento y el desarrollo mediante la producción de hormonas como la tiroxina.",
+            "hint": "Está en el cuello y tiene forma de mariposa."
         },
         {
-            "pregunta": "¿En qué océano se encuentra la isla de Madagascar?",
-            "opciones": [
-                "Atlántico",
-                "Índico",
-                "Pacífico",
-                "Ártico"
+            "question": "¿Cuántos lados tiene un dodecágono?",
+            "options": [
+                "10",
+                "12",
+                "11",
+                "14"
             ],
-            "respuesta": 2,
-            "explicacion": "Madagascar se encuentra en el océano Índico, al este de África.",
-            "pista": "Es famosa por su biodiversidad única."
+            "answer": 2,
+            "explanation": "Un dodecágono tiene 12 lados. El prefijo 'dodeca-' significa doce en griego.",
+            "hint": "El prefijo 'dodeca-' significa doce."
         },
         {
-            "pregunta": "¿Qué país tiene la mayor población del mundo?",
-            "opciones": [
-                "India",
-                "Estados Unidos",
-                "China",
-                "Indonesia"
-            ],
-            "respuesta": 3,
-            "explicacion": "China tiene la mayor población del mundo, con más de 1.400 millones de personas.",
-            "pista": "Este país es conocido por la Gran Muralla China."
-        },
-        {
-            "pregunta": "¿Cuál es el lago más grande de África?",
-            "opciones": [
-                "Lago Victoria",
-                "Lago Tanganyika",
-                "Lago Malawi",
-                "Lago Chad"
-            ],
-            "respuesta": 1,
-            "explicacion": "El Lago Victoria, con 68,800 km², es el más grande de África.",
-            "pista": "Se encuentra entre tres países: Uganda, Kenia y Tanzania."
-        },
-        {
-            "pregunta": "¿Qué país tiene la mayor extensión territorial en América del Sur?",
-            "opciones": [
+            "question": "¿Qué país tiene más hablantes nativos de español?",
+            "options": [
+                "España",
+                "México",
                 "Argentina",
-                "Brasil",
-                "Chile",
                 "Colombia"
             ],
-            "respuesta": 2,
-            "explicacion": "Brasil es el país más grande de América del Sur, con una gran diversidad geográfica.",
-            "pista": "Este país es conocido por la selva amazónica."
+            "answer": 2,
+            "explanation": "México es el país con más hablantes nativos de español del mundo, con más de 120 millones de personas.",
+            "hint": "Está en América del Norte."
         },
         {
-            "pregunta": "¿En qué océano se encuentra la isla de Hawái?",
-            "opciones": [
-                "Atlántico",
-                "Índico",
-                "Pacífico",
-                "Ártico"
+            "question": "¿Cuántos nervios craneales tiene el ser humano?",
+            "options": [
+                "10",
+                "12",
+                "14",
+                "16"
             ],
-            "respuesta": 3,
-            "explicacion": "Hawái se encuentra en el océano Pacífico central.",
-            "pista": "Es un archipiélago en medio del océano."
+            "answer": 2,
+            "explanation": "El ser humano tiene 12 pares de nervios craneales que conectan el cerebro directamente con diferentes partes del cuerpo.",
+            "hint": "Son 12 pares."
         },
         {
-            "pregunta": "¿Cuál es el país más pequeño de América Central?",
-            "opciones": [
-                "Panamá",
-                "Costa Rica",
-                "Belice",
-                "Honduras"
+            "question": "¿Qué tipo de ángulo mide exactamente 90 grados?",
+            "options": [
+                "Agudo",
+                "Recto",
+                "Obtuso",
+                "Llano"
             ],
-            "respuesta": 3,
-            "explicacion": "Belice es el país más pequeño de América Central, tanto en área como en población.",
-            "pista": "Este país tiene una costa en el mar Caribe."
+            "answer": 2,
+            "explanation": "Un ángulo recto mide exactamente 90 grados y es el ángulo que forman dos líneas perpendiculares entre sí.",
+            "hint": "Es el ángulo de las esquinas de un cuadrado."
         },
         {
-            "pregunta": "¿Qué ciudad es conocida como la 'Ciudad Eterna'?",
-            "opciones": [
-                "Atenas",
-                "Roma",
-                "Madrid",
-                "París"
+            "question": "¿Cuál es el metal más caro del mundo?",
+            "options": [
+                "Oro",
+                "Platino",
+                "Rodio",
+                "Paladio"
             ],
-            "respuesta": 2,
-            "explicacion": "Roma es conocida como la 'Ciudad Eterna' debido a su larga y rica historia.",
-            "pista": "Es la capital de Italia y tiene monumentos antiguos como el Coliseo."
+            "answer": 3,
+            "explanation": "El rodio es generalmente el metal más caro del mundo, utilizado principalmente en catalizadores de automóviles.",
+            "hint": "No es el oro ni el platino, sino un metal del grupo del platino."
         },
         {
-            "pregunta": "¿Cuál es la capital de Australia?",
-            "opciones": [
-                "Sídney",
-                "Melbourne",
-                "Brisbane",
-                "Canberra"
+            "question": "¿Qué parte del cerebro controla el equilibrio y la coordinación?",
+            "options": [
+                "Cerebro",
+                "Tálamo",
+                "Cerebelo",
+                "Hipotálamo"
             ],
-            "respuesta": 4,
-            "explicacion": "Canberra es la capital administrativa de Australia, no Sídney ni Melbourne.",
-            "pista": "Está ubicada entre Sídney y Melbourne."
+            "answer": 3,
+            "explanation": "El cerebelo está ubicado en la parte posterior del cerebro y es responsable del equilibrio, la coordinación y los movimientos precisos.",
+            "hint": "Su nombre significa 'cerebro pequeño' en latín."
         },
         {
-            "pregunta": "¿En qué continente se encuentra el monte Kilimanjaro?",
-            "opciones": [
-                "Asia",
-                "Europa",
-                "África",
-                "América"
+            "question": "¿Cuántos grados tiene la suma de los ángulos interiores de un triángulo?",
+            "options": [
+                "90",
+                "180",
+                "270",
+                "360"
             ],
-            "respuesta": 3,
-            "explicacion": "El monte Kilimanjaro es la montaña más alta de África, situada en Tanzania.",
-            "pista": "Es un volcán dormido."
+            "answer": 2,
+            "explanation": "La suma de los tres ángulos interiores de cualquier triángulo siempre es igual a 180 grados.",
+            "hint": "Es la mitad de los grados de un cuadrilátero."
         },
         {
-            "pregunta": "¿Qué país tiene una forma parecida a un zapato?",
-            "opciones": [
-                "Italia",
-                "Grecia",
-                "España",
-                "Turquía"
+            "question": "¿Qué sistema del cuerpo humano incluye venas, arterias y capilares?",
+            "options": [
+                "Sistema nervioso",
+                "Sistema linfático",
+                "Sistema circulatorio",
+                "Sistema digestivo"
             ],
-            "respuesta": 1,
-            "explicacion": "Italia tiene la forma de una bota, característica en los mapas.",
-            "pista": "Este país es famoso por su comida, como la pizza y la pasta."
+            "answer": 3,
+            "explanation": "El sistema circulatorio o cardiovascular transporta sangre por el cuerpo a través de arterias, venas y capilares.",
+            "hint": "El corazón es su órgano principal."
         },
         {
-            "pregunta": "¿En qué continente se encuentra el país de Egipto?",
-            "opciones": [
-                "Asia",
-                "África",
-                "Europa",
-                "Oceanía"
+            "question": "¿Cuántos kilómetros mide aproximadamente el ecuador terrestre?",
+            "options": [
+                "20.000 km",
+                "30.000 km",
+                "40.000 km",
+                "50.000 km"
             ],
-            "respuesta": 2,
-            "explicacion": "Egipto está situado en el noreste de África, aunque parte de su territorio también se extiende a Asia.",
-            "pista": "Este país es conocido por las pirámides y el río Nilo."
+            "answer": 3,
+            "explanation": "La circunferencia de la Tierra a lo largo del ecuador es de aproximadamente 40.075 kilómetros.",
+            "hint": "Está entre 35.000 y 45.000 km."
         },
         {
-            "pregunta": "¿Cuál es la capital de Japón?",
-            "opciones": [
-                "Seúl",
-                "Tokio",
-                "Pekín",
-                "Hong Kong"
+            "question": "¿Qué vitamina es esencial para la coagulación de la sangre?",
+            "options": [
+                "Vitamina A",
+                "Vitamina C",
+                "Vitamina E",
+                "Vitamina K"
             ],
-            "respuesta": 2,
-            "explicacion": "Tokio es la capital de Japón, una de las ciudades más grandes y tecnológicamente avanzadas del mundo.",
-            "pista": "Es una metrópolis muy conocida por su tecnología y cultura pop."
+            "answer": 4,
+            "explanation": "La vitamina K es esencial para la síntesis de proteínas necesarias para la coagulación sanguínea. Su nombre viene del alemán 'Koagulation'.",
+            "hint": "Su inicial corresponde al proceso que facilita."
         },
         {
-            "pregunta": "¿Qué mar está ubicado entre Europa y África?",
-            "opciones": [
-                "Mar del Norte",
-                "Mar Mediterráneo",
-                "Mar Negro",
-                "Mar Rojo"
-            ],
-            "respuesta": 2,
-            "explicacion": "El Mar Mediterráneo separa Europa de África y conecta con el océano Atlántico.",
-            "pista": "Es un mar muy importante en la historia y el comercio de ambos continentes."
-        },
-        {
-            "pregunta": "¿Qué país es conocido por tener una gran cantidad de fiordos?",
-            "opciones": [
-                "Suecia",
-                "Noruega",
-                "Finlandia",
-                "Dinamarca"
-            ],
-            "respuesta": 2,
-            "explicacion": "Noruega es famosa por sus impresionantes fiordos, que son valles glaciares inundados por el mar.",
-            "pista": "Este país está en el norte de Europa."
-        }
-    ],
-    "Historia": [
-        {
-            "pregunta": "¿Quién fue el líder del Imperio Mongol durante su expansión más grande?",
-            "opciones": [
-                "Kublai Khan",
-                "Atila el Huno",
-                "Gengis Kan",
-                "Cyrus el Grande"
-            ],
-            "respuesta": 3,
-            "explicacion": "Gengis Kan fundó el Imperio Mongol y lo expandió a través de grandes conquistas.",
-            "pista": "Este líder es conocido por su habilidad en la guerra y por unificar las tribus mongolas."
-        },
-        {
-            "pregunta": "¿En qué año comenzó la Revolución Francesa?",
-            "opciones": [
-                "1789",
-                "1792",
-                "1776",
-                "1800"
-            ],
-            "respuesta": 1,
-            "explicacion": "La Revolución Francesa comenzó en 1789 y marcó un cambio fundamental en la política europea.",
-            "pista": "Fue el año en que la toma de la Bastilla ocurrió."
-        },
-        {
-            "pregunta": "¿Qué imperio construyó el coloso de Rodas, una de las siete maravillas del mundo antiguo?",
-            "opciones": [
-                "Imperio Romano",
-                "Imperio Griego",
-                "Imperio Egipcio",
-                "Imperio Persa"
-            ],
-            "respuesta": 2,
-            "explicacion": "El coloso de Rodas fue construido por los griegos y fue una de las maravillas del mundo antiguo.",
-            "pista": "Este imperio dominaba áreas del este del mar Mediterráneo."
-        },
-        {
-            "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
-            "opciones": [
-                "1945",
-                "1940",
-                "1950",
-                "1939"
-            ],
-            "respuesta": 1,
-            "explicacion": "La Segunda Guerra Mundial terminó en 1945 con la rendición de Alemania y Japón.",
-            "pista": "Fue el mismo año en que se lanzaron las bombas atómicas en Japón."
-        },
-        {
-            "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
-            "opciones": [
-                "Thomas Jefferson",
-                "Abraham Lincoln",
-                "George Washington",
-                "John Adams"
-            ],
-            "respuesta": 3,
-            "explicacion": "George Washington fue el primer presidente de los Estados Unidos, sirviendo de 1789 a 1797.",
-            "pista": "Este presidente también fue comandante en jefe durante la Revolución Americana."
-        },
-        {
-            "pregunta": "¿Qué civilización antigua construyó las pirámides de Giza?",
-            "opciones": [
-                "Griega",
-                "Romana",
-                "Egipcia",
-                "Mesopotámica"
-            ],
-            "respuesta": 3,
-            "explicacion": "Las pirámides de Giza fueron construidas por los antiguos egipcios durante el Reino Antiguo.",
-            "pista": "Esta civilización desarrolló una escritura conocida como jeroglíficos."
-        },
-        {
-            "pregunta": "¿Qué monarca inglés es conocido por haber tenido seis esposas?",
-            "opciones": [
-                "Rey Enrique VIII",
-                "Rey Eduardo VI",
-                "Reina Isabel I",
-                "Rey Jorge III"
-            ],
-            "respuesta": 1,
-            "explicacion": "El rey Enrique VIII de Inglaterra tuvo seis esposas durante su vida.",
-            "pista": "Su búsqueda por un heredero masculino cambió la religión de Inglaterra."
-        },
-        {
-            "pregunta": "¿Qué evento histórico tuvo lugar el 11 de septiembre de 2001?",
-            "opciones": [
-                "El ataque a Pearl Harbor",
-                "La caída de las Torres Gemelas",
-                "La guerra de Vietnam",
-                "La independencia de Estados Unidos"
-            ],
-            "respuesta": 2,
-            "explicacion": "El 11 de septiembre de 2001, terroristas atacaron las Torres Gemelas en Nueva York, un evento que cambió la historia moderna.",
-            "pista": "Este evento llevó a Estados Unidos a iniciar la Guerra contra el Terror."
-        },
-        {
-            "pregunta": "¿Qué imperio fue derrotado en la batalla de Waterloo en 1815?",
-            "opciones": [
-                "Imperio Romano",
-                "Imperio Napoleónico",
-                "Imperio Británico",
-                "Imperio Otomano"
-            ],
-            "respuesta": 2,
-            "explicacion": "Napoleón Bonaparte fue derrotado en la batalla de Waterloo, lo que marcó el fin de su imperio.",
-            "pista": "Este imperio fue liderado por un hombre conocido como 'El Corsario'."
-        },
-        {
-            "pregunta": "¿Cuál fue el nombre de la famosa ruta utilizada por los esclavos en América del Norte?",
-            "opciones": [
-                "Camino de Santiago",
-                "Ruta de la Seda",
-                "Camino de la Libertad",
-                "Ferrocarril Subterráneo"
-            ],
-            "respuesta": 4,
-            "explicacion": "El Ferrocarril Subterráneo era una red secreta de rutas que ayudaban a los esclavos a escapar hacia la libertad en el norte.",
-            "pista": "Fue una red de personas y lugares seguros que ayudaron a los esclavos fugitivos."
-        },
-        {
-            "pregunta": "¿Quién fue el líder del Imperio Romano durante su máxima expansión territorial?",
-            "opciones": [
-                "Julio César",
-                "Octavio Augusto",
-                "Constantino el Grande",
-                "Trajano"
-            ],
-            "respuesta": 4,
-            "explicacion": "Trajano fue el emperador romano bajo cuyo gobierno el imperio alcanzó su máxima extensión territorial.",
-            "pista": "Este emperador es conocido por sus campañas militares exitosas."
-        },
-        {
-            "pregunta": "¿Qué rey francés fue conocido como el 'Rey Sol'?",
-            "opciones": [
-                "Luis XIV",
-                "Luis XVI",
-                "Carlos I",
-                "Felipe IV"
-            ],
-            "respuesta": 1,
-            "explicacion": "Luis XIV de Francia fue conocido como el 'Rey Sol' debido a su largo reinado y su influencia en la cultura francesa.",
-            "pista": "Él construyó el famoso Palacio de Versalles."
-        },
-        {
-            "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
-            "opciones": [
-                "1776",
-                "1789",
-                "1801",
-                "1774"
-            ],
-            "respuesta": 1,
-            "explicacion": "La Declaración de Independencia de los Estados Unidos fue firmada en 1776, estableciendo su independencia de Gran Bretaña.",
-            "pista": "Este año también está asociado con la famosa firma de los padres fundadores."
-        },
-        {
-            "pregunta": "¿Quién fue el principal líder de la independencia de Argentina?",
-            "opciones": [
-                "Simón Bolívar",
-                "José de San Martín",
-                "Miguel Hidalgo",
-                "Bernardo O'Higgins"
-            ],
-            "respuesta": 2,
-            "explicacion": "José de San Martín fue el líder militar y político clave en la independencia de Argentina y otros países sudamericanos.",
-            "pista": "Este líder también jugó un papel importante en la independencia de Chile y Perú."
-        },
-        {
-            "pregunta": "¿Qué evento de 1969 marcó un hito en la exploración espacial?",
-            "opciones": [
-                "El primer vuelo tripulado al espacio",
-                "La llegada del hombre a la Luna",
-                "La creación de la estación espacial",
-                "El lanzamiento del Telescopio Hubble"
-            ],
-            "respuesta": 2,
-            "explicacion": "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin se convirtieron en los primeros humanos en caminar sobre la Luna.",
-            "pista": "El comandante de la misión fue Neil Armstrong."
-        },
-        {
-            "pregunta": "¿Quién fue el líder principal del movimiento por los derechos civiles en Estados Unidos durante los años 60?",
-            "opciones": [
-                "Malcolm X",
-                "Martin Luther King Jr.",
-                "Rosa Parks",
-                "Frederick Douglass"
-            ],
-            "respuesta": 2,
-            "explicacion": "Martin Luther King Jr. fue un líder clave en el movimiento por los derechos civiles en los Estados Unidos, conocido por su enfoque pacífico y su famoso discurso 'I Have a Dream'.",
-            "pista": "Este líder recibió el Premio Nobel de la Paz en 1964."
-        }
-    ],
-    "Cultura General": [
-        {
-            "pregunta": "¿En qué país se encuentra la ciudad de Petra, famosa por sus ruinas arqueológicas talladas en roca?",
-            "opciones": [
-                "Jordania",
-                "Egipto",
-                "Irak",
-                "Israel"
-            ],
-            "respuesta": 1,
-            "explicacion": "Petra es una antigua ciudad nabatea ubicada en lo que hoy es Jordania. Es conocida por su arquitectura y sistema de conducciones de agua.",
-            "pista": "Es una de las siete maravillas del mundo moderno."
-        },
-        {
-            "pregunta": "¿Cuál es el metal más ligero de todos?",
-            "opciones": [
-                "Aluminio",
-                "Hierro",
-                "Litio",
-                "Hidrógeno"
-            ],
-            "respuesta": 3,
-            "explicacion": "El litio es el metal más ligero, utilizado en baterías y en diversas aplicaciones tecnológicas.",
-            "pista": "Este metal es utilizado en baterías recargables, especialmente para teléfonos móviles."
-        },
-        {
-            "pregunta": "¿Qué significa la palabra 'renaissance' en francés?",
-            "opciones": [
-                "Renacimiento",
-                "Revolución",
-                "Renovación",
-                "Renovación espiritual"
-            ],
-            "respuesta": 1,
-            "explicacion": "La palabra 'renaissance' en francés significa 'renacimiento', y se refiere al período histórico que marcó el renacer del arte y la ciencia en Europa.",
-            "pista": "Este período comenzó en el siglo XIV y continuó hasta el siglo XVII."
-        },
-        {
-            "pregunta": "¿Quién pintó la famosa obra 'La Última Cena'?",
-            "opciones": [
-                "Leonardo da Vinci",
-                "Vincent van Gogh",
-                "Pablo Picasso",
-                "Michelangelo"
-            ],
-            "respuesta": 1,
-            "explicacion": "Leonardo da Vinci pintó 'La Última Cena', una de las obras más conocidas de la historia del arte, durante el Renacimiento.",
-            "pista": "Esta obra se encuentra en el Convento de Santa María delle Grazie en Milán."
-        },
-        {
-            "pregunta": "¿Cuál es el océano más grande del planeta?",
-            "opciones": [
-                "Atlántico",
-                "Índico",
-                "Ártico",
-                "Pacífico"
-            ],
-            "respuesta": 4,
-            "explicacion": "El océano Pacífico es el más grande y profundo de todos los océanos del planeta.",
-            "pista": "Este océano se extiende entre Asia y América y cubre más del 30% de la superficie de la Tierra."
-        },
-        {
-            "pregunta": "¿Qué animal es conocido por su capacidad para imitar sonidos humanos, especialmente el habla?",
-            "opciones": [
-                "Delfín",
-                "Loro",
-                "Cuervo",
-                "Perro"
-            ],
-            "respuesta": 2,
-            "explicacion": "Los loros son conocidos por su habilidad para imitar sonidos humanos y otros ruidos de su entorno.",
-            "pista": "Este animal es comúnmente un compañero en cautiverio y tiene una gran capacidad para aprender vocabulario."
-        },
-        {
-            "pregunta": "¿Cuál es el sistema de escritura utilizado en la antigua Mesopotamia?",
-            "opciones": [
-                "Jeroglíficos",
-                "Cuneiforme",
-                "Alfabeto griego",
-                "Runas"
-            ],
-            "respuesta": 2,
-            "explicacion": "El sistema cuneiforme era utilizado por los sumerios, acadios, babilonios y asirios en Mesopotamia.",
-            "pista": "Este sistema se escribió utilizando un punzón en tablillas de arcilla."
-        },
-        {
-            "pregunta": "¿En qué continente se encuentra el Desierto del Sahara?",
-            "opciones": [
-                "Asia",
-                "África",
-                "América",
-                "Australia"
-            ],
-            "respuesta": 2,
-            "explicacion": "El Desierto del Sahara es el desierto cálido más grande del mundo y se encuentra en el norte de África.",
-            "pista": "Este desierto es conocido por sus vastas dunas de arena y su clima extremadamente seco."
-        },
-        {
-            "pregunta": "¿Qué ciudad es famosa por su Torre inclinada?",
-            "opciones": [
-                "Roma",
-                "Venecia",
-                "Pisa",
-                "Florencia"
-            ],
-            "respuesta": 3,
-            "explicacion": "La Torre de Pisa es famosa por su inclinación, que ha atraído a millones de turistas desde su construcción.",
-            "pista": "Este monumento se encuentra en Italia y es parte de un complejo arquitectónico que incluye una iglesia y un campanario."
-        },
-        {
-            "pregunta": "¿En qué país nació el escritor Gabriel García Márquez?",
-            "opciones": [
-                "Argentina",
-                "Colombia",
-                "México",
-                "Perú"
-            ],
-            "respuesta": 2,
-            "explicacion": "Gabriel García Márquez, uno de los más grandes escritores de habla hispana, nació en Colombia en 1927.",
-            "pista": "Este autor es conocido por su obra 'Cien años de soledad', considerada un pilar del realismo mágico."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del famoso volcán que destruyó la ciudad romana de Pompeya en el año 79 d.C.?",
-            "opciones": [
-                "Etna",
-                "Vesuvius",
-                "Stromboli",
-                "Krakatoa"
-            ],
-            "respuesta": 2,
-            "explicacion": "El volcán Vesubio hizo erupción en el año 79 d.C., cubriendo la ciudad de Pompeya con ceniza y lava.",
-            "pista": "Este volcán está ubicado en Italia, cerca de Nápoles."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del río más largo del mundo?",
-            "opciones": [
-                "Río Amazonas",
-                "Río Nilo",
-                "Río Yangtsé",
-                "Río Mississippi"
-            ],
-            "respuesta": 1,
-            "explicacion": "El río Amazonas, que fluye a través de América del Sur, es el río más largo del mundo y tiene la mayor cuenca fluvial.",
-            "pista": "Este río atraviesa principalmente Brasil y es fundamental para la selva amazónica."
-        },
-        {
-            "pregunta": "¿En qué año se celebró el primer Mundial de fútbol de la FIFA?",
-            "opciones": [
-                "1920",
-                "1930",
-                "1940",
-                "1950"
-            ],
-            "respuesta": 2,
-            "explicacion": "El primer Mundial de fútbol de la FIFA se celebró en 1930 en Uruguay, y fue ganado por el país anfitrión.",
-            "pista": "Este torneo marcó el inicio de la tradición mundialista que se celebra cada cuatro años."
-        },
-        {
-            "pregunta": "¿Qué invento es atribuido a Thomas Edison?",
-            "opciones": [
-                "Bombilla eléctrica",
-                "Teléfono",
-                "Avión",
-                "Cámara fotográfica"
-            ],
-            "respuesta": 1,
-            "explicacion": "Thomas Edison es reconocido por inventar la bombilla eléctrica, aunque muchos inventores contribuyeron a su desarrollo.",
-            "pista": "Este invento revolucionó la forma en que la humanidad usa la electricidad para iluminarse."
-        },
-        {
-            "pregunta": "¿Qué famoso monumento está situado en Agra, India?",
-            "opciones": [
-                "Taj Mahal",
-                "Gran Muralla China",
-                "Coliseo",
-                "Piramide de Giza"
-            ],
-            "respuesta": 1,
-            "explicacion": "El Taj Mahal es una majestuosa tumba construida por el emperador Shah Jahan en memoria de su esposa Mumtaz Mahal.",
-            "pista": "Este monumento es un símbolo del amor y se encuentra a orillas del río Yamuna."
-        },
-        {
-            "pregunta": "¿Quién fue el científico que formuló la teoría de la relatividad?",
-            "opciones": [
-                "Isaac Newton",
-                "Galileo Galilei",
-                "Albert Einstein",
-                "Nikola Tesla"
-            ],
-            "respuesta": 3,
-            "explicacion": "Albert Einstein desarrolló la teoría de la relatividad, revolucionando la física moderna.",
-            "pista": "Este científico es famoso por su ecuación E=mc²."
-        },
-        {
-            "pregunta": "¿Qué continente tiene la mayor cantidad de países?",
-            "opciones": [
-                "Asia",
-                "África",
-                "Europa",
-                "América"
-            ],
-            "respuesta": 2,
-            "explicacion": "África tiene 54 países, lo que lo convierte en el continente con la mayor cantidad de países.",
-            "pista": "Este continente está dividido en zonas geográficas como el norte de África, el África subsahariana, y el Cuerno de África."
-        },
-        {
-            "pregunta": "¿Qué fruta es conocida por tener un alto contenido de vitamina C?",
-            "opciones": [
-                "Manzana",
-                "Plátano",
-                "Naranja",
-                "Fresa"
-            ],
-            "respuesta": 3,
-            "explicacion": "Las naranjas son muy conocidas por su alto contenido de vitamina C, que ayuda al sistema inmunológico.",
-            "pista": "Esta fruta es popular en los jugos naturales y es de color anaranjado."
-        }
-    ],
-    "Deportes": [
-        {
-            "pregunta": "¿Qué equipo de fútbol ganó la Copa del Mundo en 2010?",
-            "opciones": [
-                "España",
-                "Alemania",
-                "Brasil",
-                "Argentina"
-            ],
-            "respuesta": 1,
-            "explicacion": "España ganó su primer Mundial en 2010, venciendo a los Países Bajos en la final por 1-0.",
-            "pista": "El gol decisivo fue marcado por Andrés Iniesta."
-        },
-        {
-            "pregunta": "¿Quién ostenta el récord de más medallas olímpicas de todos los tiempos?",
-            "opciones": [
-                "Michael Phelps",
-                "Usain Bolt",
-                "Larisa Latynina",
-                "Carl Lewis"
-            ],
-            "respuesta": 1,
-            "explicacion": "Michael Phelps tiene un total de 28 medallas olímpicas, 23 de ellas de oro.",
-            "pista": "Este nadador estadounidense es famoso por su habilidad en el estilo libre y el mariposa."
-        },
-        {
-            "pregunta": "¿Qué país ha ganado más Copas del Mundo de fútbol?",
-            "opciones": [
-                "Brasil",
-                "Alemania",
-                "Italia",
-                "Argentina"
-            ],
-            "respuesta": 1,
-            "explicacion": "Brasil ha ganado un total de cinco Copas del Mundo, la última de ellas en 2002.",
-            "pista": "Este país es famoso por su fútbol ofensivo y su gran historia en los mundiales."
-        },
-        {
-            "pregunta": "¿Quién es el máximo goleador histórico de la selección de fútbol de Argentina?",
-            "opciones": [
-                "Lionel Messi",
-                "Diego Maradona",
-                "Gabriel Batistuta",
-                "Sergio Agüero"
-            ],
-            "respuesta": 1,
-            "explicacion": "Lionel Messi es el máximo goleador histórico de la selección argentina, superando a Gabriel Batistuta.",
-            "pista": "Este jugador también ha sido considerado uno de los mejores futbolistas de todos los tiempos."
-        },
-        {
-            "pregunta": "¿En qué deporte se utiliza una raqueta y una pelota pequeña, jugado principalmente en canchas de césped?",
-            "opciones": [
-                "Tenis",
-                "Pádel",
-                "Bádminton",
-                "Squash"
-            ],
-            "respuesta": 1,
-            "explicacion": "El tenis es un deporte que se juega con una raqueta y una pelota, y uno de sus torneos más famosos es Wimbledon.",
-            "pista": "Este deporte tiene variantes como el tenis de mesa y el tenis sobre césped."
-        },
-        {
-            "pregunta": "¿En qué deporte se compite en el Tour de Francia?",
-            "opciones": [
-                "Fútbol",
-                "Béisbol",
-                "Ciclismo",
-                "Atletismo"
-            ],
-            "respuesta": 3,
-            "explicacion": "El Tour de Francia es una de las competiciones más prestigiosas del ciclismo mundial.",
-            "pista": "Este evento anual se lleva a cabo en Francia y dura varias semanas."
-        },
-        {
-            "pregunta": "¿Qué jugador de baloncesto fue conocido como 'El Rey' y es considerado uno de los mejores de la historia?",
-            "opciones": [
-                "Kobe Bryant",
-                "Michael Jordan",
-                "Shaquille O'Neal",
-                "LeBron James"
-            ],
-            "respuesta": 4,
-            "explicacion": "LeBron James es considerado uno de los mejores jugadores de baloncesto de todos los tiempos, conocido por su versatilidad y habilidades.",
-            "pista": "Este jugador ha jugado en equipos como los Cleveland Cavaliers, Miami Heat y Los Angeles Lakers."
-        },
-        {
-            "pregunta": "¿En qué deporte se realiza la 'salsa' como parte de la celebración de un gol?",
-            "opciones": [
-                "Fútbol",
-                "Béisbol",
-                "Fútbol americano",
-                "Baloncesto"
-            ],
-            "respuesta": 1,
-            "explicacion": "La 'salsa' es un estilo de celebración de goles que fue popularizado por futbolistas como Camilo y Carlos Valderrama.",
-            "pista": "Este tipo de celebración involucra un movimiento de baile y es característico de ciertos jugadores sudamericanos."
-        },
-        {
-            "pregunta": "¿Quién es considerado el mejor jugador de la historia del tenis según muchos expertos?",
-            "opciones": [
-                "Rafael Nadal",
-                "Novak Djokovic",
-                "Roger Federer",
-                "Pete Sampras"
-            ],
-            "respuesta": 3,
-            "explicacion": "Roger Federer ha sido considerado por muchos como el mejor tenista de todos los tiempos, con 20 Grand Slams a su nombre.",
-            "pista": "Este jugador suizo ha dominado el tenis durante más de 15 años."
-        },
-        {
-            "pregunta": "¿Qué equipo de fútbol tiene como apodo 'Los Red Devils'?",
-            "opciones": [
-                "Manchester United",
-                "Liverpool",
-                "Chelsea",
-                "Arsenal"
-            ],
-            "respuesta": 1,
-            "explicacion": "El Manchester United es conocido como 'Los Red Devils' debido a su uniforme rojo y su exitosa historia en el fútbol inglés.",
-            "pista": "Este club tiene su sede en Old Trafford, Manchester."
-        },
-        {
-            "pregunta": "¿Qué deporte se juega con un balón ovalado y es muy popular en países como Nueva Zelanda y Sudáfrica?",
-            "opciones": [
-                "Fútbol",
-                "Béisbol",
-                "Rugby",
-                "Hockey"
-            ],
-            "respuesta": 3,
-            "explicacion": "El rugby es un deporte con balón ovalado que se juega principalmente en países del hemisferio sur, como Nueva Zelanda y Sudáfrica.",
-            "pista": "Este deporte se juega en equipos de 15 jugadores y tiene un mundial cada cuatro años."
-        },
-        {
-            "pregunta": "¿Quién es el máximo goleador histórico de la selección nacional de fútbol de Brasil?",
-            "opciones": [
-                "Pelé",
-                "Ronaldo",
-                "Neymar",
-                "Romário"
-            ],
-            "respuesta": 1,
-            "explicacion": "Pelé es el máximo goleador histórico de la selección de Brasil, con más de 70 goles internacionales.",
-            "pista": "Este futbolista es considerado uno de los mejores jugadores de la historia y ganó tres Copas del Mundo."
-        },
-        {
-            "pregunta": "¿Cuántos jugadores hay en un equipo de balonmano?",
-            "opciones": [
+            "question": "¿Cuántas vértebras cervicales tiene el cuello humano?",
+            "options": [
                 "5",
                 "6",
                 "7",
                 "8"
             ],
-            "respuesta": 3,
-            "explicacion": "En un partido de balonmano, cada equipo consta de siete jugadores, incluyendo al portero.",
-            "pista": "Este deporte se juega en una cancha de 40 metros de largo por 20 metros de ancho."
+            "answer": 3,
+            "explanation": "El cuello humano tiene 7 vértebras cervicales, denominadas C1 a C7. Curiosamente, las jirafas también tienen 7.",
+            "hint": "Igual número que las jirafas, a pesar de su cuello largo."
         },
         {
-            "pregunta": "¿Qué jugador de fútbol estadounidense es conocido por su habilidad en el fútbol americano y por ser el mariscal de campo de los New England Patriots?",
-            "opciones": [
-                "Tom Brady",
-                "Peyton Manning",
-                "Joe Montana",
-                "Aaron Rodgers"
+            "question": "¿Qué tipo de triángulo tiene todos sus lados iguales?",
+            "options": [
+                "Isósceles",
+                "Escaleno",
+                "Rectángulo",
+                "Equilátero"
             ],
-            "respuesta": 1,
-            "explicacion": "Tom Brady es ampliamente considerado uno de los mejores mariscales de campo en la historia de la NFL.",
-            "pista": "Este jugador ha ganado 7 Super Bowls, más que cualquier otro jugador en la historia de la NFL."
+            "answer": 4,
+            "explanation": "Un triángulo equilátero tiene sus tres lados iguales y sus tres ángulos iguales (60° cada uno).",
+            "hint": "El prefijo 'equi-' significa igual."
         },
         {
-            "pregunta": "¿Cuál es el nombre del torneo de tenis más prestigioso que se juega sobre césped?",
-            "opciones": [
-                "Roland Garros",
-                "US Open",
-                "Australian Open",
-                "Wimbledon"
+            "question": "¿En qué órgano se produce la bilis?",
+            "options": [
+                "Páncreas",
+                "Riñón",
+                "Hígado",
+                "Vesícula"
             ],
-            "respuesta": 4,
-            "explicacion": "Wimbledon es el torneo de tenis más antiguo y prestigioso del mundo, y se juega sobre césped en Londres.",
-            "pista": "Este torneo tiene una tradición de exigir que los jugadores usen ropa completamente blanca."
+            "answer": 3,
+            "explanation": "La bilis es producida por el hígado y almacenada en la vesícula biliar. Ayuda a la digestión de las grasas.",
+            "hint": "Es el órgano interno más grande del cuerpo."
         },
         {
-            "pregunta": "¿En qué deporte se realiza el 'slam dunk' como una de las jugadas más destacadas?",
-            "opciones": [
-                "Fútbol",
-                "Béisbol",
-                "Baloncesto",
-                "Fútbol americano"
+            "question": "¿Cuánto mide un año luz aproximadamente?",
+            "options": [
+                "9,46 billones de km",
+                "1 millón de km",
+                "150 millones de km",
+                "9,46 millones de km"
             ],
-            "respuesta": 3,
-            "explicacion": "El 'slam dunk' es una jugada espectacular en baloncesto en la que un jugador lanza el balón hacia el aro con una sola mano, generalmente desde arriba.",
-            "pista": "Este tipo de jugada es muy popular en la NBA."
+            "answer": 1,
+            "explanation": "Un año luz equivale a la distancia que recorre la luz en un año: aproximadamente 9,46 billones de kilómetros.",
+            "hint": "Es una distancia astronómica, no un período de tiempo."
         },
         {
-            "pregunta": "¿Qué país es conocido por ser la cuna del rugby?",
-            "opciones": [
-                "Nueva Zelanda",
+            "question": "¿Qué glándula del cerebro regula el sueño produciendo melatonina?",
+            "options": [
+                "Hipófisis",
+                "Tiroides",
+                "Glándula pineal",
+                "Suprarrenal"
+            ],
+            "answer": 3,
+            "explanation": "La glándula pineal produce melatonina en respuesta a la oscuridad, regulando el ciclo sueño-vigilia del organismo.",
+            "hint": "René Descartes la llamó 'el asiento del alma'."
+        }
+    ],
+    "Ciencia": [
+        {
+            "question": "¿Cuál es el número atómico del carbono?",
+            "options": [
+                "4",
+                "8",
+                "12",
+                "6"
+            ],
+            "answer": 4,
+            "explanation": "El carbono tiene número atómico 6, lo que significa que tiene 6 protones en su núcleo. Es la base de toda la química orgánica.",
+            "hint": "Es par y menor que 10."
+        },
+        {
+            "question": "¿Qué ley física establece que 'a toda acción le corresponde una reacción igual y opuesta'?",
+            "options": [
+                "Tercera ley de Newton",
+                "Primera ley de Newton",
+                "Segunda ley de Newton",
+                "Ley de la gravedad"
+            ],
+            "answer": 1,
+            "explanation": "La tercera ley de Newton o principio de acción y reacción establece que las fuerzas siempre aparecen en pares iguales y opuestos.",
+            "hint": "Es la tercera, no la primera ni la segunda."
+        },
+        {
+            "question": "¿Qué partícula subatómica tiene carga negativa?",
+            "options": [
+                "Electrón",
+                "Protón",
+                "Neutrón",
+                "Quark"
+            ],
+            "answer": 1,
+            "explanation": "El electrón tiene carga negativa y orbita alrededor del núcleo atómico. El protón tiene carga positiva y el neutrón es neutro.",
+            "hint": "Orbita alrededor del núcleo."
+        },
+        {
+            "question": "¿A qué temperatura hierve el agua al nivel del mar en grados Celsius?",
+            "options": [
+                "100°C",
+                "90°C",
+                "95°C",
+                "105°C"
+            ],
+            "answer": 1,
+            "explanation": "El agua hierve a 100°C al nivel del mar. A mayor altitud, la presión atmosférica es menor y el punto de ebullición baja.",
+            "hint": "Es un número redondo y fácil de recordar."
+        },
+        {
+            "question": "¿Cuántos elementos hay en la tabla periódica actualmente?",
+            "options": [
+                "118",
+                "108",
+                "112",
+                "124"
+            ],
+            "answer": 1,
+            "explanation": "La tabla periódica actual tiene 118 elementos confirmados, desde el hidrógeno (1) hasta el oganesón (118).",
+            "hint": "Es mayor que 115 y menor que 120."
+        },
+        {
+            "question": "¿Qué tipo de onda es la luz visible?",
+            "options": [
+                "Onda electromagnética",
+                "Onda mecánica",
+                "Onda sonora",
+                "Onda gravitacional"
+            ],
+            "answer": 1,
+            "explanation": "La luz visible es una onda electromagnética que no necesita medio material para propagarse, a diferencia de las ondas mecánicas.",
+            "hint": "No necesita medio material para propagarse."
+        },
+        {
+            "question": "¿Cuántos pares de cromosomas sexuales tienen los humanos?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "23"
+            ],
+            "answer": 1,
+            "explanation": "Los humanos tienen 1 par de cromosomas sexuales (XX en mujeres y XY en hombres), más 22 pares de autosomas.",
+            "hint": "Son los que determinan el sexo biológico."
+        },
+        {
+            "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+            "options": [
+                "Oxígeno",
+                "Dióxido de carbono",
+                "Argón",
+                "Nitrógeno"
+            ],
+            "answer": 4,
+            "explanation": "El nitrógeno constituye aproximadamente el 78% de la atmósfera terrestre, frente al 21% del oxígeno.",
+            "hint": "No es el oxígeno, que ocupa el segundo lugar."
+        },
+        {
+            "question": "¿Qué fórmula representa la segunda ley de Newton?",
+            "options": [
+                "F = ma",
+                "E = mc²",
+                "V = IR",
+                "PV = nRT"
+            ],
+            "answer": 1,
+            "explanation": "F = ma es la segunda ley de Newton: la fuerza (F) es igual a la masa (m) multiplicada por la aceleración (a).",
+            "hint": "Relaciona fuerza, masa y aceleración."
+        },
+        {
+            "question": "¿Qué es la mitosis?",
+            "options": [
+                "División sexual de células",
+                "División asexual de células que produce dos células idénticas",
+                "Fusión de dos células",
+                "Muerte programada celular"
+            ],
+            "answer": 2,
+            "explanation": "La mitosis es el proceso de división celular asexual que produce dos células hijas genéticamente idénticas a la célula madre.",
+            "hint": "Produce células idénticas, no gametos."
+        },
+        {
+            "question": "¿Cuál es el pH del agua pura?",
+            "options": [
+                "5",
+                "6",
+                "8",
+                "7"
+            ],
+            "answer": 4,
+            "explanation": "El agua pura tiene un pH de 7, considerado neutro. Los valores por debajo son ácidos y por encima son básicos o alcalinos.",
+            "hint": "Es el valor neutro de la escala."
+        },
+        {
+            "question": "¿Qué tipo de enlace químico comparte electrones entre átomos?",
+            "options": [
+                "Iónico",
+                "Metálico",
+                "Hidrógeno",
+                "Covalente"
+            ],
+            "answer": 4,
+            "explanation": "El enlace covalente se forma cuando dos átomos comparten uno o más pares de electrones, típico en moléculas orgánicas.",
+            "hint": "La palabra clave es 'compartir'."
+        },
+        {
+            "question": "¿Qué unidad mide la frecuencia de una onda?",
+            "options": [
+                "Vatios",
+                "Julios",
+                "Teslas",
+                "Herzios"
+            ],
+            "answer": 4,
+            "explanation": "El hercio (Hz) es la unidad de frecuencia del Sistema Internacional, equivalente a un ciclo por segundo.",
+            "hint": "Lleva el nombre de un físico alemán."
+        },
+        {
+            "question": "¿Cuántas capas tiene la Tierra?",
+            "options": [
+                "2",
+                "3",
+                "5",
+                "4"
+            ],
+            "answer": 4,
+            "explanation": "La Tierra tiene 4 capas principales: corteza, manto, núcleo externo y núcleo interno, aunque a veces se simplifican en 3.",
+            "hint": "Corteza, manto y núcleo son las tres principales; el núcleo se divide en dos."
+        },
+        {
+            "question": "¿Qué ácido produce el estómago para la digestión?",
+            "options": [
+                "Ácido sulfúrico",
+                "Ácido nítrico",
+                "Ácido clorhídrico",
+                "Ácido acético"
+            ],
+            "answer": 3,
+            "explanation": "El estómago produce ácido clorhídrico (HCl) que ayuda a descomponer los alimentos y matar bacterias.",
+            "hint": "Su fórmula es HCl."
+        },
+        {
+            "question": "¿Qué es la fotosíntesis en términos químicos?",
+            "options": [
+                "CO₂ + H₂O → glucosa + O₂",
+                "O₂ + glucosa → CO₂ + H₂O",
+                "H₂ + O₂ → H₂O",
+                "N₂ + H₂ → NH₃"
+            ],
+            "answer": 1,
+            "explanation": "La fotosíntesis convierte dióxido de carbono y agua en glucosa y oxígeno usando energía lumínica: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.",
+            "hint": "Las plantas consumen CO₂ y producen O₂."
+        },
+        {
+            "question": "¿Qué planeta tiene la mayor cantidad de lunas conocidas?",
+            "options": [
+                "Júpiter",
+                "Urano",
+                "Saturno",
+                "Neptuno"
+            ],
+            "answer": 3,
+            "explanation": "Saturno tiene más de 140 lunas confirmadas, superando a Júpiter como el planeta con más satélites naturales del sistema solar.",
+            "hint": "Es el planeta de los anillos."
+        },
+        {
+            "question": "¿Cuál es la unidad de medida de la corriente eléctrica?",
+            "options": [
+                "Voltio",
+                "Vatio",
+                "Ohmio",
+                "Amperio"
+            ],
+            "answer": 4,
+            "explanation": "El amperio (A) es la unidad del Sistema Internacional para medir la intensidad de la corriente eléctrica.",
+            "hint": "Lleva el nombre del físico André-Marie Ampère."
+        },
+        {
+            "question": "¿Qué fenómeno causa las mareas en la Tierra?",
+            "options": [
+                "La rotación terrestre",
+                "El viento solar",
+                "La atracción gravitacional de la Luna y el Sol",
+                "La presión atmosférica"
+            ],
+            "answer": 3,
+            "explanation": "Las mareas son causadas principalmente por la atracción gravitacional de la Luna sobre los océanos, con una influencia menor del Sol.",
+            "hint": "Involucra la gravedad de un cuerpo celeste cercano."
+        },
+        {
+            "question": "¿Qué es un isótopo?",
+            "options": [
+                "Un átomo con diferente número de protones",
+                "Un átomo del mismo elemento con diferente número de neutrones",
+                "Una molécula con doble enlace",
+                "Un ion con carga positiva"
+            ],
+            "answer": 2,
+            "explanation": "Los isótopos son átomos del mismo elemento que tienen el mismo número de protones pero diferente número de neutrones.",
+            "hint": "Mismo elemento, diferente masa atómica."
+        },
+        {
+            "question": "¿Qué tipo de radiación tiene mayor poder de penetración?",
+            "options": [
+                "Radiación alfa",
+                "Radiación beta",
+                "Radiación gamma",
+                "Radiación ultravioleta"
+            ],
+            "answer": 3,
+            "explanation": "La radiación gamma tiene el mayor poder de penetración de las radiaciones ionizantes, requiriendo plomo o cemento grueso para ser bloqueada.",
+            "hint": "Es la tercera letra del alfabeto griego."
+        },
+        {
+            "question": "¿Qué proceso celular produce energía en forma de ATP?",
+            "options": [
+                "Fotosíntesis",
+                "Respiración celular",
+                "Mitosis",
+                "Transcripción"
+            ],
+            "answer": 2,
+            "explanation": "La respiración celular convierte glucosa y oxígeno en CO₂, agua y energía en forma de ATP en las mitocondrias.",
+            "hint": "Ocurre en las mitocondrias."
+        },
+        {
+            "question": "¿Cuánto tarda la Tierra en completar una vuelta alrededor del Sol?",
+            "options": [
+                "364 días",
+                "365,25 días",
+                "366 días",
+                "360 días"
+            ],
+            "answer": 2,
+            "explanation": "La Tierra tarda 365,25 días en orbitar el Sol, lo que explica por qué cada cuatro años se añade un día extra (año bisiesto).",
+            "hint": "No son exactamente 365 días, hay un cuarto de día extra."
+        },
+        {
+            "question": "¿Qué es la entropía en termodinámica?",
+            "options": [
+                "La energía total de un sistema",
+                "La medida del desorden de un sistema",
+                "La temperatura absoluta",
+                "La presión interna"
+            ],
+            "answer": 2,
+            "explanation": "La entropía es una medida del desorden o aleatoriedad de un sistema. La segunda ley de la termodinámica dice que tiende a aumentar.",
+            "hint": "Está relacionada con el desorden."
+        },
+        {
+            "question": "¿Qué elemento químico es líquido a temperatura ambiente además del mercurio?",
+            "options": [
+                "Cloro",
+                "Bromo",
+                "Flúor",
+                "Yodo"
+            ],
+            "answer": 2,
+            "explanation": "El bromo es el único no metal que es líquido a temperatura ambiente, junto al mercurio que es un metal líquido.",
+            "hint": "Es un halógeno de color rojizo."
+        },
+        {
+            "question": "¿Qué es la refracción de la luz?",
+            "options": [
+                "El rebote de la luz en una superficie",
+                "El cambio de dirección de la luz al pasar de un medio a otro",
+                "La absorción de luz por un material",
+                "La dispersión de la luz en colores"
+            ],
+            "answer": 2,
+            "explanation": "La refracción es el cambio de dirección que experimenta la luz al pasar de un medio a otro con diferente densidad óptica.",
+            "hint": "Es lo que hace que un lápiz en agua parezca doblado."
+        },
+        {
+            "question": "¿Cuál es la distancia media entre la Tierra y el Sol?",
+            "options": [
+                "15 millones de km",
+                "1.500 millones de km",
+                "150 millones de km",
+                "15.000 millones de km"
+            ],
+            "answer": 3,
+            "explanation": "La distancia media entre la Tierra y el Sol es de aproximadamente 150 millones de kilómetros, definida como 1 Unidad Astronómica (UA).",
+            "hint": "Es la definición de 1 Unidad Astronómica."
+        },
+        {
+            "question": "¿Qué orgánulo celular contiene el ADN en las células eucariotas?",
+            "options": [
+                "Mitocondria",
+                "Ribosoma",
+                "Núcleo",
+                "Retículo endoplasmático"
+            ],
+            "answer": 3,
+            "explanation": "En las células eucariotas, el ADN está contenido principalmente en el núcleo, aunque la mitocondria también tiene su propio ADN.",
+            "hint": "Es el 'centro de control' de la célula."
+        },
+        {
+            "question": "¿Qué ley establece que el volumen de un gas es inversamente proporcional a su presión?",
+            "options": [
+                "Ley de Charles",
+                "Ley de Boyle",
+                "Ley de Gay-Lussac",
+                "Ley de Avogadro"
+            ],
+            "answer": 2,
+            "explanation": "La ley de Boyle establece que a temperatura constante, la presión y el volumen de un gas son inversamente proporcionales.",
+            "hint": "Fue formulada por Robert Boyle en el siglo XVII."
+        },
+        {
+            "question": "¿Cuál es la velocidad del sonido en el aire a temperatura ambiente?",
+            "options": [
+                "140 m/s",
+                "240 m/s",
+                "343 m/s",
+                "440 m/s"
+            ],
+            "answer": 3,
+            "explanation": "El sonido viaja a aproximadamente 343 metros por segundo en el aire a 20°C, mucho más lento que la luz.",
+            "hint": "Es aproximadamente 1.235 km/h."
+        }
+    ],
+    "Historia": [
+        {
+            "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+            "options": [
+                "476",
+                "410",
+                "455",
+                "500"
+            ],
+            "answer": 1,
+            "explanation": "El Imperio Romano de Occidente cayó en el año 476 d.C. cuando Odoacro depuso al último emperador, Rómulo Augústulo.",
+            "hint": "Se considera el inicio de la Edad Media."
+        },
+        {
+            "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+            "options": [
+                "Tratado de París",
+                "Tratado de Versalles",
+                "Tratado de Utrecht",
+                "Tratado de Westfalia"
+            ],
+            "answer": 2,
+            "explanation": "El Tratado de Versalles de 1919 puso fin oficialmente a la Primera Guerra Mundial e impuso duras condiciones a Alemania.",
+            "hint": "Se firmó en un palacio francés muy famoso."
+        },
+        {
+            "question": "¿Qué civilización construyó Tenochtitlán?",
+            "options": [
+                "Aztecas",
+                "Mayas",
+                "Incas",
+                "Olmecas"
+            ],
+            "answer": 1,
+            "explanation": "Tenochtitlán fue la capital del Imperio Azteca, fundada en 1325 sobre un lago en el Valle de México, donde hoy está Ciudad de México.",
+            "hint": "Estaba construida sobre un lago."
+        },
+        {
+            "question": "¿En qué año comenzó la Revolución Francesa?",
+            "options": [
+                "1776",
+                "1789",
+                "1792",
+                "1804"
+            ],
+            "answer": 2,
+            "explanation": "La Revolución Francesa comenzó en 1789 con eventos clave como la toma de la Bastilla el 14 de julio.",
+            "hint": "El 14 de julio de ese año es fiesta nacional en Francia."
+        },
+        {
+            "question": "¿Quién fue el primer faraón en unificar el Alto y Bajo Egipto?",
+            "options": [
+                "Narmer",
+                "Tutankamón",
+                "Ramsés II",
+                "Cleopatra"
+            ],
+            "answer": 1,
+            "explanation": "Narmer (también conocido como Menes) fue el faraón que unificó el Alto y Bajo Egipto alrededor del 3100 a.C., fundando la primera dinastía.",
+            "hint": "Vivió alrededor del 3100 a.C."
+        },
+        {
+            "question": "¿Qué guerra enfrentó a Grecia y Persia en el siglo V a.C.?",
+            "options": [
+                "Guerra del Peloponeso",
+                "Guerras Médicas",
+                "Guerra de Troya",
+                "Guerra de los Cien Años"
+            ],
+            "answer": 2,
+            "explanation": "Las Guerras Médicas (499-449 a.C.) enfrentaron a las ciudades-estado griegas contra el Imperio Persa, con batallas famosas como Maratón y Termópilas.",
+            "hint": "Incluye la famosa batalla de Termópilas."
+        },
+        {
+            "question": "¿Quién escribió 'El Príncipe', obra clave de la teoría política?",
+            "options": [
+                "Maquiavelo",
+                "Platón",
+                "Aristóteles",
+                "Hobbes"
+            ],
+            "answer": 1,
+            "explanation": "Nicolás Maquiavelo escribió 'El Príncipe' en 1513, una obra sobre el poder político que dio origen al término 'maquiavélico'.",
+            "hint": "De su apellido viene el adjetivo 'maquiavélico'."
+        },
+        {
+            "question": "¿Cuánto duró la Guerra de los Cien Años?",
+            "options": [
+                "116 años",
+                "100 años exactos",
+                "87 años",
+                "150 años"
+            ],
+            "answer": 1,
+            "explanation": "A pesar de su nombre, la Guerra de los Cien Años duró 116 años (1337-1453), enfrentando a Inglaterra y Francia.",
+            "hint": "Duró más de 100 años, no exactamente 100."
+        },
+        {
+            "question": "¿Qué emperador romano legalizó el cristianismo en el Imperio?",
+            "options": [
+                "Constantino I",
+                "Augusto",
+                "Nerón",
+                "Teodosio"
+            ],
+            "answer": 1,
+            "explanation": "Constantino I legalizó el cristianismo con el Edicto de Milán en el año 313 d.C., tras ser el primer emperador cristiano.",
+            "hint": "Fundó Constantinopla."
+        },
+        {
+            "question": "¿En qué año tuvo lugar la Revolución Rusa?",
+            "options": [
+                "1917",
+                "1905",
+                "1914",
+                "1921"
+            ],
+            "answer": 1,
+            "explanation": "La Revolución Rusa de 1917 derrocó al zar Nicolás II y llevó al poder a los bolcheviques liderados por Lenin.",
+            "hint": "Fue durante la Primera Guerra Mundial."
+        },
+        {
+            "question": "¿Qué nación fundó la ciudad de Cartago?",
+            "options": [
+                "Griegos",
+                "Fenicios",
+                "Romanos",
+                "Egipcios"
+            ],
+            "answer": 2,
+            "explanation": "Cartago fue fundada por colonos fenicios, según la tradición por la reina Dido, alrededor del 814 a.C. en el norte de África.",
+            "hint": "También fundaron otras colonias en el Mediterráneo."
+        },
+        {
+            "question": "¿Quién fue el líder de la Revolución Cubana?",
+            "options": [
+                "Che Guevara",
+                "Fidel Castro",
+                "Camilo Cienfuegos",
+                "Fulgencio Batista"
+            ],
+            "answer": 2,
+            "explanation": "Fidel Castro lideró la Revolución Cubana que derrocó a Batista en 1959 y gobernó Cuba durante casi 50 años.",
+            "hint": "Gobernó Cuba hasta 2008."
+        },
+        {
+            "question": "¿En qué batalla Napoleón sufrió su derrota definitiva?",
+            "options": [
+                "Trafalgar",
+                "Austerlitz",
+                "Leipzig",
+                "Waterloo"
+            ],
+            "answer": 4,
+            "explanation": "Napoleón fue derrotado definitivamente en la batalla de Waterloo en 1815, lo que llevó a su exilio en Santa Elena.",
+            "hint": "El lugar está en la actual Bélgica."
+        },
+        {
+            "question": "¿Qué cultura construyó Stonehenge?",
+            "options": [
+                "Celtas",
+                "Druidas",
+                "Romanos",
+                "Culturas neolíticas y de la Edad del Bronce"
+            ],
+            "answer": 4,
+            "explanation": "Stonehenge fue construido por poblaciones neolíticas y de la Edad del Bronce entre el 3000 y el 1500 a.C., mucho antes de los celtas.",
+            "hint": "Se construyó en varias fases durante miles de años."
+        },
+        {
+            "question": "¿Qué evento histórico fue conocido como 'La Noche de los Cristales Rotos'?",
+            "options": [
+                "El inicio de la Segunda Guerra Mundial",
+                "Una pogromida masiva contra judíos en Alemania en 1938",
+                "La caída del Muro de Berlín",
+                "El bombardeo de Dresde"
+            ],
+            "answer": 2,
+            "explanation": "La Kristallnacht del 9 de noviembre de 1938 fue un pogrom organizado contra la población judía alemana, considerado el inicio del Holocausto.",
+            "hint": "Ocurrió en noviembre de 1938 en Alemania."
+        },
+        {
+            "question": "¿Cuál fue la primera nación en conceder el voto a las mujeres?",
+            "options": [
+                "Reino Unido",
+                "Estados Unidos",
+                "Francia",
+                "Nueva Zelanda"
+            ],
+            "answer": 4,
+            "explanation": "Nueva Zelanda fue el primer país en conceder el sufragio femenino en 1893, décadas antes que la mayoría de naciones occidentales.",
+            "hint": "Es un país oceánico famoso por sus kiwis y su rugby."
+        },
+        {
+            "question": "¿Qué imperio tenía como lengua oficial el quechua?",
+            "options": [
+                "Azteca",
+                "Maya",
+                "Inca",
+                "Olmeca"
+            ],
+            "answer": 3,
+            "explanation": "El quechua era la lengua franca del Imperio Inca (Tawantinsuyu), y todavía es hablado por millones de personas en América del Sur.",
+            "hint": "Su capital era Cuzco."
+        },
+        {
+            "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+            "options": [
+                "1773",
+                "1774",
+                "1776",
+                "1783"
+            ],
+            "answer": 3,
+            "explanation": "La Declaración de Independencia fue firmada el 4 de julio de 1776, fecha que se celebra como el Día de la Independencia de EE.UU.",
+            "hint": "El 4 de julio de ese año es fiesta nacional."
+        },
+        {
+            "question": "¿Quién fue el último zar de Rusia?",
+            "options": [
+                "Alejandro II",
+                "Alejandro III",
+                "Nicolás I",
+                "Nicolás II"
+            ],
+            "answer": 4,
+            "explanation": "Nicolás II fue el último zar de Rusia, abdicó en 1917 durante la Revolución Rusa y fue ejecutado junto a su familia en 1918.",
+            "hint": "Fue ejecutado en Ekaterimburgo en 1918."
+        },
+        {
+            "question": "¿Qué ciudad fue dividida durante la Guerra Fría entre los aliados occidentales y la URSS?",
+            "options": [
+                "Viena",
+                "Varsovia",
+                "Berlín",
+                "Praga"
+            ],
+            "answer": 3,
+            "explanation": "Berlín fue dividida en cuatro sectores tras la Segunda Guerra Mundial, y luego separada por el Muro de Berlín entre 1961 y 1989.",
+            "hint": "También fue dividido el país completo en dos estados."
+        },
+        {
+            "question": "¿En qué año se produjo la caída del Imperio Azteca a manos de los españoles?",
+            "options": [
+                "1492",
+                "1510",
+                "1521",
+                "1535"
+            ],
+            "answer": 3,
+            "explanation": "El Imperio Azteca cayó en 1521 cuando Hernán Cortés tomó Tenochtitlán tras un largo asedio, con la rendición de Cuauhtémoc.",
+            "hint": "Fue unos 30 años después del primer viaje de Colón."
+        },
+        {
+            "question": "¿Qué filósofo griego fue maestro de Alejandro Magno?",
+            "options": [
+                "Sócrates",
+                "Platón",
+                "Aristóteles",
+                "Epicuro"
+            ],
+            "answer": 3,
+            "explanation": "Aristóteles fue el tutor de Alejandro Magno desde los 13 años, contratado por su padre Filipo II de Macedonia.",
+            "hint": "También fue discípulo de Platón."
+        },
+        {
+            "question": "¿Qué enfermedad pandémica mató a un tercio de la población europea en el siglo XIV?",
+            "options": [
+                "Viruela",
+                "Cólera",
+                "Gripe española",
+                "Peste negra"
+            ],
+            "answer": 4,
+            "explanation": "La Peste Negra (1347-1351) fue causada por la bacteria Yersinia pestis y mató entre un tercio y la mitad de la población europea.",
+            "hint": "Fue causada por una bacteria transmitida por pulgas de ratas."
+        },
+        {
+            "question": "¿Quién fue el primer secretario general de la ONU?",
+            "options": [
+                "Dag Hammarskjöld",
+                "Trygve Lie",
+                "U Thant",
+                "Kurt Waldheim"
+            ],
+            "answer": 2,
+            "explanation": "Trygve Lie, político noruego, fue el primer secretario general de la ONU desde su fundación en 1945 hasta 1952.",
+            "hint": "Era noruego."
+        },
+        {
+            "question": "¿Qué acontecimiento desencadenó la entrada de EE.UU. en la Segunda Guerra Mundial?",
+            "options": [
+                "Invasión de Polonia",
+                "Caída de Francia",
+                "Ataque a Pearl Harbor",
+                "Declaración de guerra de Hitler"
+            ],
+            "answer": 3,
+            "explanation": "El ataque japonés a la base naval de Pearl Harbor el 7 de diciembre de 1941 provocó la declaración de guerra de EE.UU. al Eje.",
+            "hint": "Fue un ataque sorpresa en Hawái."
+        },
+        {
+            "question": "¿En qué siglo vivió Carlomagno?",
+            "options": [
+                "Siglo VII",
+                "Siglo VIII-IX",
+                "Siglo X",
+                "Siglo XI"
+            ],
+            "answer": 2,
+            "explanation": "Carlomagno vivió entre 742 y 814 d.C., siendo coronado emperador del Sacro Imperio Romano Germánico en el año 800.",
+            "hint": "Fue coronado en el año 800."
+        },
+        {
+            "question": "¿Qué país lanzó el primer satélite artificial de la historia?",
+            "options": [
+                "Estados Unidos",
+                "China",
+                "Alemania",
+                "Unión Soviética"
+            ],
+            "answer": 4,
+            "explanation": "La Unión Soviética lanzó el Sputnik 1 el 4 de octubre de 1957, el primer satélite artificial de la historia.",
+            "hint": "Se llamaba Sputnik."
+        },
+        {
+            "question": "¿Cuál fue la primera cruzada y cuándo comenzó?",
+            "options": [
+                "Primera Cruzada, 1095",
+                "Primera Cruzada, 1099",
+                "Segunda Cruzada, 1147",
+                "Cruzada de los Niños, 1212"
+            ],
+            "answer": 1,
+            "explanation": "La Primera Cruzada fue convocada por el papa Urbano II en 1095 y culminó con la toma de Jerusalén en 1099.",
+            "hint": "Fue convocada por el papa Urbano II."
+        },
+        {
+            "question": "¿Qué líder unificó Italia en el siglo XIX?",
+            "options": [
+                "Garibaldi",
+                "Cavour",
+                "Víctor Manuel II",
+                "Los tres tuvieron un papel clave"
+            ],
+            "answer": 4,
+            "explanation": "La unificación italiana fue fruto de la colaboración entre Garibaldi (militar), Cavour (diplomático) y Víctor Manuel II (monarca), entre 1859 y 1871.",
+            "hint": "No fue obra de una sola persona."
+        },
+        {
+            "question": "¿En qué año se abolió la esclavitud en Estados Unidos?",
+            "options": [
+                "1861",
+                "1863",
+                "1865",
+                "1870"
+            ],
+            "answer": 3,
+            "explanation": "La decimotercera enmienda a la Constitución, ratificada en 1865, abolió formalmente la esclavitud en todos los estados de EE.UU.",
+            "hint": "Fue poco después del fin de la Guerra Civil."
+        }
+    ],
+    "Deportes": [
+        {
+            "question": "¿Cuántos Grand Slams ha ganado Rafael Nadal en Roland Garros?",
+            "options": [
+                "14",
+                "10",
+                "12",
+                "16"
+            ],
+            "answer": 1,
+            "explanation": "Rafael Nadal ganó 14 veces Roland Garros, un récord histórico que le valió el apodo de 'Rey de la Tierra'.",
+            "hint": "Más de 10, menos de 15."
+        },
+        {
+            "question": "¿Qué país ha ganado más medallas de oro en la historia de los Juegos Olímpicos?",
+            "options": [
+                "Estados Unidos",
+                "China",
+                "Rusia",
+                "Reino Unido"
+            ],
+            "answer": 1,
+            "explanation": "Estados Unidos lidera el medallero histórico olímpico con más de 1.000 medallas de oro en los Juegos de verano e invierno combinados.",
+            "hint": "Es el país con más títulos mundiales en múltiples deportes."
+        },
+        {
+            "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+            "options": [
+                "1896",
+                "1888",
+                "1892",
+                "1900"
+            ],
+            "answer": 1,
+            "explanation": "Los primeros Juegos Olímpicos modernos se celebraron en Atenas en 1896, impulsados por Pierre de Coubertin.",
+            "hint": "Fueron en la ciudad que los inventó en la Antigüedad."
+        },
+        {
+            "question": "¿Cuántos sets necesita ganar un jugador para ganar en Wimbledon masculino?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": 2,
+            "explanation": "En Wimbledon masculino se juega al mejor de 5 sets, por lo que se necesitan ganar 3 sets para proclamarse campeón.",
+            "hint": "Se juega al mejor de 5 sets en masculino."
+        },
+        {
+            "question": "¿Cuántos metros mide una pista de atletismo estándar?",
+            "options": [
+                "400",
+                "200",
+                "300",
+                "500"
+            ],
+            "answer": 1,
+            "explanation": "Una pista de atletismo olímpica estándar mide 400 metros por vuelta, con 8 carriles y curvas semicirculares.",
+            "hint": "Los 400 metros lisos son exactamente una vuelta completa."
+        },
+        {
+            "question": "¿Qué club ha ganado más veces la Champions League?",
+            "options": [
+                "FC Barcelona",
+                "Bayern Múnich",
+                "AC Milan",
+                "Real Madrid"
+            ],
+            "answer": 4,
+            "explanation": "El Real Madrid es el club con más títulos de la Champions League / Copa de Europa, con 15 títulos hasta 2024.",
+            "hint": "Es un club español con camiseta blanca."
+        },
+        {
+            "question": "¿Cuánto dura un partido de hockey sobre hielo en tiempo reglamentario?",
+            "options": [
+                "60 minutos",
+                "45 minutos",
+                "50 minutos",
+                "90 minutos"
+            ],
+            "answer": 1,
+            "explanation": "Un partido de hockey sobre hielo consta de tres períodos de 20 minutos cada uno, sumando 60 minutos de juego efectivo.",
+            "hint": "Son tres períodos iguales."
+        },
+        {
+            "question": "¿Cuál es la distancia oficial de un maratón?",
+            "options": [
+                "42,195 km",
+                "40 km",
+                "41,195 km",
+                "43 km"
+            ],
+            "answer": 1,
+            "explanation": "La distancia oficial del maratón es de 42,195 kilómetros, establecida en los Juegos Olímpicos de Londres de 1908.",
+            "hint": "Algo más de 42 kilómetros."
+        },
+        {
+            "question": "¿Qué jugador tiene el récord de más goles en una misma temporada de Champions League?",
+            "options": [
+                "Lionel Messi",
+                "Cristiano Ronaldo",
+                "Robert Lewandowski",
+                "Karim Benzema"
+            ],
+            "answer": 2,
+            "explanation": "Cristiano Ronaldo marcó 17 goles en la temporada 2013-14 de Champions League, récord en una sola edición del torneo.",
+            "hint": "Es un jugador portugués."
+        },
+        {
+            "question": "¿En qué deporte se usa el término 'birdie'?",
+            "options": [
+                "Bádminton",
+                "Golf",
+                "Cricket",
+                "Tenis"
+            ],
+            "answer": 2,
+            "explanation": "En golf, un birdie significa completar un hoyo con un golpe menos que el par establecido para ese hoyo.",
+            "hint": "También existe el 'eagle' y el 'bogey' en este deporte."
+        },
+        {
+            "question": "¿Cuántos jugadores forman un equipo de rugby union en el campo?",
+            "options": [
+                "13",
+                "15",
+                "14",
+                "16"
+            ],
+            "answer": 2,
+            "explanation": "En rugby union cada equipo tiene 15 jugadores en el campo, a diferencia del rugby league que juega con 13.",
+            "hint": "El rugby league tiene 2 jugadores menos."
+        },
+        {
+            "question": "¿Qué nadador tiene más medallas de oro olímpicas en la historia?",
+            "options": [
+                "Ian Thorpe",
+                "Michael Phelps",
+                "Mark Spitz",
+                "Ryan Lochte"
+            ],
+            "answer": 2,
+            "explanation": "Michael Phelps es el deportista con más medallas olímpicas de oro de la historia, con 23 oros en natación.",
+            "hint": "Es estadounidense y ganó 8 oros en Pekín 2008."
+        },
+        {
+            "question": "¿Cuánto mide la red de voleibol en categoría masculina?",
+            "options": [
+                "2,24 m",
+                "2,35 m",
+                "2,50 m",
+                "2,43 m"
+            ],
+            "answer": 4,
+            "explanation": "La red de voleibol masculino mide 2,43 metros de altura, mientras que en femenino es de 2,24 metros.",
+            "hint": "Entre 2,40 y 2,50 metros."
+        },
+        {
+            "question": "¿Qué boxeador fue conocido como 'The Greatest'?",
+            "options": [
+                "Joe Frazier",
+                "George Foreman",
+                "Sugar Ray Leonard",
+                "Muhammad Ali"
+            ],
+            "answer": 4,
+            "explanation": "Muhammad Ali, nacido Cassius Clay, se autoproclamo 'The Greatest' y es considerado el mejor boxeador de todos los tiempos.",
+            "hint": "También fue conocido por su frase 'Float like a butterfly, sting like a bee'."
+        },
+        {
+            "question": "¿Cuántos períodos tiene un partido de baloncesto NBA?",
+            "options": [
+                "2",
+                "3",
+                "5",
+                "4"
+            ],
+            "answer": 4,
+            "explanation": "Un partido de la NBA se divide en 4 cuartos de 12 minutos cada uno. En baloncesto FIBA también son 4 cuartos pero de 10 minutos.",
+            "hint": "Cada período dura 12 minutos en la NBA."
+        },
+        {
+            "question": "¿En qué año debutó Lionel Messi con el primer equipo del FC Barcelona?",
+            "options": [
+                "2002",
+                "2003",
+                "2005",
+                "2004"
+            ],
+            "answer": 4,
+            "explanation": "Messi debutó con el primer equipo del FC Barcelona el 16 de noviembre de 2003 en un amistoso, con apenas 16 años.",
+            "hint": "Tenía 16 años cuando debutó."
+        },
+        {
+            "question": "¿Cuánto dura un tiempo muerto en la NBA?",
+            "options": [
+                "30 segundos o 1 minuto y 15 segundos",
+                "45 segundos o 2 minutos",
+                "1 minuto o 3 minutos",
+                "20 segundos o 1 minuto"
+            ],
+            "answer": 1,
+            "explanation": "En la NBA existen tiempos muertos cortos de 30 segundos y largos de 1 minuto y 15 segundos, con un número limitado de cada tipo.",
+            "hint": "Hay dos tipos: cortos y largos."
+        },
+        {
+            "question": "¿Qué equipo de fútbol americano tiene más Super Bowls ganados?",
+            "options": [
+                "Dallas Cowboys",
+                "San Francisco 49ers",
+                "Pittsburgh Steelers",
+                "New England Patriots"
+            ],
+            "answer": 4,
+            "explanation": "Los New England Patriots han ganado 6 Super Bowls, aunque los Kansas City Chiefs están cerca con títulos recientes.",
+            "hint": "Su quarterback estrella fue Tom Brady durante años."
+        },
+        {
+            "question": "¿Cuántos hoyos tiene un campo de golf estándar?",
+            "options": [
+                "9",
+                "12",
+                "18",
+                "24"
+            ],
+            "answer": 3,
+            "explanation": "Un campo de golf estándar tiene 18 hoyos, aunque existen campos de 9 hoyos considerados media vuelta.",
+            "hint": "Es el doble de la media vuelta."
+        },
+        {
+            "question": "¿Cuál es el récord mundial de los 100 metros lisos masculinos?",
+            "options": [
+                "9,58 s",
+                "9,63 s",
+                "9,69 s",
+                "9,72 s"
+            ],
+            "answer": 1,
+            "explanation": "Usain Bolt estableció el récord mundial de los 100 metros lisos con 9,58 segundos en el Mundial de Berlín de 2009.",
+            "hint": "Lo estableció Usain Bolt en Berlín 2009."
+        },
+        {
+            "question": "¿Qué país ha ganado más Copas del Mundo de rugby?",
+            "options": [
+                "Australia",
                 "Sudáfrica",
-                "Inglaterra",
+                "Nueva Zelanda",
                 "Francia"
             ],
-            "respuesta": 3,
-            "explicacion": "Inglaterra es el lugar de origen del rugby, con la primera partida jugada en 1823.",
-            "pista": "Este deporte tiene su sede en el país que también es famoso por su equipo de fútbol."
+            "answer": 3,
+            "explanation": "Nueva Zelanda ha ganado 3 Copas del Mundo de rugby (1987, 2011 y 2015), el mayor número de cualquier selección.",
+            "hint": "Son los 'All Blacks'."
         },
         {
-            "pregunta": "¿Qué corredor de Fórmula 1 tiene el récord de más campeonatos mundiales ganados?",
-            "opciones": [
-                "Ayrton Senna",
-                "Michael Schumacher",
-                "Lewis Hamilton",
-                "Juan Manuel Fangio"
+            "question": "¿Cuántos metros tiene la piscina estándar en competiciones de natación de velocidad?",
+            "options": [
+                "25 m",
+                "33 m",
+                "50 m",
+                "100 m"
             ],
-            "respuesta": 2,
-            "explicacion": "Michael Schumacher tiene 7 campeonatos mundiales, un récord que comparte con Lewis Hamilton."
+            "answer": 3,
+            "explanation": "Las competiciones olímpicas de natación se disputan en piscinas de curso largo de 50 metros. Las de 25 metros son curso corto.",
+            "hint": "Es la longitud olímpica."
+        },
+        {
+            "question": "¿Qué deporte inventó James Naismith en 1891?",
+            "options": [
+                "Voleibol",
+                "Balonmano",
+                "Baloncesto",
+                "Rugby"
+            ],
+            "answer": 3,
+            "explanation": "James Naismith, profesor canadiense, inventó el baloncesto en 1891 en Springfield, Massachusetts, usando canastas de melocotones.",
+            "hint": "Lo inventó usando canastas de melocotones como porterías."
+        },
+        {
+            "question": "¿Cuánto dura un partido de polo?",
+            "options": [
+                "4 chukkers",
+                "6 chukkers",
+                "8 chukkers",
+                "10 chukkers"
+            ],
+            "answer": 2,
+            "explanation": "Un partido de polo estándar consta de 6 chukkers (períodos) de 7 minutos cada uno, con pausas para cambiar los caballos.",
+            "hint": "Cada período se llama 'chukker'."
+        },
+        {
+            "question": "¿Qué significa 'ace' en tenis?",
+            "options": [
+                "Un saque fallido",
+                "Un saque directo que el rival no puede devolver",
+                "Un golpe de revés ganador",
+                "Ganar el punto con la primera pelota"
+            ],
+            "answer": 2,
+            "explanation": "Un ace en tenis es un saque directo que el rival no logra tocar con la raqueta, sumando el punto automáticamente al sacador.",
+            "hint": "El servidor gana el punto sin que el rival toque la pelota."
+        },
+        {
+            "question": "¿En qué ciudad se celebraron los Juegos Olímpicos de 1992?",
+            "options": [
+                "Madrid",
+                "Sevilla",
+                "Barcelona",
+                "Valencia"
+            ],
+            "answer": 3,
+            "explanation": "Los Juegos Olímpicos de verano de 1992 se celebraron en Barcelona, España, considerados unos de los mejores de la historia.",
+            "hint": "Fue la única vez que España organizó los Juegos de verano."
+        },
+        {
+            "question": "¿Cuántos jugadores forman un equipo de béisbol en el campo?",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "answer": 3,
+            "explanation": "Un equipo de béisbol tiene 9 jugadores en el campo durante el juego defensivo.",
+            "hint": "Uno por cada posición defensiva estándar."
+        },
+        {
+            "question": "¿Qué equipo ganó la primera edición de la Champions League en 1956?",
+            "options": [
+                "AC Milan",
+                "Benfica",
+                "Real Madrid",
+                "Bayern Múnich"
+            ],
+            "answer": 3,
+            "explanation": "El Real Madrid ganó la primera Copa de Europa en 1956 y las cuatro siguientes consecutivas, dominando el torneo en sus inicios.",
+            "hint": "También ganó las cuatro ediciones siguientes."
+        },
+        {
+            "question": "¿Cuánto pesa un balón oficial de fútbol?",
+            "options": [
+                "360-390 g",
+                "410-450 g",
+                "490-530 g",
+                "550-600 g"
+            ],
+            "answer": 2,
+            "explanation": "Según la FIFA, un balón oficial de fútbol debe pesar entre 410 y 450 gramos en el momento del saque inicial.",
+            "hint": "Aproximadamente entre 400 y 450 gramos."
+        },
+        {
+            "question": "¿En qué deporte se disputa la Copa Davis?",
+            "options": [
+                "Golf",
+                "Squash",
+                "Bádminton",
+                "Tenis"
+            ],
+            "answer": 4,
+            "explanation": "La Copa Davis es la principal competición internacional de tenis por equipos masculinos, disputada desde 1900.",
+            "hint": "Es la competición de tenis más antigua por equipos."
         }
     ],
     "Videojuegos": [
         {
-            "pregunta": "¿En qué videojuego aparece el personaje conocido como Geralt de Rivia?",
-            "opciones": [
+            "question": "¿Qué desarrolladora creó la saga Dark Souls?",
+            "options": [
+                "Capcom",
+                "Bandai Namco",
+                "Square Enix",
+                "FromSoftware"
+            ],
+            "answer": 4,
+            "explanation": "FromSoftware desarrolló Dark Souls, Bloodborne y Elden Ring, conocidos por su elevada dificultad y diseño de mundo interconectado.",
+            "hint": "También desarrolló Elden Ring y Bloodborne."
+        },
+        {
+            "question": "¿En qué año se lanzó el primer The Elder Scrolls?",
+            "options": [
+                "1994",
+                "1992",
+                "1996",
+                "1998"
+            ],
+            "answer": 1,
+            "explanation": "The Elder Scrolls: Arena fue lanzado en 1994 por Bethesda, iniciando una de las sagas de RPG más influyentes de la historia.",
+            "hint": "Se llamaba 'Arena' y fue lanzado en los años 90."
+        },
+        {
+            "question": "¿Cuál es el nombre del caballo de Link en The Legend of Zelda?",
+            "options": [
+                "Pegaso",
+                "Rocinante",
+                "Shadowmere",
+                "Epona"
+            ],
+            "answer": 4,
+            "explanation": "Epona es la yegua de Link en la saga Zelda, apareciendo por primera vez en Ocarina of Time y siendo invocable con una canción.",
+            "hint": "Su nombre proviene de la diosa celta de los caballos."
+        },
+        {
+            "question": "¿Qué compañía desarrolló la saga Final Fantasy?",
+            "options": [
+                "Capcom",
+                "Konami",
+                "Atlus",
+                "Square Enix"
+            ],
+            "answer": 4,
+            "explanation": "Square Enix (anteriormente Square Co.) desarrolla la saga Final Fantasy desde 1987, una de las franquicias de RPG más largas de la historia.",
+            "hint": "También desarrolla Dragon Quest y Kingdom Hearts."
+        },
+        {
+            "question": "¿Cuántas generaciones de Pokémon existen hasta la actualidad?",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "answer": 4,
+            "explanation": "En 2027 existirán 10 generaciones de Pokémon, siendo la decima la de Pokémon Viento y Pokémon Oleaje.",
+            "hint": "La anterior generación introdujo la región de Paldea."
+        },
+        {
+            "question": "¿Qué videojuego popularizó el género 'battle royale' en móviles?",
+            "options": [
+                "PUBG Mobile",
+                "Free Fire",
+                "Call of Duty Mobile",
+                "Fortnite Mobile"
+            ],
+            "answer": 1,
+            "explanation": "PUBG Mobile, lanzado en 2018, fue el primer gran battle royale en popularizar el género en dispositivos móviles a nivel mundial.",
+            "hint": "Fue la versión móvil del juego que creó el género."
+        },
+        {
+            "question": "¿En qué videojuego el protagonista es un cazador de monstruos llamado Geralt de Rivia?",
+            "options": [
                 "The Witcher",
                 "Dragon Age",
-                "Dark Souls",
-                "Skyrim"
-            ],
-            "respuesta": 1,
-            "explicacion": "Geralt de Rivia es el protagonista de la saga 'The Witcher', un juego de rol de acción basado en las novelas de Andrzej Sapkowski.",
-            "pista": "Es un cazador de monstruos conocido como 'brujero'."
-        },
-        {
-            "pregunta": "¿Qué videojuego cuenta con un modo de juego llamado 'Blackout', que es una batalla real?",
-            "opciones": [
-                "Apex Legends",
-                "Call of Duty: Black Ops 4",
-                "PUBG",
-                "Fortnite"
-            ],
-            "respuesta": 2,
-            "explicacion": "'Blackout' es el modo de batalla real de 'Call of Duty: Black Ops 4', donde los jugadores luchan hasta ser el último sobreviviente.",
-            "pista": "Este modo se lanzó en la cuarta entrega de la saga 'Black Ops'."
-        },
-        {
-            "pregunta": "¿En qué año se lanzó el juego 'Red Dead Redemption 2'?",
-            "opciones": [
-                "2017",
-                "2018",
-                "2019",
-                "2020"
-            ],
-            "respuesta": 2,
-            "explicacion": "'Red Dead Redemption 2' fue lanzado en 2018 por Rockstar Games, ofreciendo una experiencia de mundo abierto en el lejano oeste.",
-            "pista": "Es una precuela de la primera entrega de la saga 'Red Dead Redemption'."
-        },
-        {
-            "pregunta": "¿Qué franquicia de videojuegos es conocida por su sistema de combate basado en 'parrying' y 'dodging'?",
-            "opciones": [
-                "Dark Souls",
-                "The Elder Scrolls",
-                "Demon's Souls",
-                "Bloodborne"
-            ],
-            "respuesta": 1,
-            "explicacion": "'Dark Souls' es famoso por su desafiante sistema de combate, donde los jugadores deben dominar el parry y el dodge para sobrevivir.",
-            "pista": "El juego es conocido por su dificultad y su compleja narrativa ambiental."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre de la ciudad ficticia en la que se ambienta 'Grand Theft Auto: Vice City'?",
-            "opciones": [
-                "Liberty City",
-                "Vice City",
-                "Los Santos",
-                "San Fierro"
-            ],
-            "respuesta": 2,
-            "explicacion": "'Grand Theft Auto: Vice City' está ambientado en la ficticia ciudad de Vice City, inspirada en Miami de los años 80.",
-            "pista": "El juego es conocido por su estética y música de los años 80."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del mundo en el que se desarrolla el juego 'Kingdom Hearts'?",
-            "opciones": [
-                "Twilight Town",
-                "Hollow Bastion",
-                "Destiny Islands",
-                "Traverse Town"
-            ],
-            "respuesta": 3,
-            "explicacion": "El juego comienza en 'Destiny Islands', un mundo tropical donde Sora, el protagonista, crece antes de ser arrastrado a otras dimensiones.",
-            "pista": "Sora, el protagonista, es conocido por empuñar una llave espada."
-        },
-        {
-            "pregunta": "¿Qué juego tiene como protagonista a un hombre llamado Nathan Drake?",
-            "opciones": [
-                "Tomb Raider",
-                "Assassin's Creed",
-                "Uncharted",
-                "Red Dead Redemption"
-            ],
-            "respuesta": 3,
-            "explicacion": "Nathan Drake es el protagonista de 'Uncharted', una serie de juegos de aventura de acción y exploración desarrollados por Naughty Dog.",
-            "pista": "El personaje es un cazador de tesoros que viaja por el mundo en busca de reliquias perdidas."
-        },
-        {
-            "pregunta": "¿Qué juego presenta a un personaje llamado Samus Aran enfrentándose a los Metroids?",
-            "opciones": [
-                "Metroid Prime",
-                "Halo",
-                "The Legend of Zelda",
+                "Monster Hunter",
                 "Dark Souls"
             ],
-            "respuesta": 1,
-            "explicacion": "Samus Aran es la protagonista de la saga 'Metroid', y en 'Metroid Prime', lucha contra criaturas alienígenas conocidas como Metroids.",
-            "pista": "Samus es una cazarrecompensas espacial que lleva una armadura de poder."
+            "answer": 1,
+            "explanation": "Geralt de Rivia es el protagonista de la saga The Witcher desarrollada por CD Projekt Red, basada en las novelas de Andrzej Sapkowski.",
+            "hint": "Está basado en una saga de novelas polacas."
         },
         {
-            "pregunta": "¿En qué juego se desarrolla la historia de un joven llamado Aloy, quien vive en un mundo post-apocalíptico?",
-            "opciones": [
-                "Horizon Zero Dawn",
-                "The Last of Us",
-                "Tomb Raider",
-                "Far Cry"
+            "question": "¿Qué significa 'NPC' en los videojuegos?",
+            "options": [
+                "Non-Playable Character",
+                "New Player Character",
+                "Next Player Combat",
+                "Neutral Passive Creature"
             ],
-            "respuesta": 1,
-            "explicacion": "Aloy es la protagonista de 'Horizon Zero Dawn', un juego de acción y aventura en un mundo dominado por robots en forma de animales.",
-            "pista": "Aloy es una cazadora que busca descubrir el misterio detrás de la caída de la civilización."
+            "answer": 1,
+            "explanation": "NPC significa Non-Playable Character (personaje no jugable), un personaje controlado por la inteligencia artificial del juego.",
+            "hint": "Son los personajes que no controla el jugador."
         },
         {
-            "pregunta": "¿Qué juego de lucha tiene personajes como Ryu, Ken y Chun-Li?",
-            "opciones": [
-                "Tekken",
-                "Street Fighter",
-                "Mortal Kombat",
-                "Soulcalibur"
+            "question": "¿Cuál es el nombre del protagonista de la saga Devil May Cry?",
+            "options": [
+                "Kratos",
+                "Nero",
+                "Vergil",
+                "Dante"
             ],
-            "respuesta": 2,
-            "explicacion": "'Street Fighter' es una famosa serie de videojuegos de lucha donde personajes como Ryu y Ken son conocidos por su combate cuerpo a cuerpo.",
-            "pista": "El juego ha sido la base para muchos torneos competitivos de lucha a nivel mundial."
+            "answer": 4,
+            "explanation": "Dante es el protagonista principal de la saga Devil May Cry de Capcom, cazador de demonios mitad humano mitad demonio.",
+            "hint": "Su nombre es el mismo que el poeta italiano."
         },
         {
-            "pregunta": "¿Cuál es el nombre de la protagonista de 'The Last of Us'?",
-            "opciones": [
-                "Ellie",
-                "Clementine",
-                "Chloe",
-                "Lara"
+            "question": "¿Qué estudio desarrolló el videojuego 'Hollow Knight'?",
+            "options": [
+                "Team Cherry",
+                "Supergiant Games",
+                "Motion Twin",
+                "Yacht Club Games"
             ],
-            "respuesta": 1,
-            "explicacion": "Ellie es la protagonista de 'The Last of Us', un juego de acción y aventura en un mundo post-apocalíptico.",
-            "pista": "Ella es una joven que viaja con Joel, un hombre que la protege mientras buscan una cura para la pandemia."
+            "answer": 1,
+            "explanation": "Hollow Knight fue desarrollado por Team Cherry, un pequeño estudio australiano de tres personas, lanzado en 2017.",
+            "hint": "Es un estudio australiano muy pequeño."
         },
         {
-            "pregunta": "¿Qué juego presenta una batalla contra monstruos gigantes conocidos como 'Colosos'?",
-            "opciones": [
-                "Shadow of the Colossus",
-                "Demon's Souls",
-                "God of War",
-                "Bloodborne"
+            "question": "¿En qué universo ficticio se ambientan los juegos de la saga Halo?",
+            "options": [
+                "El año 2077 en la Tierra",
+                "El año 2100 en Marte",
+                "El año 3000 en una galaxia lejana",
+                "El siglo XXVI en el espacio"
             ],
-            "respuesta": 1,
-            "explicacion": "'Shadow of the Colossus' es un juego de acción y aventura en el que el jugador debe derrotar a enormes colosos para salvar a una joven.",
-            "pista": "El juego es conocido por su atmósfera minimalista y sus enormes jefes."
+            "answer": 4,
+            "explanation": "Halo está ambientado en el siglo XXVI, donde la humanidad lucha contra una alianza alienígena llamada el Covenant y contra los Flood.",
+            "hint": "El conflicto principal enfrenta a la humanidad contra el Covenant."
         },
         {
-            "pregunta": "¿En qué juego puedes usar una herramienta llamada 'Portal Gun' para crear portales y resolver acertijos?",
-            "opciones": [
+            "question": "¿Qué videojuego introdujo el concepto de 'open world' moderno con su mundo sandbox?",
+            "options": [
+                "Grand Theft Auto III",
+                "The Legend of Zelda (1986)",
+                "Morrowind",
+                "Shenmue"
+            ],
+            "answer": 1,
+            "explanation": "Grand Theft Auto III (2001) popularizó el open world moderno tridimensional, aunque Zelda y otros lo precedieron en 2D.",
+            "hint": "Fue el primer GTA en 3D total."
+        },
+        {
+            "question": "¿Cuántas almas necesitas para completar el árbol de habilidades básico de un personaje en un RPG típico?",
+            "options": [
+                "Esta pregunta no tiene respuesta universal",
+                "100",
+                "500",
+                "1000"
+            ],
+            "answer": 1,
+            "explanation": "No existe una respuesta universal ya que cada juego RPG tiene su propio sistema de progresión con monedas, experiencia o puntos distintos.",
+            "hint": "Depende completamente del juego."
+        },
+        {
+            "question": "¿Qué saga de Ubisoft pone al jugador en la piel de Assassins a través de distintas épocas históricas?",
+            "options": [
+                "Far Cry",
+                "Watch Dogs",
+                "Prince of Persia",
+                "Assassin's Creed"
+            ],
+            "answer": 4,
+            "explanation": "Assassin's Creed de Ubisoft sitúa al jugador en épocas como el Renacimiento, la Grecia antigua o el Antiguo Egipto como asesinos.",
+            "hint": "Cada entrega transcurre en una época histórica diferente."
+        },
+        {
+            "question": "¿Qué personaje icónico dice la frase 'It's-a me, Mario!'?",
+            "options": [
+                "Luigi",
+                "Mario",
+                "Wario",
+                "Waluigi"
+            ],
+            "answer": 2,
+            "explanation": "Mario pronuncia su famosa frase 'It's-a me, Mario!' con su acento italiano en múltiples juegos y adaptaciones.",
+            "hint": "Es el propio protagonista quien lo dice."
+        },
+        {
+            "question": "¿En qué año se lanzó el primer Call of Duty?",
+            "options": [
+                "2001",
+                "2003",
+                "2005",
+                "2007"
+            ],
+            "answer": 2,
+            "explanation": "El primer Call of Duty fue lanzado en 2003 para PC por Infinity Ward, ambientado en la Segunda Guerra Mundial.",
+            "hint": "Fue en la primera mitad de los años 2000."
+        },
+        {
+            "question": "¿Qué empresa desarrolló Overwatch?",
+            "options": [
+                "Riot Games",
+                "Valve",
+                "Blizzard Entertainment",
+                "Epic Games"
+            ],
+            "answer": 3,
+            "explanation": "Overwatch fue desarrollado por Blizzard Entertainment y lanzado en 2016, siendo un shooter de héroes con personajes de distintas nacionalidades.",
+            "hint": "La misma empresa que desarrolló World of Warcraft y StarCraft."
+        },
+        {
+            "question": "¿Cuál es el nombre del antagonista principal de la saga BioShock?",
+            "options": [
+                "Andrew Ryan",
+                "Frank Fontaine",
+                "Comstock",
+                "Atlas"
+            ],
+            "answer": 1,
+            "explanation": "Andrew Ryan es el fundador de Rapture y el antagonista principal del primer BioShock, cuya filosofía objectivista impregnó toda la ciudad submarina.",
+            "hint": "Su nombre es un anagrama de 'Ayn Rand'."
+        },
+        {
+            "question": "¿Qué juego de plataformas de PlayStation fue protagonizado por un mapache con una máscara?",
+            "options": [
+                "Jak and Daxter",
+                "Ratchet & Clank",
+                "Sly Cooper",
+                "Crash Bandicoot"
+            ],
+            "answer": 3,
+            "explanation": "Sly Cooper es un mapache ladrón protagonista de la saga del mismo nombre desarrollada por Sucker Punch para PlayStation 2.",
+            "hint": "Es un ladrón con capa y bastón."
+        },
+        {
+            "question": "¿En qué juego aparece el personaje GLaDOS?",
+            "options": [
+                "Half-Life 2",
                 "Portal",
-                "The Talos Principle",
-                "Half-Life",
+                "Mirror's Edge",
                 "BioShock"
             ],
-            "respuesta": 1,
-            "explicacion": "'Portal' es un juego de rompecabezas en primera persona en el que los jugadores deben usar una 'Portal Gun' para crear portales y resolver desafíos.",
-            "pista": "El juego es conocido por su humor negro y su enfoque innovador en el género de puzzles."
+            "answer": 2,
+            "explanation": "GLaDOS es la inteligencia artificial antagonista de Portal, desarrollado por Valve, famosa por su sarcasmo y sus promesas de pastel.",
+            "hint": "Famosa por la frase 'The cake is a lie'."
         },
         {
-            "pregunta": "¿Qué videojuego permite a los jugadores explorar un mundo abierto y salvar la tierra de una invasión alienígena?",
-            "opciones": [
-                "No Man's Sky",
-                "Fallout",
-                "Mass Effect",
-                "XCOM"
+            "question": "¿Qué significa 'DLC' en los videojuegos?",
+            "options": [
+                "Digital Level Content",
+                "Downloadable Content",
+                "Direct Level Creation",
+                "Dynamic Loading Content"
             ],
-            "respuesta": 4,
-            "explicacion": "'XCOM' es una serie de juegos de estrategia táctica donde los jugadores deben defender la Tierra de una invasión alienígena.",
-            "pista": "El juego combina tácticas por turnos con gestión de recursos."
+            "answer": 2,
+            "explanation": "DLC significa Downloadable Content (contenido descargable), material adicional para un videojuego que se distribuye por descarga digital.",
+            "hint": "Viene de las palabras 'Downloadable Content'."
         },
         {
-            "pregunta": "¿Qué personaje de videojuegos es conocido por ser un fontanero italiano y hermano de Luigi?",
-            "opciones": [
-                "Mario",
-                "Donkey Kong",
-                "Sonic",
-                "Samus"
+            "question": "¿Qué videojuego popularizó el género 'roguelike' moderno con su mazmorras generadas proceduralmente?",
+            "options": [
+                "Spelunky",
+                "Rogue",
+                "The Binding of Isaac",
+                "Hades"
             ],
-            "respuesta": 1,
-            "explicacion": "Mario es uno de los personajes más icónicos de los videojuegos, creado por Shigeru Miyamoto y conocido por sus aventuras en el Reino Champiñón.",
-            "pista": "Su primer juego fue lanzado en 1985 para la NES."
+            "answer": 2,
+            "explanation": "Rogue (1980) es el juego original que dio nombre al género roguelike, con mazmorras generadas aleatoriamente y muerte permanente.",
+            "hint": "El género lleva su nombre."
+        },
+        {
+            "question": "¿Cuántos jugadores componen un equipo en un partido de Counter-Strike?",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "8"
+            ],
+            "answer": 2,
+            "explanation": "En Counter-Strike, cada equipo (terroristas y antiterroristas) está formado por 5 jugadores.",
+            "hint": "Son el mismo número que en baloncesto."
+        },
+        {
+            "question": "¿Qué saga de Nintendo enfrenta a personajes de distintas franquicias en combates?",
+            "options": [
+                "Mario Kart",
+                "Mario Party",
+                "Super Smash Bros.",
+                "Nintendo All-Stars"
+            ],
+            "answer": 3,
+            "explanation": "Super Smash Bros. es el crossover de lucha de Nintendo donde personajes de Mario, Zelda, Pokémon y otros universos se enfrentan.",
+            "hint": "Su subtítulo 'Ultimate' es la entrega más reciente."
+        },
+        {
+            "question": "¿Qué compañía desarrolló los juegos de la saga Resident Evil?",
+            "options": [
+                "Konami",
+                "Capcom",
+                "Square Enix",
+                "Namco"
+            ],
+            "answer": 2,
+            "explanation": "Resident Evil es una saga de survival horror desarrollada por Capcom desde 1996, pionera del género.",
+            "hint": "La misma compañía que Street Fighter y Devil May Cry."
+        },
+        {
+            "question": "¿Qué videojuego de mundo abierto transcurre en el mundo de Hyrule?",
+            "options": [
+                "Skyrim",
+                "Breath of the Wild",
+                "Genshin Impact",
+                "Xenoblade Chronicles"
+            ],
+            "answer": 2,
+            "explanation": "The Legend of Zelda: Breath of the Wild es un juego de mundo abierto ambientado en Hyrule, lanzado en 2017 para Nintendo Switch.",
+            "hint": "Fue el juego de lanzamiento de Nintendo Switch."
+        },
+        {
+            "question": "¿Cuál es el nombre del protagonista de la saga Metal Gear Solid?",
+            "options": [
+                "Big Boss",
+                "Raiden",
+                "Solid Snake",
+                "Venom Snake"
+            ],
+            "answer": 3,
+            "explanation": "Solid Snake es el protagonista principal de la saga Metal Gear Solid de Hideo Kojima para Konami.",
+            "hint": "Su nombre en clave incluye el nombre de una serpiente."
+        },
+        {
+            "question": "¿En qué año se lanzó World of Warcraft?",
+            "options": [
+                "2001",
+                "2002",
+                "2004",
+                "2006"
+            ],
+            "answer": 3,
+            "explanation": "World of Warcraft fue lanzado en 2004 por Blizzard Entertainment, convirtiéndose en el MMORPG más jugado de la historia.",
+            "hint": "Fue a mediados de los años 2000."
+        },
+        {
+            "question": "¿Qué estudio desarrolló la saga Uncharted?",
+            "options": [
+                "Insomniac Games",
+                "Guerrilla Games",
+                "Naughty Dog",
+                "Santa Monica Studio"
+            ],
+            "answer": 3,
+            "explanation": "Naughty Dog desarrolló la saga Uncharted, protagonizada por Nathan Drake, además de la saga The Last of Us.",
+            "hint": "El mismo estudio que desarrolló The Last of Us."
+        },
+        {
+            "question": "¿Qué tipo de juego es Stardew Valley?",
+            "options": [
+                "Battle royale",
+                "Shooter en primera persona",
+                "Simulador de vida y granja RPG",
+                "Juego de lucha"
+            ],
+            "answer": 3,
+            "explanation": "Stardew Valley es un simulador de granja y vida con elementos RPG, desarrollado íntegramente por una sola persona: Eric Barone.",
+            "hint": "Fue desarrollado por una sola persona durante 4 años."
+        }
+    ],
+    "Programacion": [
+        {
+            "question": "¿Qué es la programación orientada a objetos?",
+            "options": [
+                "Un paradigma que organiza el código en clases y objetos",
+                "Un lenguaje de programación",
+                "Una forma de escribir consultas SQL",
+                "Un método para optimizar bucles"
+            ],
+            "answer": 1,
+            "explanation": "La POO es un paradigma de programación que organiza el código en clases y objetos con propiedades y métodos, promoviendo la reutilización.",
+            "hint": "Java y Python son ejemplos de lenguajes que la implementan."
+        },
+        {
+            "question": "¿Qué hace el método 'console.log()' en JavaScript?",
+            "options": [
+                "Imprime un mensaje en la consola del navegador",
+                "Guarda datos en una variable",
+                "Crea un elemento HTML",
+                "Hace una petición al servidor"
+            ],
+            "answer": 1,
+            "explanation": "console.log() imprime el valor o mensaje que se le pasa como argumento en la consola del navegador o de Node.js, útil para depurar.",
+            "hint": "Es la herramienta básica de debugging en JavaScript."
+        },
+        {
+            "question": "¿Qué es una API REST?",
+            "options": [
+                "Una interfaz de comunicación entre sistemas usando HTTP",
+                "Un lenguaje de programación del lado del servidor",
+                "Un tipo de base de datos",
+                "Un framework de CSS"
+            ],
+            "answer": 1,
+            "explanation": "Una API REST es una interfaz que permite la comunicación entre sistemas usando el protocolo HTTP con métodos como GET, POST, PUT y DELETE.",
+            "hint": "Usa métodos HTTP como GET y POST para intercambiar datos."
+        },
+        {
+            "question": "¿Qué diferencia a 'let' de 'var' en JavaScript?",
+            "options": [
+                "'let' tiene ámbito de bloque y 'var' tiene ámbito de función",
+                "No hay diferencia",
+                "'var' es más moderno que 'let'",
+                "'let' solo admite números"
+            ],
+            "answer": 1,
+            "explanation": "'let' tiene ámbito de bloque (solo existe dentro del bloque donde se declara), mientras que 'var' tiene ámbito de función y puede causar errores por hoisting.",
+            "hint": "'let' fue introducido en ES6 para solucionar problemas de 'var'."
+        },
+        {
+            "question": "¿Qué es el DOM en desarrollo web?",
+            "options": [
+                "La representación en memoria del HTML de una página web",
+                "Un tipo de base de datos",
+                "Un lenguaje de programación",
+                "Un protocolo de red"
+            ],
+            "answer": 1,
+            "explanation": "El DOM (Document Object Model) es la representación estructurada en memoria del HTML, que JavaScript puede manipular para cambiar la página.",
+            "hint": "JavaScript lo usa para modificar el contenido de la página."
+        },
+        {
+            "question": "¿Qué significa 'HTTPS'?",
+            "options": [
+                "HyperText Transfer Protocol Secure",
+                "High Transfer Text Protocol System",
+                "HyperText Transport Protocol Standard",
+                "Hyper Transfer Text Protocol Safe"
+            ],
+            "answer": 1,
+            "explanation": "HTTPS (HyperText Transfer Protocol Secure) es la versión cifrada de HTTP que usa SSL/TLS para proteger la comunicación entre el cliente y servidor.",
+            "hint": "La 'S' al final significa 'Secure'."
+        },
+        {
+            "question": "¿Qué comando de Git deshace el último commit sin perder los cambios?",
+            "options": [
+                "git reset --soft HEAD~1",
+                "git revert",
+                "git checkout",
+                "git stash"
+            ],
+            "answer": 1,
+            "explanation": "git reset --soft HEAD~1 deshace el último commit pero mantiene los cambios en el área de staging, listo para hacer un nuevo commit.",
+            "hint": "Usa el flag '--soft' para no perder los cambios."
+        },
+        {
+            "question": "¿Qué es una promesa (Promise) en JavaScript?",
+            "options": [
+                "Un objeto que representa el resultado futuro de una operación asíncrona",
+                "Un tipo de variable",
+                "Una función que se ejecuta en bucle",
+                "Un método de los arrays"
+            ],
+            "answer": 1,
+            "explanation": "Una Promise es un objeto que representa una operación asíncrona que puede completarse con éxito (resolve) o fallar (reject) en el futuro.",
+            "hint": "Resuelve el problema del 'callback hell' en JavaScript."
+        },
+        {
+            "question": "¿Qué hace la propiedad CSS 'display: flex'?",
+            "options": [
+                "Oculta el elemento",
+                "Hace el elemento flotante",
+                "Activa el modelo de caja flexible para distribuir elementos",
+                "Fija el elemento en la pantalla"
+            ],
+            "answer": 3,
+            "explanation": "display: flex activa el modelo Flexbox en el contenedor, permitiendo distribuir y alinear los elementos hijos de forma flexible y eficiente.",
+            "hint": "Es el modelo de maquetación moderno que sustituye a float."
+        },
+        {
+            "question": "¿Qué es el 'box model' en CSS?",
+            "options": [
+                "Un framework de diseño",
+                "Una propiedad CSS concreta",
+                "El modelo que describe cómo se calcula el espacio de un elemento HTML",
+                "Un tipo de selector"
+            ],
+            "answer": 3,
+            "explanation": "El box model de CSS define que cada elemento está compuesto por contenido, padding (relleno), border (borde) y margin (margen).",
+            "hint": "Incluye content, padding, border y margin."
+        },
+        {
+            "question": "¿Qué es la recursividad en programación?",
+            "options": [
+                "Un bucle que se ejecuta infinitamente",
+                "Un tipo de herencia en POO",
+                "Una función que se llama a sí misma",
+                "Un método de ordenación de arrays"
+            ],
+            "answer": 3,
+            "explanation": "La recursividad ocurre cuando una función se llama a sí misma para resolver un problema dividiéndolo en subproblemas más pequeños.",
+            "hint": "Para funcionar necesita siempre un caso base que detenga las llamadas."
+        },
+        {
+            "question": "¿Qué hace el operador '===' en JavaScript?",
+            "options": [
+                "Asigna un valor a una variable",
+                "Compara valor e ignora el tipo",
+                "Compara valor y tipo estrictamente",
+                "Compara solo el tipo de dato"
+            ],
+            "answer": 3,
+            "explanation": "El operador === en JavaScript realiza una comparación estricta: devuelve true solo si los operandos tienen el mismo valor Y el mismo tipo.",
+            "hint": "A diferencia de '==', no convierte tipos antes de comparar."
+        },
+        {
+            "question": "¿Qué es el 'Big O notation' en programación?",
+            "options": [
+                "Un estilo de código",
+                "Un tipo de bucle",
+                "Una forma de medir la complejidad temporal y espacial de un algoritmo",
+                "Una convención de nombres"
+            ],
+            "answer": 3,
+            "explanation": "La notación Big O describe cómo escala el tiempo de ejecución o el uso de memoria de un algoritmo en función del tamaño de la entrada.",
+            "hint": "Se usa para comparar la eficiencia de algoritmos."
+        },
+        {
+            "question": "¿Qué es un ORM?",
+            "options": [
+                "Un tipo de base de datos",
+                "Un framework de frontend",
+                "Una herramienta que mapea objetos de código con tablas de base de datos",
+                "Un protocolo de red"
+            ],
+            "answer": 3,
+            "explanation": "Un ORM (Object-Relational Mapper) permite interactuar con una base de datos usando objetos del lenguaje en lugar de escribir SQL directamente.",
+            "hint": "Hibernate (Java) y Sequelize (JavaScript) son ejemplos."
+        },
+        {
+            "question": "¿Qué significa 'async/await' en JavaScript?",
+            "options": [
+                "Una forma de crear bucles más rápidos",
+                "Un tipo de variable especial",
+                "Un método para optimizar el DOM",
+                "Sintaxis para manejar código asíncrono de forma más legible"
+            ],
+            "answer": 4,
+            "explanation": "async/await es una sintaxis de ES2017 que permite escribir código asíncrono basado en Promises de forma que parece código síncrono, mejorando la legibilidad.",
+            "hint": "Está construido sobre las Promises y hace el código más legible."
+        },
+        {
+            "question": "¿Qué es el 'event loop' en JavaScript?",
+            "options": [
+                "Un tipo de bucle for",
+                "Un evento del DOM",
+                "Una función de callback",
+                "El mecanismo que permite a JavaScript manejar operaciones asíncronas siendo monohilo"
+            ],
+            "answer": 4,
+            "explanation": "El event loop es el mecanismo de JavaScript que procesa la cola de tareas asíncronas, permitiendo que el lenguaje maneje I/O sin bloquear el hilo principal.",
+            "hint": "Es la razón por la que JavaScript puede ser asíncrono a pesar de ser de un solo hilo."
+        },
+        {
+            "question": "¿Qué propiedad CSS se usa para hacer que un elemento no sea visible pero siga ocupando espacio?",
+            "options": [
+                "display: none",
+                "opacity: 0",
+                "visibility: hidden",
+                "hidden: true"
+            ],
+            "answer": 3,
+            "explanation": "visibility: hidden oculta el elemento visualmente pero mantiene su espacio en el layout. display: none además elimina el espacio que ocupaba.",
+            "hint": "A diferencia de 'display: none', el elemento sigue ocupando su lugar."
+        },
+        {
+            "question": "¿Qué es un webhook?",
+            "options": [
+                "Un tipo de bucle en PHP",
+                "Un selector CSS avanzado",
+                "Una función de JavaScript",
+                "Una petición HTTP automática que un servidor envía cuando ocurre un evento"
+            ],
+            "answer": 4,
+            "explanation": "Un webhook es una petición HTTP que un servidor envía automáticamente a una URL configurada cuando ocurre un evento, permitiendo comunicación en tiempo real.",
+            "hint": "Es el mecanismo opuesto al polling: el servidor avisa en lugar de que el cliente pregunte."
+        },
+        {
+            "question": "¿Qué es el 'hoisting' en JavaScript?",
+            "options": [
+                "Un método de ordenación",
+                "Un tipo de herencia",
+                "Una forma de importar módulos",
+                "El comportamiento por el que las declaraciones son movidas al inicio de su ámbito"
+            ],
+            "answer": 4,
+            "explanation": "El hoisting es el comportamiento de JavaScript por el que las declaraciones de variables con 'var' y funciones son procesadas antes de ejecutar el código.",
+            "hint": "Es la razón por la que puedes llamar a una función antes de declararla."
+        },
+        {
+            "question": "¿Cuál es la diferencia entre un lenguaje compilado y uno interpretado?",
+            "options": [
+                "No hay diferencia real",
+                "El interpretado es siempre más rápido",
+                "El compilado no necesita un ordenador",
+                "El compilado traduce todo el código antes de ejecutarlo; el interpretado lo traduce línea a línea en tiempo real"
+            ],
+            "answer": 4,
+            "explanation": "Los lenguajes compilados (C, Rust) traducen todo el código a binario antes de ejecutarlo. Los interpretados (Python, JavaScript) lo traducen y ejecutan línea a línea.",
+            "hint": "C y Rust son compilados; Python y JavaScript son interpretados."
+        },
+        {
+            "question": "¿Qué es un 'middleware' en desarrollo web?",
+            "options": [
+                "Una base de datos intermedia",
+                "Un framework de CSS",
+                "Un tipo de variable global",
+                "Software que actúa entre el cliente y el servidor procesando peticiones"
+            ],
+            "answer": 4,
+            "explanation": "Un middleware es una función o software que intercepta las peticiones HTTP entre el cliente y el servidor para procesarlas, modificarlas o autenticarlas.",
+            "hint": "En Express.js, funciones como autenticación o logging son ejemplos."
+        },
+        {
+            "question": "¿Qué es la inyección SQL?",
+            "options": [
+                "Una forma de optimizar consultas",
+                "Un método de conexión a bases de datos",
+                "Una herramienta de testing",
+                "Un ataque que inserta código SQL malicioso en entradas de usuario"
+            ],
+            "answer": 4,
+            "explanation": "La inyección SQL es un ataque donde el atacante inserta código SQL malicioso en campos de entrada para manipular la base de datos.",
+            "hint": "Es una de las vulnerabilidades más comunes en aplicaciones web."
+        },
+        {
+            "question": "¿Qué hace 'git stash' en Git?",
+            "options": [
+                "Elimina el repositorio",
+                "Guarda temporalmente cambios sin commitearlos para limpiar el área de trabajo",
+                "Fusiona dos ramas",
+                "Crea una nueva rama"
+            ],
+            "answer": 2,
+            "explanation": "git stash guarda temporalmente los cambios no commiteados en una pila, dejando el árbol de trabajo limpio para cambiar de rama o tarea.",
+            "hint": "Es útil cuando necesitas cambiar de rama sin perder trabajo en progreso."
+        },
+        {
+            "question": "¿Qué es CORS en desarrollo web?",
+            "options": [
+                "Un lenguaje de estilos",
+                "Un mecanismo de seguridad que controla qué dominios pueden acceder a recursos de otro dominio",
+                "Un tipo de base de datos",
+                "Un framework de JavaScript"
+            ],
+            "answer": 2,
+            "explanation": "CORS (Cross-Origin Resource Sharing) es un mecanismo de seguridad del navegador que restringe las peticiones HTTP entre dominios diferentes.",
+            "hint": "Causa el error 'No Access-Control-Allow-Origin header' cuando no está configurado."
+        },
+        {
+            "question": "¿Qué es la herencia en programación orientada a objetos?",
+            "options": [
+                "Copiar el código de una clase",
+                "El mecanismo por el que una clase puede adquirir propiedades y métodos de otra clase",
+                "Un tipo de bucle",
+                "Una forma de declarar variables"
+            ],
+            "answer": 2,
+            "explanation": "La herencia permite que una clase (hija) adquiera las propiedades y métodos de otra clase (padre), promoviendo la reutilización de código.",
+            "hint": "La clase que hereda se llama 'subclase' o 'clase hija'."
+        },
+        {
+            "question": "¿Qué es un token JWT?",
+            "options": [
+                "Un tipo de cookie",
+                "Un estándar para transmitir información de autenticación de forma segura entre partes",
+                "Una clave de cifrado simétrico",
+                "Un protocolo de red"
+            ],
+            "answer": 2,
+            "explanation": "JWT (JSON Web Token) es un estándar abierto para transmitir información de forma segura entre partes como un objeto JSON firmado digitalmente.",
+            "hint": "Se usa mucho para autenticación en APIs REST."
+        },
+        {
+            "question": "¿Qué es el patrón MVC?",
+            "options": [
+                "Un lenguaje de programación",
+                "Un patrón de arquitectura que separa la lógica en Modelo, Vista y Controlador",
+                "Un tipo de base de datos",
+                "Un protocolo HTTP"
+            ],
+            "answer": 2,
+            "explanation": "MVC (Modelo-Vista-Controlador) es un patrón arquitectónico que separa la lógica de negocio (Modelo), la interfaz (Vista) y la lógica de control (Controlador).",
+            "hint": "Laravel y Ruby on Rails lo usan como base."
+        },
+        {
+            "question": "¿Qué diferencia hay entre una base de datos SQL y una NoSQL?",
+            "options": [
+                "No hay diferencia real",
+                "SQL usa tablas relacionales con esquema fijo; NoSQL usa modelos flexibles como documentos o claves-valor",
+                "NoSQL es más antigua",
+                "SQL solo funciona en local"
+            ],
+            "answer": 2,
+            "explanation": "Las BD SQL (MySQL, PostgreSQL) usan tablas con esquemas fijos y relaciones. Las NoSQL (MongoDB, Redis) usan estructuras flexibles como documentos o grafos.",
+            "hint": "MongoDB es un ejemplo de NoSQL; MySQL es un ejemplo de SQL."
+        },
+        {
+            "question": "¿Qué es el 'lazy loading'?",
+            "options": [
+                "Un error de rendimiento",
+                "Una técnica que carga recursos solo cuando son necesarios",
+                "Un tipo de bucle optimizado",
+                "Un método de Git"
+            ],
+            "answer": 2,
+            "explanation": "Lazy loading es una técnica de optimización que retrasa la carga de recursos (imágenes, módulos) hasta que el usuario los necesita, mejorando el rendimiento inicial.",
+            "hint": "Se usa mucho para imágenes que están fuera del viewport inicial."
+        },
+        {
+            "question": "¿Qué es el principio DRY en programación?",
+            "options": [
+                "Delete Repeated Yaml",
+                "Don't Repeat Yourself: evitar duplicar lógica en el código",
+                "Dynamic Runtime Yielding",
+                "Data Recovery Yield"
+            ],
+            "answer": 2,
+            "explanation": "DRY (Don't Repeat Yourself) es un principio de diseño que establece que cada pieza de conocimiento debe tener una representación única en el sistema.",
+            "hint": "Su opuesto se llama código 'WET' (Write Everything Twice)."
         }
     ]
-  }
+}

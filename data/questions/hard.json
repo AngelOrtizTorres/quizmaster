@@ -1,1442 +1,1374 @@
 {
-    "Videojuegos": [
-        {
-            "question": "¿En qué juego aparece la ciudad ficticia llamada 'Rapture', un mundo bajo el agua?",
-            "options": [
-                "Bioshock",
-                "System Shock 2",
-                "Prey",
-                "Dishonored"
-            ],
-            "answer": 1,
-            "explanation": "'Bioshock' es un juego de disparos en primera persona que tiene lugar en la ciudad subacuática de Rapture, un lugar distópico donde la libertad científica ha ido demasiado lejos.",
-            "hint": "El juego combina disparos con elementos de rol y una narrativa profunda."
-        },
-        {
-            "question": "¿Qué juego de rol cuenta con una civilización antigua llamada 'The Qun' que es central para su trama?",
-            "options": [
-                "The Elder Scrolls: Skyrim",
-                "Dragon Age: Origins",
-                "Divinity: Original Sin 2",
-                "Dark Souls"
-            ],
-            "answer": 2,
-            "explanation": "En 'Dragon Age: Origins', el 'Qun' es una filosofía y civilización representada por los Qunari, una raza que sigue estrictas reglas y disciplina.",
-            "hint": "Este juego fue desarrollado por BioWare y es conocido por sus elecciones morales y narrativa compleja."
-        },
-        {
-            "question": "¿En qué juego de acción y aventura encarnas a un protagonista llamado 'Eivor', un guerrero vikingo?",
-            "options": [
-                "For Honor",
-                "Viking: Battle for Asgard",
-                "Assassin's Creed Valhalla",
-                "Hellblade: Senua's Sacrifice"
-            ],
-            "answer": 3,
-            "explanation": "'Assassin's Creed Valhalla' te pone en el rol de Eivor, un líder vikingo que explora y conquista Inglaterra durante la época de los vikingos.",
-            "hint": "Este juego forma parte de la exitosa saga 'Assassin's Creed' y presenta mecánicas de rol y combate abierto."
-        },
-        {
-            "question": "¿En qué juego de rol ambientado en un mundo de fantasía oscura se lucha contra criaturas conocidas como 'Abyssal Ones'?",
-            "options": [
-                "Demon's Souls",
-                "Bloodborne",
-                "Dark Souls",
-                "The Witcher 3: Wild Hunt"
-            ],
-            "answer": 3,
-            "explanation": "'Dark Souls' es conocido por su desafiante sistema de combate basado en la gestión de la resistencia o 'stamina'.",
-            "hint": "Este juego fue el primero de la saga que revolucionó el género de acción y rol con su dificultad."
-        },
-        {
-            "question": "¿Qué juego de estrategia permite jugar como una civilización alienígena conocida como los 'Skrall'?",
-            "options": [
-                "XCOM: Enemy Unknown",
-                "Civilization V",
-                "StarCraft",
-                "Endless Space"
-            ],
-            "answer": 3,
-            "explanation": "En 'StarCraft', una de las razas alienígenas jugables son los Zerg, aunque los 'Skrall' son mencionados como parte de la expansión del universo. Es un juego de estrategia en tiempo real.",
-            "hint": "Los Zerg son conocidos por su capacidad de consumir otros seres para evolucionar y expandirse rápidamente."
-        },
-        {
-            "question": "¿En qué juego el protagonista principal, protagonista con el nombre de 'Nomad', lucha contra fuerzas militares en un mundo abierto?",
-            "options": [
-                "Far Cry 2",
-                "Crysis",
-                "Halo: Reach",
-                "Metro Exodus"
-            ],
-            "answer": 2,
-            "explanation": "'Crysis' es un juego de disparos en primera persona donde el protagonista, Nomad, lucha contra fuerzas militares en una isla tropical, mientras hace uso de un traje avanzado.",
-            "hint": "El juego es famoso por su exigente rendimiento gráfico y la libertad que ofrece para el combate."
-        },
-        {
-            "question": "¿Qué franquicia de videojuegos tiene una misión que involucra el robo de un avión y la participación de un personaje llamado 'Lester'?",
-            "options": [
-                "Grand Theft Auto V",
-                "Saints Row",
-                "Red Dead Redemption",
-                "Watch Dogs"
-            ],
-            "answer": 1,
-            "explanation": "'Grand Theft Auto V' es un juego de acción y aventura en mundo abierto donde Lester es uno de los principales colaboradores en las misiones.",
-            "hint": "Este juego es conocido por su mundo abierto y misiones criminales muy elaboradas."
-        },
-        {
-            "question": "¿En qué juego de acción y aventura se lleva a cabo una guerra entre los 'Tenno' y los 'Grineer'?",
-            "options": [
-                "Destiny 2",
-                "Warframe",
-                "Overwatch",
-                "Fortnite"
-            ],
-            "answer": 2,
-            "explanation": "'Warframe' es un juego de acción y aventura en línea en el que los jugadores, como los 'Tenno', luchan contra los 'Grineer' y otras facciones en un universo futurista.",
-            "hint": "Los 'Tenno' son guerreros con habilidades especiales y armaduras biomecánicas llamadas Warframes."
-        },
-        {
-            "question": "¿Qué personaje de videojuegos es conocido por ser el rey de los demonios en la saga 'Castlevania'?",
-            "options": [
-                "Alucard",
-                "Dracula",
-                "Simon Belmont",
-                "Richter Belmont"
-            ],
-            "answer": 2,
-            "explanation": "Dracula es el principal antagonista en la saga 'Castlevania', conocido como el rey de los vampiros y uno de los demonios más poderosos del universo del juego.",
-            "hint": "El personaje ha sido derrotado múltiples veces por los Belmont, una familia de cazadores de vampiros."
-        },
-        {
-            "question": "¿En qué título de la saga 'Final Fantasy' se presenta a un protagonista llamado Cloud Strife?",
-            "options": [
-                "Final Fantasy VII",
-                "Final Fantasy VI",
-                "Final Fantasy X",
-                "Final Fantasy XV"
-            ],
-            "answer": 1,
-            "explanation": "Cloud Strife es el protagonista de 'Final Fantasy VII', uno de los títulos más icónicos de la serie, que sigue su viaje para detener a la megacorporación Shinra y salvar al mundo.",
-            "hint": "Este juego fue lanzado originalmente en 1997 para la PlayStation y es uno de los RPGs más influyentes de la historia."
-        },
-        {
-            "question": "¿Qué juego de mundo abierto presenta a un protagonista llamado 'Arthur Morgan' en el viejo oeste?",
-            "options": [
-                "Red Dead Redemption 2",
-                "The Witcher 3: Wild Hunt",
-                "Far Cry 5",
-                "Assassin's Creed Odyssey"
-            ],
-            "answer": 1,
-            "explanation": "Arthur Morgan es el protagonista de 'Red Dead Redemption 2', un juego de acción y aventura de mundo abierto ambientado en el viejo oeste.",
-            "hint": "Arthur es parte de una banda de forajidos que intenta sobrevivir mientras enfrentan la decadencia de la civilización."
-        },
-        {
-            "question": "¿En qué juego se explora una civilización subterránea llamada 'The Underworld' con criaturas mitológicas?",
-            "options": [
-                "Hades",
-                "Dark Souls",
-                "Dante's Inferno",
-                "God of War III"
-            ],
-            "answer": 3,
-            "explanation": "'Dante's Inferno' es un juego basado en la famosa obra de Dante Alighieri, en el que el protagonista viaja a través del Infierno para salvar el alma de su amada Beatriz.",
-            "hint": "El juego tiene lugar en un entorno mitológico, inspirado en el poema épico 'La Divina Comedia'."
-        },
-        {
-            "question": "¿Qué serie de juegos de disparos en primera persona es conocida por su modo 'Zombies' y personajes como Richtofen y Dempsey?",
-            "options": [
-                "Call of Duty: Zombies",
-                "Left 4 Dead",
-                "Doom",
-                "Battlefield 1"
-            ],
-            "answer": 1,
-            "explanation": "'Call of Duty: Zombies' es un modo de juego popular donde los jugadores deben luchar contra hordas de muertos vivientes, usando armas y habilidades especiales.",
-            "hint": "Este modo se introdujo en 'Call of Duty: World at War' y se ha expandido en títulos posteriores."
-        },
-        {
-            "question": "¿Cuál de los siguientes juegos fue desarrollado por el estudio Team Ico?",
-            "options": [
-                "The Last Guardian",
-                "Shadow of the Colossus",
-                "ICO",
-                "Nier: Automata"
-            ],
-            "answer": 1,
-            "explanation": "'The Last Guardian' fue desarrollado por Team Ico, conocido por sus títulos artísticos como 'ICO' y 'Shadow of the Colossus'.",
-            "hint": "El juego se centra en la relación entre un niño y una criatura gigante llamada Trico."
-        },
-        {
-            "question": "¿Qué juego de rol es famoso por su sistema de combate basado en 'stamina' y 'estamina management'?",
-            "options": [
-                "Dark Souls",
-                "Sekiro: Shadows Die Twice",
-                "Demon's Souls",
-                "Bloodborne"
-            ],
-            "answer": 3,
-            "explanation": "'Demon's Souls' es conocido por su sistema de combate desafiante basado en la gestión de la resistencia o 'stamina'.",
-            "hint": "Este juego fue el primero de la saga que revolucionó el género de acción y rol con su dificultad."
-        },
-        {
-            "question": "¿En qué juego se puede encontrar el personaje 'GLaDOS', una inteligencia artificial que actúa como antagonista?",
-            "options": [
-                "Portal",
-                "Half-Life",
-                "Bioshock Infinite",
-                "The Talos Principle"
-            ],
-            "answer": 1,
-            "explanation": "'Portal' es un juego de rompecabezas en primera persona donde GLaDOS, una inteligencia artificial, es el principal antagonista.",
-            "hint": "GLaDOS es conocida por su humor negro y su antagonismo mientras ayuda a la protagonista en un laboratorio de pruebas."
-        },
-        {
-            "question": "¿Cuál es el nombre del planeta donde se desarrolla 'Metroid Prime'?",
-            "options": [
-                "Zebes",
-                "Talon IV",
-                "Aether",
-                "SR388"
-            ],
-            "answer": 2,
-            "explanation": "'Metroid Prime' se desarrolla principalmente en el planeta Talon IV, un mundo alienígena lleno de secretos y peligros.",
-            "hint": "Este planeta está lleno de ruinas antiguas y criaturas mutadas por la energía oscura."
-        },
-        {
-            "question": "¿En qué título de la saga 'Final Fantasy' se presenta a un protagonista llamado Cloud Strife?",
-            "options": [
-                "Final Fantasy VII",
-                "Final Fantasy VI",
-                "Final Fantasy X",
-                "Final Fantasy XV"
-            ],
-            "answer": 1,
-            "explanation": "'Final Fantasy VII' es uno de los títulos más icónicos de la serie, que sigue el viaje de Cloud Strife para detener a la megacorporación Shinra.",
-            "hint": "Este juego fue lanzado originalmente en 1997 y es considerado uno de los RPGs más influyentes de la historia."
-        },
-        {
-            "question": "¿En qué juego de mundo abierto puedes encontrar una facción llamada los 'Brotherhood of Steel'?",
-            "options": [
-                "Skyrim",
-                "Far Cry New Dawn",
-                "Fallout 3",
-                "The Witcher 3: Wild Hunt"
-            ],
-            "answer": 3,
-            "explanation": "Los 'Brotherhood of Steel' son una facción militar y científica en el universo de 'Fallout', conocidos por su uso de tecnología avanzada y sus estrictas reglas.",
-            "hint": "Este juego tiene lugar en un mundo post-apocalíptico tras una guerra nuclear global."
-        },
-        {
-            "question": "¿Qué juego de acción y aventura se centra en la exploración de un vasto mundo subterráneo lleno de trampas y criaturas en un estilo 'Metroidvania'?",
-            "options": [
-                "Celeste",
-                "Dead Cells",
-                "Ori and the Blind Forest",
-                "Hollow Knight"
-            ],
-            "answer": 4,
-            "explanation": "'Hollow Knight' es un juego de acción y aventura en 2D que se basa en la exploración de un mundo subterráneo, lleno de enemigos, jefes y secretos.",
-            "hint": "El juego se ha destacado por su dificultad, su narrativa sutil y sus impresionantes escenarios."
-        }
-    ],
-    "Geografía": [
-        {
-            "pregunta": "¿Cuál es el río más largo de África?",
-            "opciones": [
-                "Congo",
-                "Limpopo",
-                "Nilo",
-                "Zambeze"
-            ],
-            "respuesta": 3,
-            "explicacion": "El Nilo es el río más largo de África y uno de los más largos del mundo, con una longitud de más de 6,600 kilómetros.",
-            "pista": "Este río es conocido por ser esencial para las civilizaciones del antiguo Egipto."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra el desierto de Atacama?",
-            "opciones": [
-                "Chile",
-                "Perú",
-                "Bolivia",
-                "Argentina"
-            ],
-            "respuesta": 1,
-            "explicacion": "El desierto de Atacama está ubicado principalmente en el norte de Chile y es uno de los desiertos más áridos del mundo.",
-            "pista": "Es famoso por su paisaje lunar y su escasa precipitación anual."
-        },
-        {
-            "pregunta": "¿Cuál es el país más grande del mundo en términos de superficie terrestre?",
-            "opciones": [
-                "Rusia",
-                "Canadá",
-                "China",
-                "Estados Unidos"
-            ],
-            "respuesta": 1,
-            "explicacion": "Rusia es el país más grande del mundo, con una extensión de más de 17 millones de kilómetros cuadrados.",
-            "pista": "Este país se extiende a través de dos continentes: Europa y Asia."
-        },
-        {
-            "pregunta": "¿Qué océano rodea la isla de Madagascar?",
-            "opciones": [
-                "Océano Pacífico",
-                "Océano Ártico",
-                "Océano Índico",
-                "Océano Atlántico"
-            ],
-            "respuesta": 3,
-            "explicacion": "Madagascar está situada en el Océano Índico, al este de África, y es la cuarta isla más grande del mundo.",
-            "pista": "Este océano también bordea países como India y Australia."
-        },
-        {
-            "pregunta": "¿Cuál es la capital de Mongolia?",
-            "opciones": [
-                "Ulan Bator",
-                "Bishkek",
-                "Astana",
-                "Almaty"
-            ],
-            "respuesta": 1,
-            "explicacion": "Ulan Bator (también conocida como Ulaanbaatar) es la capital y ciudad más grande de Mongolia.",
-            "pista": "Es una de las capitales más frías del mundo debido a su ubicación en una región montañosa."
-        },
-        {
-            "pregunta": "¿En qué continente se encuentra el monte Kilimanjaro?",
-            "opciones": [
-                "África",
-                "Oceanía",
-                "Asia",
-                "América"
-            ],
-            "respuesta": 1,
-            "explicacion": "El monte Kilimanjaro es la montaña más alta de África, con una altitud de 5,895 metros sobre el nivel del mar.",
-            "pista": "Está ubicado en Tanzania, cerca de la frontera con Kenia."
-        },
-        {
-            "pregunta": "¿Cuál es el país más pequeño de África?",
-            "opciones": [
-                "Seychelles",
-                "Malawi",
-                "Guinea-Bisáu",
-                "Gambia"
-            ],
-            "respuesta": 1,
-            "explicacion": "Seychelles es un archipiélago de 115 islas en el océano Índico, y es el país más pequeño de África tanto en superficie como en población.",
-            "pista": "Está situado al noreste de Madagascar."
-        },
-        {
-            "pregunta": "¿Cuál es el desierto más grande del mundo?",
-            "opciones": [
-                "Desierto del Sahara",
-                "Desierto de Kalahari",
-                "Desierto de Atacama",
-                "Desierto de Gobi"
-            ],
-            "respuesta": 1,
-            "explicacion": "El desierto del Sahara, en África del Norte, es el más grande del mundo, cubriendo una extensión de aproximadamente 9 millones de kilómetros cuadrados.",
-            "pista": "Este desierto se extiende por varios países, incluyendo Egipto, Argelia y Libia."
-        },
-        {
-            "pregunta": "¿Qué cordillera se encuentra a lo largo de la costa occidental de América del Sur?",
-            "opciones": [
-                "La Cordillera de los Apalaches",
-                "Los Andes",
-                "Los Alpes",
-                "La Cordillera de los Pirineos"
-            ],
-            "respuesta": 2,
-            "explicacion": "Los Andes son la cadena montañosa más larga del mundo, extendiéndose a lo largo de la costa occidental de América del Sur, desde Venezuela hasta Chile.",
-            "pista": "Esta cordillera atraviesa varios países, como Argentina, Bolivia y Perú."
-        },
-        {
-            "pregunta": "¿Cuál es la capital de Bután?",
-            "opciones": [
-                "Dhaka",
-                "Lhasa",
-                "Thimphu",
-                "Kathmandú"
-            ],
-            "respuesta": 3,
-            "explicacion": "Thimphu es la capital y la ciudad más grande de Bután, un pequeño país montañoso en el sur de Asia.",
-            "pista": "Es una de las pocas capitales en el mundo que no tiene semáforos."
-        },
-        {
-            "pregunta": "¿Qué río fluye a través de la ciudad de París?",
-            "opciones": [
-                "Río Ródano",
-                "Río Loira",
-                "Río Rin",
-                "Río Sena"
-            ],
-            "respuesta": 4,
-            "explicacion": "El río Sena fluye a través de París y es el río más importante de Inglaterra.",
-            "pista": "Este río divide la ciudad en dos partes: la orilla derecha y la orilla izquierda."
-        },
-        {
-            "pregunta": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
-            "opciones": [
-                "Suecia",
-                "Canadá",
-                "Filipinas",
-                "Indonesia"
-            ],
-            "respuesta": 1,
-            "explicacion": "Suecia es el país con más islas en el mundo, con un total de alrededor de 267,570 islas, de las cuales solo unas 1000 están habitadas.",
-            "pista": "Este país se encuentra en el norte de Europa, en la región escandinava."
-        },
-        {
-            "pregunta": "¿Cuál es el punto más bajo de la Tierra?",
-            "opciones": [
-                "La Fosa de las Marianas",
-                "El Valle de la Muerte",
-                "La Laguna de Caratasca",
-                "El Mar Muerto"
-            ],
-            "respuesta": 4,
-            "explicacion": "El Mar Muerto, que se encuentra entre Israel y Jordania, es el punto más bajo de la Tierra, a unos 430 metros bajo el nivel del mar.",
-            "pista": "Este cuerpo de agua es conocido por su alta salinidad y la incapacidad de los seres humanos de sumergirse completamente en él."
-        },
-        {
-            "pregunta": "¿En qué continente se encuentra el país de Níger?",
-            "opciones": [
-                "Oceanía",
-                "América",
-                "África",
-                "Asia"
-            ],
-            "respuesta": 3,
-            "explicacion": "Níger es un país sin salida al mar que se encuentra en el oeste de África, limitando con varios países como Argelia, Libia y Nigeria.",
-            "pista": "Es uno de los países más grandes de África."
-        },
-        {
-            "pregunta": "¿En qué océano se encuentra la isla de Fiji?",
-            "opciones": [
-                "Océano Atlántico",
-                "Océano Pacífico",
-                "Océano Ártico",
-                "Océano Índico"
-            ],
-            "respuesta": 2,
-            "explicacion": "Fiji es un país insular en el océano Pacífico sur, compuesto por más de 300 islas.",
-            "pista": "Es conocido por su belleza natural, playas y aguas cristalinas."
-        },
-        {
-            "pregunta": "¿Cuál es la montaña más alta de África?",
-            "opciones": [
-                "Monte Atlas",
-                "Monte Kilimanjaro",
-                "Monte Rwenzori",
-                "Monte Kenia"
-            ],
-            "respuesta": 2,
-            "explicacion": "El monte Kilimanjaro, en Tanzania, es la montaña más alta de África, con una altitud de 5,895 metros sobre el nivel del mar.",
-            "pista": "Es un volcán que ha estado inactivo durante más de 360,000 años."
-        },
-        {
-            "pregunta": "¿Qué río atraviesa la ciudad de Londres?",
-            "opciones": [
-                "Río Loira",
-                "Río Rin",
-                "Río Duero",
-                "Río Támesis"
-            ],
-            "respuesta": 4,
-            "explicacion": "El río Támesis atraviesa Londres y es el río más importante de Inglaterra.",
-            "pista": "Este río es conocido por ser la vía fluvial histórica que ha conectado Londres con otras partes de Inglaterra."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra la ciudad de Petra, una antigua ciudad conocida por sus edificaciones talladas en roca?",
-            "opciones": [
-                "Irak",
-                "Israel",
-                "Jordania",
-                "Egipto"
-            ],
-            "respuesta": 3,
-            "explicacion": "Petra es una antigua ciudad en Jordania, famosa por sus estructuras de piedra tallada y su sistema de canales de agua.",
-            "pista": "Es una de las nuevas siete maravillas del mundo."
-        },
-        {
-            "pregunta": "¿Qué país tiene la mayor cantidad de volcanes activos?",
-            "opciones": [
-                "Japón",
-                "México",
-                "Indonesia",
-                "Italia"
-            ],
-            "respuesta": 3,
-            "explicacion": "Indonesia es el país con la mayor cantidad de volcanes activos en el mundo, debido a su ubicación en el Anillo de Fuego del Pacífico.",
-            "pista": "Es un archipiélago formado por más de 17,000 islas."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra el lago Titicaca?",
-            "opciones": [
-                "Chile",
-                "Ecuador",
-                "Perú",
-                "Bolivia"
-            ],
-            "respuesta": 3,
-            "explicacion": "El lago Titicaca, situado en la frontera entre Perú y Bolivia, es el lago navegable más alto del mundo.",
-            "pista": "Este lago tiene una altitud de más de 3,800 metros sobre el nivel del mar."
-        }
-    ],
-    "Programación": [
-        {
-            "pregunta": "¿Cuál es la salida de este código? \n`print(len({'a': 1, 'b': 2}))`",
-            "opciones": [
-                "2",
-                "3",
-                "1",
-                "Error de sintaxis"
-            ],
-            "respuesta": 1,
-            "explicacion": "El diccionario tiene dos elementos ('a' y 'b'), por lo que la función `len()` devuelve 2.",
-            "pista": "La función `len()` devuelve el número de elementos de un diccionario."
-        },
-        {
-            "pregunta": "¿Qué método se utiliza para agregar un nuevo ítem a un diccionario en Python?",
-            "opciones": [
-                "append()",
-                "add()",
-                "insert()",
-                "update()"
-            ],
-            "respuesta": 4,
-            "explicacion": "El método `update()` agrega o modifica un ítem en un diccionario. Si la clave ya existe, su valor se actualiza.",
-            "pista": "Es comúnmente utilizado para agregar múltiples elementos o modificar los existentes."
-        },
-        {
-            "pregunta": "¿Cuál de las siguientes afirmaciones es correcta acerca de los diccionarios en Python?",
-            "opciones": [
-                "Los diccionarios pueden tener claves duplicadas.",
-                "Los diccionarios no permiten valores nulos.",
-                "El orden de los elementos en un diccionario se conserva desde Python 3.5.",
-                "Las claves en un diccionario deben ser inmutables."
-            ],
-            "respuesta": 4,
-            "explicacion": "Las claves de un diccionario deben ser de tipos inmutables, como cadenas, tuplas o números. Los valores pueden ser de cualquier tipo.",
-            "pista": "Las claves pueden ser tipos como números, cadenas o tuplas."
-        },
-        {
-            "pregunta": "¿Qué es el *self* en una clase de Python?",
-            "opciones": [
-                "Es una palabra clave que se utiliza para crear una clase.",
-                "Es una referencia a la instancia actual de la clase.",
-                "Es un operador de Python que representa el objeto en memoria.",
-                "Es el nombre de la clase que se va a crear."
-            ],
-            "respuesta": 2,
-            "explicacion": "El parámetro `self` en los métodos de una clase es una referencia a la instancia actual del objeto. Se usa para acceder a los atributos y métodos de esa instancia.",
-            "pista": "El uso de `self` permite a los métodos de una clase manipular los atributos del objeto."
-        },
-        {
-            "pregunta": "¿Cuál es el propósito de la función `__init__()` en una clase de Python?",
-            "opciones": [
-                "Inicializar los métodos de la clase",
-                "Inicializar la instancia de la clase",
-                "Crear una nueva clase",
-                "Imprimir los valores de la clase"
-            ],
-            "respuesta": 2,
-            "explicacion": "`__init__()` es un método especial que se llama automáticamente cuando se crea una nueva instancia de la clase. Es utilizado para inicializar los atributos de la clase.",
-            "pista": "Este método se utiliza para asignar valores iniciales a los atributos del objeto."
-        },
-        {
-            "pregunta": "¿Cómo se llama el método que se ejecuta al eliminar una instancia de una clase en Python?",
-            "opciones": [
-                "__delete__",
-                "__del__",
-                "__exit__",
-                "__remove__"
-            ],
-            "respuesta": 2,
-            "explicacion": "`__del__()` es un método especial que se invoca cuando una instancia es destruida, normalmente cuando el objeto es eliminado o el programa termina.",
-            "pista": "Este método se puede usar para liberar recursos antes de la destrucción del objeto."
-        },
-        {
-            "pregunta": "¿Cómo accederías al valor asociado a la clave 'x' en un diccionario `d = {'x': 10, 'y': 20}`?",
-            "opciones": [
-                "d.x",
-                "d['x']",
-                "d.get(x)",
-                "d['10']"
-            ],
-            "respuesta": 2,
-            "explicacion": "El acceso a un valor en un diccionario se hace utilizando la sintaxis `d['clave']`.",
-            "pista": "Asegúrate de usar comillas para las claves de tipo cadena."
-        },
-        {
-            "pregunta": "¿Qué método de lista se usa para ordenar los elementos de una lista en Python?",
-            "opciones": [
-                "sort()",
-                "order()",
-                "sorted()",
-                "arrange()"
-            ],
-            "respuesta": 1,
-            "explicacion": "El método `sort()` ordena los elementos de la lista en su lugar, es decir, modifica la lista original.",
-            "pista": "También existe `sorted()` que devuelve una nueva lista ordenada sin modificar la original."
-        },
-        {
-            "pregunta": "¿Cómo se define una clase en Python?",
-            "opciones": [
-                "class MiClase():",
-                "class MiClase[]:",
-                "MiClase = class:",
-                "class MiClase {}"
-            ],
-            "respuesta": 1,
-            "explicacion": "Para definir una clase en Python, se usa la palabra clave `class` seguida del nombre de la clase y dos puntos.",
-            "pista": "Las clases en Python se definen con la palabra clave `class`."
-        },
-        {
-            "pregunta": "¿Cómo se llama el método especial que permite representar un objeto de una clase como una cadena de texto en Python?",
-            "opciones": [
-                "__str__()",
-                "__repr__()",
-                "__print__()",
-                "__to_string__()"
-            ],
-            "respuesta": 1,
-            "explicacion": "`__str__()` es el método especial que devuelve una representación en forma de cadena de un objeto. Es utilizado por `print()` y `str()`.",
-            "pista": "Este método es útil cuando se quiere personalizar cómo se muestra un objeto."
-        },
-        {
-            "pregunta": "¿Qué hace el siguiente código? \n`a = [1, 2, 3, 4]\nprint(a[::2])`",
-            "opciones": [
-                "Imprime [1, 2, 3, 4]",
-                "Imprime [1, 3]",
-                "Imprime [2, 4]",
-                "Imprime un error de índice"
-            ],
-            "respuesta": 2,
-            "explicacion": "El operador `::2` hace un *slicing* de la lista, comenzando desde el primer elemento y tomando cada segundo elemento.",
-            "pista": "El operador `::` se usa para cortar listas en pasos específicos."
-        },
-        {
-            "pregunta": "¿Cómo se puede añadir un elemento a un conjunto en Python?",
-            "opciones": [
-                "add()",
-                "insert()",
-                "append()",
-                "push()"
-            ],
-            "respuesta": 1,
-            "explicacion": "El método `add()` se utiliza para añadir un elemento a un conjunto en Python.",
-            "pista": "Los conjuntos en Python son colecciones desordenadas de elementos únicos."
-        },
-        {
-            "pregunta": "¿Cómo crearías un diccionario vacío en Python?",
-            "opciones": [
-                "d = {}",
-                "d = []",
-                "d = set()",
-                "d = ()"
-            ],
-            "respuesta": 1,
-            "explicacion": "El diccionario vacío se crea utilizando las llaves `{}` en Python.",
-            "pista": "Los diccionarios son colecciones no ordenadas de pares clave-valor."
-        },
-        {
-            "pregunta": "¿Cuál es el resultado de la operación `3 ** 2` en Python?",
-            "opciones": [
-                "6",
-                "9",
-                "5",
-                "8"
-            ],
-            "respuesta": 2,
-            "explicacion": "El operador `**` en Python se utiliza para realizar potencias. `3 ** 2` es igual a 3 elevado a la 2, que da 9.",
-            "pista": "Este operador se usa para calcular la exponenciación."
-        },
-        {
-            "pregunta": "¿Qué devuelve el método `pop()` en un diccionario de Python?",
-            "opciones": [
-                "El valor de la clave eliminada",
-                "True si se eliminó correctamente",
-                "None",
-                "El valor de la clave sin eliminarla"
-            ],
-            "respuesta": 1,
-            "explicacion": "`pop()` elimina la clave especificada y devuelve el valor correspondiente a esa clave.",
-            "pista": "Si no se encuentra la clave, se puede proporcionar un valor predeterminado."
-        },
-        {
-            "pregunta": "¿Cuál es la forma correcta de manejar una excepción en Python?",
-            "opciones": [
-                "try{} except{}",
-                "try: except:",
-                "begin: rescue:",
-                "try: catch:"
-            ],
-            "respuesta": 2,
-            "explicacion": "En Python, se usa `try` para ejecutar código y `except` para manejar excepciones si ocurren.",
-            "pista": "Es importante utilizar `except` para manejar errores de forma controlada."
-        },
-        {
-            "pregunta": "¿Cómo puedes verificar si una clave existe en un diccionario?",
-            "opciones": [
-                "if key in dict",
-                "if dict.contains(key)",
-                "if dict.get(key)",
-                "if dict[key]"
-            ],
-            "respuesta": 1,
-            "explicacion": "La forma correcta de verificar si una clave está presente en un diccionario es usando el operador `in`.",
-            "pista": "El operador `in` devuelve `True` si la clave existe en el diccionario."
-        },
-        {
-            "pregunta": "¿Cuál es el resultado de ejecutar el siguiente código en Python? \n`a = [1, 2, 3]\nb = a\nb[0] = 10\nprint(a)`",
-            "opciones": [
-                "[10, 2, 3]",
-                "[1, 2, 3]",
-                "[10, 2, 3, 10]",
-                "[10, 10, 10]"
-            ],
-            "respuesta": 1,
-            "explicacion": "Cuando se asigna `b = a`, `b` y `a` se refieren al mismo objeto en memoria. Modificar `b` también modifica `a`.",
-            "pista": "En Python, las listas son mutables y pasan por referencia."
-        },
-        {
-            "pregunta": "¿Cómo se puede asegurar que un bloque de código en Python se ejecute independientemente de si ocurre una excepción o no?",
-            "opciones": [
-                "finally",
-                "except",
-                "else",
-                "end"
-            ],
-            "respuesta": 1,
-            "explicacion": "El bloque `finally` se ejecuta siempre, independientemente de si se lanza o no una excepción dentro del bloque `try`.",
-            "pista": "Este bloque es útil para realizar limpieza de recursos, como cerrar archivos o conexiones."
-        }
-    ],
+    "General": [
+  {
+    "question": "¿Cuál es el único país del mundo que tiene una constitución no escrita?",
+    "options": ["Australia", "Canadá", "Reino Unido", "Nueva Zelanda"],
+    "answer": 3,
+    "explanation": "El Reino Unido no tiene una constitución codificada en un único documento, sino que se basa en leyes, convenciones y precedentes históricos.",
+    "hint": "Es una monarquía parlamentaria en Europa occidental."
+  },
+  {
+    "question": "¿Cómo se llama el fenómeno óptico que hace que los objetos sumergidos en agua parezcan más cerca de lo que están?",
+    "options": ["Difracción", "Reflexión total interna", "Refracción", "Dispersión"],
+    "answer": 3,
+    "explanation": "La refracción es el cambio de dirección de la luz al pasar de un medio a otro, lo que hace que los objetos en el agua parezcan desplazados.",
+    "hint": "También explica por qué una pajita parece doblada en un vaso de agua."
+  },
+  {
+    "question": "¿Qué escritor fue el autor de 'El proceso' y 'La metamorfosis'?",
+    "options": ["Albert Camus", "Franz Kafka", "Thomas Mann", "Hermann Hesse"],
+    "answer": 2,
+    "explanation": "Franz Kafka, escritor checo de habla alemana, escribió estas dos obras fundamentales de la literatura del siglo XX.",
+    "hint": "Su apellido dio origen al adjetivo 'kafkiano'."
+  },
+  {
+    "question": "¿Cuántos elementos tiene la tabla periódica actualmente?",
+    "options": ["108", "112", "118", "124"],
+    "answer": 3,
+    "explanation": "La tabla periódica actual contiene 118 elementos confirmados, siendo el último el oganesón (Og), añadido en 2016.",
+    "hint": "El último elemento fue confirmado en 2016."
+  },
+  {
+    "question": "¿Qué filósofo escribió 'La República'?",
+    "options": ["Aristóteles", "Sócrates", "Platón", "Epicuro"],
+    "answer": 3,
+    "explanation": "Platón escribió 'La República', una obra fundamental de la filosofía occidental donde expone su teoría del Estado ideal.",
+    "hint": "Era discípulo de Sócrates y maestro de Aristóteles."
+  },
+  {
+    "question": "¿Qué neurotransmisor está principalmente asociado con la sensación de recompensa y placer?",
+    "options": ["Serotonina", "Dopamina", "Adrenalina", "Acetilcolina"],
+    "answer": 2,
+    "explanation": "La dopamina es el neurotransmisor clave del sistema de recompensa cerebral, relacionado con la motivación, el placer y el aprendizaje.",
+    "hint": "Su desregulación está asociada con adicciones y la enfermedad de Parkinson."
+  },
+  {
+    "question": "¿En qué año se publicó 'El origen de las especies' de Darwin?",
+    "options": ["1842", "1851", "1859", "1871"],
+    "answer": 3,
+    "explanation": "Charles Darwin publicó 'El origen de las especies' en 1859, sentando las bases de la teoría de la evolución por selección natural.",
+    "hint": "Se publicó en el mismo año que se construyó el Canal de Suez."
+  },
+  {
+    "question": "¿Cuál es el nombre del proceso por el cual una célula se divide en dos células idénticas?",
+    "options": ["Meiosis", "Apoptosis", "Mitosis", "Citocinesis"],
+    "answer": 3,
+    "explanation": "La mitosis es el proceso de división celular que produce dos células hijas con el mismo número de cromosomas que la célula madre.",
+    "hint": "A diferencia de la meiosis, no produce gametos."
+  },
+  {
+    "question": "¿Qué país tiene el mayor número de lagos naturales del mundo?",
+    "options": ["Rusia", "Canadá", "Finlandia", "Brasil"],
+    "answer": 2,
+    "explanation": "Canadá alberga aproximadamente el 60% de los lagos naturales del mundo, con más de 2 millones de lagos en su territorio.",
+    "hint": "Es el segundo país más grande del mundo."
+  },
+  {
+    "question": "¿Cómo se denomina la distancia entre la Tierra y el Sol usada como unidad de medida astronómica?",
+    "options": ["Año luz", "Pársec", "Unidad Astronómica", "Megapársec"],
+    "answer": 3,
+    "explanation": "La Unidad Astronómica (UA) equivale aproximadamente a 150 millones de kilómetros, la distancia media entre la Tierra y el Sol.",
+    "hint": "Se abrevia UA o AU en inglés."
+  },
+  {
+    "question": "¿Qué teorema matemático afirma que todo número entero mayor que 1 puede expresarse como producto de números primos?",
+    "options": ["Teorema de Pitágoras", "Teorema de Fermat", "Teorema fundamental de la aritmética", "Teorema de Euclides"],
+    "answer": 3,
+    "explanation": "El Teorema Fundamental de la Aritmética establece que todo entero mayor que 1 se puede factorizar de forma única en números primos.",
+    "hint": "También se conoce como teorema de factorización única."
+  },
+  {
+    "question": "¿Qué glándula del cuerpo humano produce la insulina?",
+    "options": ["Tiroides", "Hipófisis", "Páncreas", "Suprarrenal"],
+    "answer": 3,
+    "explanation": "El páncreas produce insulina en las células beta de los islotes de Langerhans, hormona esencial para regular el azúcar en sangre.",
+    "hint": "También produce glucagón, la hormona opuesta a la insulina."
+  },
+  {
+    "question": "¿Cuál es la capital de Mongolia?",
+    "options": ["Almaty", "Ulán Bator", "Bishkek", "Dusambé"],
+    "answer": 2,
+    "explanation": "Ulán Bator (Ulaanbaatar) es la capital y ciudad más grande de Mongolia, hogar de casi la mitad de la población del país.",
+    "hint": "Es la capital nacional más fría del mundo."
+  },
+  {
+    "question": "¿Qué pintor español es autor de 'Las Meninas'?",
+    "options": ["Francisco de Goya", "El Greco", "Diego Velázquez", "Bartolomé Murillo"],
+    "answer": 3,
+    "explanation": "'Las Meninas' fue pintada por Diego Velázquez en 1656 y es considerada una de las obras más importantes de la historia del arte occidental.",
+    "hint": "Fue el pintor de cámara del rey Felipe IV."
+  },
+  {
+    "question": "¿Qué partícula subatómica tiene carga positiva?",
+    "options": ["Electrón", "Neutrón", "Positrón", "Protón"],
+    "answer": 4,
+    "explanation": "El protón tiene carga eléctrica positiva y se encuentra en el núcleo del átomo junto a los neutrones.",
+    "hint": "Se encuentra en el núcleo, junto a las partículas sin carga."
+  },
+  {
+    "question": "¿Cuál es el nombre del efecto por el que el universo se expande aceleradamente?",
+    "options": ["Materia oscura", "Energía oscura", "Efecto Doppler", "Radiación de fondo"],
+    "answer": 2,
+    "explanation": "La energía oscura es la fuerza hipotética que se cree responsable de la expansión acelerada del universo, representando el 68% de su contenido total.",
+    "hint": "Se opone conceptualmente a la gravedad a escalas cósmicas."
+  },
+  {
+    "question": "¿En qué idioma escribió originalmente Cervantes 'Don Quijote'?",
+    "options": ["Castellano antiguo", "Latín", "Catalán medieval", "Aragonés"],
+    "answer": 1,
+    "explanation": "Cervantes escribió 'Don Quijote' en castellano del siglo XVII, una versión antigua del español moderno.",
+    "hint": "Es el mismo idioma que hablamos hoy, aunque con vocabulario arcaico."
+  },
+  {
+    "question": "¿Qué tipo de onda es la luz visible?",
+    "options": ["Onda mecánica", "Onda longitudinal", "Onda electromagnética", "Onda sonora"],
+    "answer": 3,
+    "explanation": "La luz visible es una onda electromagnética, parte del espectro electromagnético con longitudes de onda entre 380 y 700 nanómetros.",
+    "hint": "No necesita un medio material para propagarse, puede viajar en el vacío."
+  },
+  {
+    "question": "¿Cuántos cromosomas tiene una célula humana normal?",
+    "options": ["23", "44", "46", "48"],
+    "answer": 3,
+    "explanation": "Las células humanas normales tienen 46 cromosomas organizados en 23 pares. Los gametos tienen 23 (uno de cada par).",
+    "hint": "Se organizan en pares, y los humanos tienen 23 pares."
+  },
+  {
+    "question": "¿Qué economista escribió 'La riqueza de las naciones'?",
+    "options": ["John Maynard Keynes", "Karl Marx", "Adam Smith", "David Ricardo"],
+    "answer": 3,
+    "explanation": "'La riqueza de las naciones' (1776) fue escrita por Adam Smith y es considerada la obra fundacional de la economía moderna.",
+    "hint": "Es considerado el padre del capitalismo liberal."
+  },
+  {
+    "question": "¿Qué estructura cerebral regula el sueño y el hambre?",
+    "options": ["Cerebelo", "Hipotálamo", "Amígdala", "Córtex prefrontal"],
+    "answer": 2,
+    "explanation": "El hipotálamo regula funciones vitales como el sueño, el hambre, la temperatura corporal y el equilibrio hormonal.",
+    "hint": "Es una pequeña región en la base del cerebro."
+  },
+  {
+    "question": "¿Qué elemento químico tiene el número atómico 1?",
+    "options": ["Helio", "Hidrógeno", "Litio", "Oxígeno"],
+    "answer": 2,
+    "explanation": "El hidrógeno, con número atómico 1, es el elemento más simple y abundante del universo, compuesto por un protón y un electrón.",
+    "hint": "Es el combustible de las estrellas mediante fusión nuclear."
+  },
+  {
+    "question": "¿Cómo se llama la teoría que describe el origen del universo?",
+    "options": ["Teoría de cuerdas", "Teoría del Big Bang", "Teoría del estado estacionario", "Relatividad general"],
+    "answer": 2,
+    "explanation": "La Teoría del Big Bang describe el origen del universo como una gran expansión desde un estado de densidad y temperatura extremas hace unos 13.800 millones de años.",
+    "hint": "Fue propuesta inicialmente por Georges Lemaître en 1927."
+  },
+  {
+    "question": "¿Qué tipo de enlace químico se forma cuando dos átomos comparten electrones?",
+    "options": ["Enlace iónico", "Enlace metálico", "Enlace covalente", "Enlace de hidrógeno"],
+    "answer": 3,
+    "explanation": "El enlace covalente se forma cuando dos átomos comparten uno o más pares de electrones, típico entre no metales.",
+    "hint": "El agua (H2O) tiene este tipo de enlace entre H y O."
+  },
+  {
+    "question": "¿Cuál es la segunda lengua más hablada del mundo por número de hablantes nativos?",
+    "options": ["Inglés", "Español", "Hindi", "Árabe"],
+    "answer": 2,
+    "explanation": "El español es la segunda lengua del mundo por número de hablantes nativos, con más de 480 millones, solo por detrás del mandarín.",
+    "hint": "Es la lengua oficial de más de 20 países."
+  },
+  {
+    "question": "¿Qué músico compuso las 'Cuatro Estaciones'?",
+    "options": ["Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Antonio Vivaldi", "Ludwig van Beethoven"],
+    "answer": 3,
+    "explanation": "Antonio Vivaldi compuso 'Las Cuatro Estaciones' alrededor de 1723, una serie de cuatro conciertos para violín que representan las estaciones del año.",
+    "hint": "Era un compositor y violinista veneciano del Barroco."
+  },
+  {
+    "question": "¿Cuál es el proceso mediante el cual las plantas pierden agua en forma de vapor por sus hojas?",
+    "options": ["Ósmosis", "Transpiración", "Evaporación", "Gutación"],
+    "answer": 2,
+    "explanation": "La transpiración es el proceso por el cual las plantas liberan vapor de agua principalmente a través de los estomas de sus hojas.",
+    "hint": "Es responsable de gran parte del ciclo del agua en ecosistemas forestales."
+  },
+  {
+    "question": "¿Qué científica ganó dos Premios Nobel en diferentes disciplinas científicas?",
+    "options": ["Rosalind Franklin", "Lise Meitner", "Marie Curie", "Barbara McClintock"],
+    "answer": 3,
+    "explanation": "Marie Curie ganó el Premio Nobel de Física en 1903 y el de Química en 1911, siendo la única persona en recibirlo en dos disciplinas científicas distintas.",
+    "hint": "Descubrió el polonio y el radio."
+  },
+  {
+    "question": "¿Qué ley física establece que la energía no se crea ni se destruye, solo se transforma?",
+    "options": ["Ley de gravitación universal", "Primera ley de la termodinámica", "Ley de Coulomb", "Principio de Arquímedes"],
+    "answer": 2,
+    "explanation": "La Primera Ley de la Termodinámica, también llamada principio de conservación de la energía, establece que la energía total de un sistema aislado permanece constante.",
+    "hint": "También se conoce como principio de conservación de la energía."
+  },
+  {
+    "question": "¿Cuántos husos horarios tiene Rusia?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 3,
+    "explanation": "Rusia abarca 11 husos horarios, lo que la convierte en el país con mayor número de zonas horarias del mundo.",
+    "hint": "Es el país más grande del mundo en superficie."
+  }
+],
+    "Ciencia": [
+  {
+    "question": "¿Cuál es el nombre del principio que establece que no es posible conocer simultáneamente la posición y el momento de una partícula con precisión infinita?",
+    "options": ["Principio de exclusión de Pauli", "Principio de incertidumbre de Heisenberg", "Principio de superposición cuántica", "Principio de complementariedad de Bohr"],
+    "answer": 2,
+    "explanation": "El principio de incertidumbre de Heisenberg establece que cuanto más precisamente se conoce la posición de una partícula, menos precisamente se puede conocer su momento, y viceversa.",
+    "hint": "Fue formulado por un físico alemán en 1927."
+  },
+  {
+    "question": "¿Qué tipo de radiación tiene mayor energía?",
+    "options": ["Rayos gamma", "Rayos X", "Ultravioleta", "Rayos infrarrojos"],
+    "answer": 1,
+    "explanation": "Los rayos gamma tienen la mayor energía del espectro electromagnético, emitidos generalmente en procesos nucleares y por ciertos tipos de radioactividad.",
+    "hint": "Son emitidos durante la desintegración radiactiva de núcleos atómicos."
+  },
+  {
+    "question": "¿Qué estructura del ADN fue descrita por Watson y Crick en 1953?",
+    "options": ["Hélice simple", "Doble hélice", "Triple hélice", "Estructura globular"],
+    "answer": 2,
+    "explanation": "Watson y Crick describieron en 1953 la estructura de doble hélice del ADN, basándose en parte en la fotografía 51 de Rosalind Franklin.",
+    "hint": "Tiene forma de escalera retorcida."
+  },
+  {
+    "question": "¿Cuántos litros de sangre bombea el corazón humano aproximadamente cada minuto en reposo?",
+    "options": ["3 litros", "5 litros", "7 litros", "10 litros"],
+    "answer": 2,
+    "explanation": "En reposo, el corazón humano bombea aproximadamente 5 litros de sangre por minuto, lo que equivale a toda la sangre del cuerpo circulando una vez por minuto.",
+    "hint": "Es aproximadamente el volumen total de sangre del cuerpo humano."
+  },
+  {
+    "question": "¿Qué partícula fue predicha teóricamente por Paul Dirac antes de ser descubierta experimentalmente?",
+    "options": ["Neutrino", "Muón", "Positrón", "Quark"],
+    "answer": 3,
+    "explanation": "Paul Dirac predijo teóricamente la existencia del positrón (antipartícula del electrón) en 1928, y fue descubierto experimentalmente por Carl Anderson en 1932.",
+    "hint": "Es la antipartícula del electrón."
+  },
+  {
+    "question": "¿Cuál es la unidad básica de información hereditaria?",
+    "options": ["Cromosoma", "Nucleótido", "Gen", "Ribosoma"],
+    "answer": 3,
+    "explanation": "El gen es la unidad básica de herencia, una secuencia de ADN que codifica una proteína o ARN funcional y se transmite de padres a hijos.",
+    "hint": "Está compuesto por secuencias de ADN y se encuentra en los cromosomas."
+  },
+  {
+    "question": "¿Qué ley describe la relación entre presión, volumen y temperatura de un gas ideal?",
+    "options": ["Ley de Ohm", "Ley de los gases ideales", "Ley de Faraday", "Ley de Boyle exclusivamente"],
+    "answer": 2,
+    "explanation": "La ley de los gases ideales (PV = nRT) combina las leyes de Boyle, Charles y Gay-Lussac para describir el comportamiento de un gas ideal.",
+    "hint": "Se expresa como PV = nRT."
+  },
+  {
+    "question": "¿Qué proceso convierte el nitrógeno atmosférico en formas utilizables por las plantas?",
+    "options": ["Fotosíntesis", "Denitrificación", "Fijación del nitrógeno", "Nitrificación"],
+    "answer": 3,
+    "explanation": "La fijación del nitrógeno es el proceso por el cual bacterias como Rhizobium convierten el N2 atmosférico en amoniaco o nitratos que las plantas pueden absorber.",
+    "hint": "Lo realizan ciertas bacterias del suelo, algunas en simbiosis con leguminosas."
+  },
+  {
+    "question": "¿Cuál es el nombre del punto de temperatura bajo el cual un material se vuelve superconductor?",
+    "options": ["Punto de Curie", "Temperatura crítica", "Punto triple", "Temperatura de Debye"],
+    "answer": 2,
+    "explanation": "La temperatura crítica es la temperatura por debajo de la cual un material superconductor pierde toda resistencia eléctrica.",
+    "hint": "Por debajo de este punto, la resistencia eléctrica del material cae a cero."
+  },
+  {
+    "question": "¿Qué organelo celular es responsable de la síntesis de proteínas?",
+    "options": ["Mitocondria", "Aparato de Golgi", "Ribosoma", "Lisosoma"],
+    "answer": 3,
+    "explanation": "Los ribosomas son los organelos donde se produce la síntesis de proteínas mediante el proceso de traducción del ARN mensajero.",
+    "hint": "Pueden estar libres en el citoplasma o unidos al retículo endoplasmático rugoso."
+  },
+  {
+    "question": "¿Qué fenómeno explica el corrimiento al rojo de la luz de las galaxias lejanas?",
+    "options": ["Efecto fotoeléctrico", "Dispersión de Rayleigh", "Efecto Doppler", "Aberración cromática"],
+    "answer": 3,
+    "explanation": "El efecto Doppler cósmico explica el corrimiento al rojo: las galaxias se alejan de nosotros, estirando las longitudes de onda de su luz hacia el rojo.",
+    "hint": "El mismo efecto que cambia el tono del sonido de una ambulancia al alejarse."
+  },
+  {
+    "question": "¿Cuántos pares de bases nitrogenadas contiene aproximadamente el genoma humano?",
+    "options": ["3 millones", "30 millones", "3.000 millones", "30.000 millones"],
+    "answer": 3,
+    "explanation": "El genoma humano contiene aproximadamente 3.000 millones de pares de bases nitrogenadas distribuidas en 23 pares de cromosomas.",
+    "hint": "El proyecto Genoma Humano tardó 13 años en secuenciarlo."
+  },
+  {
+    "question": "¿Cuál es el nombre del fenómeno por el que un electrón emite un fotón al caer a un nivel energético inferior?",
+    "options": ["Efecto Compton", "Emisión estimulada", "Emisión espontánea", "Fluorescencia"],
+    "answer": 3,
+    "explanation": "La emisión espontánea ocurre cuando un electrón en un estado excitado cae espontáneamente a un nivel de menor energía, liberando un fotón.",
+    "hint": "Es el principio detrás de la luz emitida por los átomos excitados."
+  },
+  {
+    "question": "¿Qué tipo de simbiosis se da cuando ambos organismos se benefician mutuamente?",
+    "options": ["Parasitismo", "Comensalismo", "Mutualismo", "Amensalismo"],
+    "answer": 3,
+    "explanation": "El mutualismo es la relación simbiótica donde ambos organismos obtienen beneficio, como la relación entre las abejas y las flores.",
+    "hint": "Las abejas y las flores son el ejemplo clásico."
+  },
+  {
+    "question": "¿Cuál es la capa de la atmósfera donde se producen los fenómenos meteorológicos?",
+    "options": ["Estratosfera", "Mesosfera", "Tropósfera", "Termosfera"],
+    "answer": 3,
+    "explanation": "La tropósfera es la capa más baja de la atmósfera, donde ocurren casi todos los fenómenos meteorológicos como lluvia, viento y tormentas.",
+    "hint": "Es la capa en la que vivimos y respiramos."
+  },
+  {
+    "question": "¿Qué fuerza mantiene unido el núcleo atómico pese a la repulsión entre protones?",
+    "options": ["Fuerza gravitatoria", "Fuerza electromagnética", "Fuerza nuclear débil", "Fuerza nuclear fuerte"],
+    "answer": 4,
+    "explanation": "La fuerza nuclear fuerte es la más intensa de las cuatro fuerzas fundamentales y mantiene unidos los quarks en los protones y neutrones, y estos en el núcleo.",
+    "hint": "Es la más intensa de las cuatro fuerzas fundamentales."
+  },
+  {
+    "question": "¿Cómo se llama el proceso por el que una célula engloba partículas sólidas del exterior?",
+    "options": ["Pinocitosis", "Exocitosis", "Fagocitosis", "Ósmosis"],
+    "answer": 3,
+    "explanation": "La fagocitosis es el proceso mediante el cual ciertas células, como los macrófagos, engloban partículas sólidas como bacterias para destruirlas.",
+    "hint": "Los glóbulos blancos la usan para destruir bacterias."
+  },
+  {
+    "question": "¿Qué científico formuló las tres leyes del movimiento planetario?",
+    "options": ["Galileo Galilei", "Tycho Brahe", "Johannes Kepler", "Nicolás Copérnico"],
+    "answer": 3,
+    "explanation": "Johannes Kepler formuló las tres leyes del movimiento planetario entre 1609 y 1619, describiendo las órbitas elípticas de los planetas alrededor del Sol.",
+    "hint": "Trabajó con los datos astronómicos de Tycho Brahe."
+  },
+  {
+    "question": "¿Qué proteína transporta el oxígeno en la sangre?",
+    "options": ["Albúmina", "Hemoglobina", "Mioglobina", "Fibrinógeno"],
+    "answer": 2,
+    "explanation": "La hemoglobina es la proteína presente en los glóbulos rojos que se une al oxígeno en los pulmones y lo transporta a todos los tejidos del cuerpo.",
+    "hint": "Contiene hierro, que le da el color rojo a la sangre."
+  },
+  {
+    "question": "¿Cuál es el nombre del proceso por el que los organismos muertos son descompuestos en materia inorgánica?",
+    "options": ["Fermentación", "Mineralización", "Putrefacción", "Descomposición"],
+    "answer": 2,
+    "explanation": "La mineralización es el proceso por el que la materia orgánica muerta es transformada por microorganismos en compuestos inorgánicos que vuelven al suelo.",
+    "hint": "Es el proceso final del ciclo de los nutrientes en los ecosistemas."
+  },
+  {
+    "question": "¿Qué es la bioluminiscencia?",
+    "options": ["Luz reflejada por organismos", "Producción de luz por organismos vivos mediante reacciones químicas", "Absorción de luz solar por plantas", "Emisión de calor por animales"],
+    "answer": 2,
+    "explanation": "La bioluminiscencia es la capacidad de ciertos organismos vivos, como las luciérnagas o algunos peces de aguas profundas, de producir y emitir luz mediante reacciones químicas.",
+    "hint": "Las luciérnagas y ciertos hongos son ejemplos terrestres."
+  },
+  {
+    "question": "¿Qué constante física relaciona la energía de un fotón con su frecuencia?",
+    "options": ["Constante de Boltzmann", "Constante de Planck", "Constante de Avogadro", "Constante gravitatoria"],
+    "answer": 2,
+    "explanation": "La constante de Planck (h) aparece en la ecuación E = hf, que relaciona la energía de un fotón con su frecuencia, siendo fundamental en la mecánica cuántica.",
+    "hint": "Aparece en la ecuación E = hf."
+  },
+  {
+    "question": "¿Cuántos tipos de nucleótidos forman el ADN?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 3,
+    "explanation": "El ADN está formado por cuatro tipos de nucleótidos, definidos por sus bases nitrogenadas: adenina (A), timina (T), guanina (G) y citosina (C).",
+    "hint": "Se representan con las letras A, T, G y C."
+  },
+  {
+    "question": "¿Qué modelo atómico introdujo los niveles de energía cuantizados para los electrones?",
+    "options": ["Modelo de Thomson", "Modelo de Rutherford", "Modelo de Bohr", "Modelo cuántico de Schrödinger"],
+    "answer": 3,
+    "explanation": "El modelo de Bohr (1913) introdujo la idea de que los electrones orbitan el núcleo en niveles de energía discretos o cuantizados.",
+    "hint": "Fue propuesto en 1913 por un físico danés."
+  },
+  {
+    "question": "¿Qué fenómeno describe la tendencia de los sistemas a evolucionar hacia el desorden?",
+    "options": ["Entalpía", "Energía libre de Gibbs", "Entropía", "Entalpia de formación"],
+    "answer": 3,
+    "explanation": "La entropía es la medida del desorden de un sistema. La segunda ley de la termodinámica establece que la entropía total de un sistema aislado tiende a aumentar.",
+    "hint": "Está relacionada con la segunda ley de la termodinámica."
+  },
+  {
+    "question": "¿Qué órgano produce la bilis necesaria para la digestión de las grasas?",
+    "options": ["Páncreas", "Estómago", "Hígado", "Intestino delgado"],
+    "answer": 3,
+    "explanation": "El hígado produce la bilis, que se almacena en la vesícula biliar y se libera al intestino delgado para emulsionar y facilitar la digestión de las grasas.",
+    "hint": "Es el órgano interno más grande del cuerpo humano."
+  },
+  {
+    "question": "¿Cuál es el nombre del proceso por el que el ARN mensajero es leído para producir proteínas?",
+    "options": ["Replicación", "Transcripción", "Traducción", "Transducción"],
+    "answer": 3,
+    "explanation": "La traducción es el proceso por el que los ribosomas leen la secuencia del ARN mensajero y sintetizan la cadena de aminoácidos correspondiente.",
+    "hint": "Ocurre en los ribosomas y es el segundo paso de la expresión génica."
+  },
+  {
+    "question": "¿Qué tipo de enlace mantiene unidas las dos cadenas de la doble hélice del ADN?",
+    "options": ["Enlace covalente", "Enlace iónico", "Enlace de hidrógeno", "Enlace metálico"],
+    "answer": 3,
+    "explanation": "Los puentes de hidrógeno mantienen unidas las dos cadenas del ADN entre sus bases complementarias: A-T (2 puentes) y G-C (3 puentes).",
+    "hint": "Son débiles individualmente pero muy estables en conjunto."
+  },
+  {
+    "question": "¿Cuál es el nombre de la reacción nuclear en la que dos núcleos ligeros se unen para formar uno más pesado?",
+    "options": ["Fisión nuclear", "Fusión nuclear", "Desintegración alfa", "Reacción en cadena"],
+    "answer": 2,
+    "explanation": "La fusión nuclear es el proceso que ocurre en el interior del Sol, donde núcleos de hidrógeno se fusionan para formar helio, liberando enorme cantidad de energía.",
+    "hint": "Es el proceso que alimenta a las estrellas."
+  },
+  {
+    "question": "¿Qué vitamina es esencial para la coagulación de la sangre?",
+    "options": ["Vitamina A", "Vitamina C", "Vitamina E", "Vitamina K"],
+    "answer": 4,
+    "explanation": "La vitamina K es esencial para la síntesis de factores de coagulación en el hígado. Su deficiencia provoca hemorragias excesivas.",
+    "hint": "Su nombre viene del alemán 'Koagulation'."
+  }
+],
     "Historia": [
-        {
-            "question": "¿En qué año terminó la Segunda Guerra Mundial?",
-            "options": [
-                "1940",
-                "1941",
-                "1945",
-                "1939"
-            ],
-            "answer": 3,
-            "explanation": "La Segunda Guerra Mundial terminó oficialmente el 2 de septiembre de 1945 con la rendición de Japón.",
-            "hint": "El conflicto finalizó después de la rendición de las fuerzas del Eje."
-        },
-        {
-            "question": "¿Qué evento histórico dio inicio a la Revolución Francesa?",
-            "options": [
-                "La firma de la Declaración de los Derechos del Hombre",
-                "La ejecución de Luis XVI",
-                "La toma de la Bastilla",
-                "La coronación de Luis XVI"
-            ],
-            "answer": 3,
-            "explanation": "El 14 de julio de 1789, la toma de la Bastilla marcó el inicio simbólico de la Revolución Francesa.",
-            "hint": "La Bastilla era una prisión utilizada por el régimen de Luis XVI."
-        },
-        {
-            "question": "¿En qué año se produjo la caída del Imperio Romano de Occidente?",
-            "options": [
-                "395 d.C.",
-                "476 d.C.",
-                "410 d.C.",
-                "500 d.C."
-            ],
-            "answer": 2,
-            "explanation": "El Imperio Romano de Occidente cayó en 476 d.C. cuando el último emperador, Rómulo Augústulo, fue depuesto por el líder bárbaro Odoacro.",
-            "hint": "Este evento marcó el fin de la Antigua Roma y el inicio de la Edad Media."
-        },
-        {
-            "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
-            "options": [
-                "Joseph Stalin",
-                "Vladimir Lenin",
-                "Leon Trotsky",
-                "Nikita Jrushchov"
-            ],
-            "answer": 2,
-            "explanation": "Lenin fue el líder del Partido Bolchevique que lideró la Revolución Rusa en 1917, derrocando al gobierno provisional.",
-            "hint": "Lenin fundó la Unión Soviética tras la revolución."
-        },
-        {
-            "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
-            "options": [
-                "Tratado de Versalles",
-                "Tratado de Tordesillas",
-                "Tratado de París",
-                "Tratado de Utrecht"
-            ],
-            "answer": 1,
-            "explanation": "El Tratado de Versalles se firmó en 1919 y puso fin a la Primera Guerra Mundial, imponiendo duras sanciones a Alemania.",
-            "hint": "Este tratado fue uno de los eventos clave en la configuración del siglo XX."
-        },
-        {
-            "question": "¿Cuál fue el principal objetivo de la Conferencia de Yalta en 1945?",
-            "options": [
-                "Decidir el destino de Alemania",
-                "Reorganizar Europa tras la Segunda Guerra Mundial",
-                "Dividir el mundo en esferas de influencia",
-                "Discutir el futuro de Japón"
-            ],
-            "answer": 2,
-            "explanation": "En la Conferencia de Yalta, celebrada en febrero de 1945, los líderes aliados discutieron la reorganización de Europa tras la victoria sobre la Alemania nazi.",
-            "hint": "La conferencia fue un punto clave en la creación de la Guerra Fría."
-        },
-        {
-            "question": "¿Quién fue el emperador romano en el momento de la destrucción de Pompeya en el año 79 d.C.?",
-            "options": [
-                "Tito",
-                "Nerón",
-                "Augusto",
-                "César Augusto"
-            ],
-            "answer": 1,
-            "explanation": "El emperador Tito, hijo de Vespasiano, estaba en el poder cuando el monte Vesubio entró en erupción y destruyó Pompeya en 79 d.C.",
-            "hint": "Tito también fue conocido por completar la destrucción de Jerusalén en 70 d.C."
-        },
-        {
-            "question": "¿En qué año comenzó la Guerra de Independencia de los Estados Unidos?",
-            "options": [
-                "1775",
-                "1776",
-                "1783",
-                "1791"
-            ],
-            "answer": 1,
-            "explanation": "La Guerra de Independencia de los Estados Unidos comenzó en 1775 con los enfrentamientos entre las colonias americanas y el ejército británico.",
-            "hint": "La declaración formal de independencia ocurrió en 1776."
-        },
-        {
-            "question": "¿Qué país fue el primero en otorgar el derecho al voto a las mujeres?",
-            "options": [
-                "Reino Unido",
-                "Francia",
-                "Estados Unidos",
-                "Nueva Zelanda"
-            ],
-            "answer": 4,
-            "explanation": "Nueva Zelanda fue el primer país en permitir a las mujeres votar en 1893.",
-            "hint": "Este evento fue un hito importante en la lucha por los derechos de las mujeres."
-        },
-        {
-            "question": "¿En qué año se firmó la Carta Magna en Inglaterra?",
-            "options": [
-                "1215",
-                "1295",
-                "1154",
-                "1100"
-            ],
-            "answer": 1,
-            "explanation": "La Carta Magna fue firmada en 1215 por el rey Juan I de Inglaterra, limitando los poderes del monarca y estableciendo derechos fundamentales.",
-            "hint": "Este documento es uno de los primeros en garantizar derechos civiles."
-        },
-        {
-            "question": "¿Quién fue el líder del Imperio Mongol durante su expansión más grande?",
-            "options": [
-                "Kublai Khan",
-                "Tamerlán",
-                "Genghis Khan",
-                "Marco Polo"
-            ],
-            "answer": 3,
-            "explanation": "Genghis Khan fue el líder que unificó las tribus mongolas y expandió el Imperio Mongol a su máxima extensión.",
-            "hint": "Genghis Khan fundó el imperio que se convirtió en el más grande de la historia."
-        },
-        {
-            "question": "¿En qué año se produjo el ataque a Pearl Harbor?",
-            "options": [
-                "1940",
-                "1939",
-                "1941",
-                "1944"
-            ],
-            "answer": 3,
-            "explanation": "El ataque a Pearl Harbor ocurrió el 7 de diciembre de 1941, un evento que provocó la entrada de Estados Unidos en la Segunda Guerra Mundial.",
-            "hint": "Este ataque fue llevado a cabo por la Armada Imperial Japonesa."
-        },
-        {
-            "question": "¿Quién fue el líder de la Reforma Protestante en el siglo XVI?",
-            "options": [
-                "Martín Lutero",
-                "Juan Calvino",
-                "Enrique VIII",
-                "Ulrich Zwingli"
-            ],
-            "answer": 1,
-            "explanation": "Martín Lutero fue el teólogo alemán que inició la Reforma Protestante al publicar sus 95 tesis en 1517.",
-            "hint": "Lutero criticó las indulgencias y la autoridad de la Iglesia Católica."
-        },
-        {
-            "question": "¿Qué imperio conquistó Constantinopla en 1453?",
-            "options": [
-                "Imperio Otomano",
-                "Imperio Romano",
-                "Imperio Bizantino",
-                "Imperio Persa"
-            ],
-            "answer": 1,
-            "explanation": "El Imperio Otomano, bajo el sultán Mehmed II, conquistó Constantinopla en 1453, marcando el fin del Imperio Bizantino.",
-            "hint": "Este evento marcó el fin de la Edad Media y el comienzo de la Edad Moderna."
-        },
-        {
-            "question": "¿En qué año comenzó la Revolución Industrial?",
-            "options": [
-                "1760",
-                "1800",
-                "1700",
-                "1850"
-            ],
-            "answer": 1,
-            "explanation": "La Revolución Industrial comenzó en el Reino Unido alrededor de 1760, transformando la producción con la introducción de maquinaria y nuevas técnicas.",
-            "hint": "Este periodo cambió profundamente la economía y la sociedad a nivel mundial."
-        },
-        {
-            "question": "¿Qué emperador romano construyó el Muro de Adriano?",
-            "options": [
-                "Adriano",
-                "Nerón",
-                "César Augusto",
-                "Tito"
-            ],
-            "answer": 1,
-            "explanation": "El Muro de Adriano fue construido bajo el reinado del emperador Adriano, entre 122 y 128 d.C., como defensa contra los pueblos del norte.",
-            "hint": "Este muro marcó la frontera del Imperio Romano en Gran Bretaña."
-        },
-        {
-            "question": "¿En qué año se independizó Haití de Francia?",
-            "options": [
-                "1791",
-                "1820",
-                "1804",
-                "1815"
-            ],
-            "answer": 3,
-            "explanation": "Haití se independizó de Francia en 1804 después de una exitosa revolución de esclavos liderada por Toussaint Louverture.",
-            "hint": "Haití fue la primera nación independiente en América Latina."
-        },
-        {
-            "question": "¿Quién fue el último zar de Rusia?",
-            "options": [
-                "Pedro el Grande",
-                "Iván el Terrible",
-                "Nicolás II",
-                "Alejandro III"
-            ],
-            "answer": 3,
-            "explanation": "Nicolás II fue el último zar de Rusia, y fue derrocado durante la Revolución Rusa de 1917.",
-            "hint": "Nicolás II y su familia fueron ejecutados en 1918."
-        },
-        {
-            "question": "¿Qué rey francés fue conocido como 'El Sol Rey'?",
-            "options": [
-                "Luis XI",
-                "Carlos VII",
-                "Luis XVI",
-                "Luis XIV"
-            ],
-            "answer": 4,
-            "explanation": "Luis XIV, conocido como el 'Rey Sol', fue el monarca que gobernó Francia durante 72 años, desde 1643 hasta su muerte en 1715.",
-            "hint": "Luis XIV es famoso por su palacio de Versalles y su absoluto control del poder."
-        },
-        {
-            "question": "¿En qué batalla se decidió el destino de la Guerra de Independencia de los Estados Unidos?",
-            "options": [
-                "Batalla de Saratoga",
-                "Batalla de Yorktown",
-                "Batalla de Bunker Hill",
-                "Batalla de Lexington"
-            ],
-            "answer": 2,
-            "explanation": "La Batalla de Yorktown, en 1781, fue decisiva en la Guerra de Independencia de los Estados Unidos, ya que las fuerzas británicas se rindieron ante el ejército combinado estadounidense y francés.",
-            "hint": "La rendición británica en esta batalla llevó a las negociaciones para el fin del conflicto."
-        }
-    ],
-    "Cultura General": [
-        {
-            "pregunta": "¿Quién fue el autor de la teoría de la relatividad?",
-            "opciones": [
-                "Isaac Newton",
-                "Nikola Tesla",
-                "Albert Einstein",
-                "Marie Curie"
-            ],
-            "respuesta": 3,
-            "explicacion": "Albert Einstein desarrolló la teoría de la relatividad, una de las dos grandes teorías fundamentales de la física moderna.",
-            "pista": "Einstein recibió el Premio Nobel de Física en 1921."
-        },
-        {
-            "pregunta": "¿En qué país se originó la civilización inca?",
-            "opciones": [
-                "Perú",
-                "Bolivia",
-                "México",
-                "Argentina"
-            ],
-            "respuesta": 1,
-            "explicacion": "La civilización inca se originó en la región andina, en lo que hoy es el Perú, y se expandió por gran parte de Sudamérica.",
-            "pista": "Los incas eran conocidos por su gran capacidad de ingeniería, como la construcción de Machu Picchu."
-        },
-        {
-            "pregunta": "¿Qué pintura famosa de Leonardo da Vinci se encuentra en el Museo del Louvre de París?",
-            "opciones": [
-                "La Última Cena",
-                "La Mona Lisa",
-                "El Hombre de Vitruvio",
-                "La Virgen de las Rocas"
-            ],
-            "respuesta": 2,
-            "explicacion": "La Mona Lisa es una de las obras más famosas de Leonardo da Vinci y está expuesta en el Museo del Louvre en París.",
-            "pista": "La pintura es conocida por la enigmática sonrisa de su sujeto."
-        },
-        {
-            "pregunta": "¿Qué famoso físico es conocido por sus contribuciones a la mecánica cuántica y la teoría de los quanta?",
-            "opciones": [
-                "Niels Bohr",
-                "Max Planck",
-                "Erwin Schrödinger",
-                "Albert Einstein"
-            ],
-            "respuesta": 2,
-            "explicacion": "Max Planck es considerado el padre de la teoría cuántica, por su propuesta de que la energía se emite en paquetes discretos llamados 'cuantos'.",
-            "pista": "El 'cuanto' es una de las bases fundamentales de la mecánica cuántica."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del río más largo del mundo?",
-            "opciones": [
-                "Río Amazonas",
-                "Río Nilo",
-                "Río Yangtsé",
-                "Río Misisipi"
-            ],
-            "respuesta": 1,
-            "explicacion": "El río Amazonas es el río más largo del mundo, con aproximadamente 7,062 km de longitud, y fluye a través de América del Sur.",
-            "pista": "El Amazonas también tiene la cuenca fluvial más grande del planeta."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra la antigua ciudad de Petra?",
-            "opciones": [
-                "Jordania",
-                "Egipto",
-                "Irak",
-                "Siria"
-            ],
-            "respuesta": 1,
-            "explicacion": "Petra, una antigua ciudad nabatea, se encuentra en Jordania y es famosa por sus estructuras esculpidas en roca.",
-            "pista": "Petra fue una ciudad próspera y un importante cruce de rutas comerciales en la antigüedad."
-        },
-        {
-            "pregunta": "¿Qué famoso filósofo griego fue condenado a muerte por corromper a la juventud de Atenas?",
-            "opciones": [
-                "Platón",
-                "Aristóteles",
-                "Sócrates",
-                "Pitágoras"
-            ],
-            "respuesta": 3,
-            "explicacion": "Sócrates fue condenado a muerte en 399 a.C. en Atenas por corromper a la juventud con sus enseñanzas filosóficas y por no respetar los dioses de la ciudad.",
-            "pista": "Sócrates no dejó escritos, por lo que todo lo que sabemos de él proviene de sus discípulos."
-        },
-        {
-            "pregunta": "¿Quién es considerado el 'Padre de la Patria' en los Estados Unidos?",
-            "opciones": [
-                "Abraham Lincoln",
-                "George Washington",
-                "Thomas Jefferson",
-                "Benjamin Franklin"
-            ],
-            "respuesta": 2,
-            "explicacion": "George Washington fue el primer presidente de los Estados Unidos y es conocido como el 'Padre de la Patria' por su papel en la independencia y formación de la nación.",
-            "pista": "Washington también fue comandante en jefe del Ejército Continental durante la Revolución Americana."
-        },
-        {
-            "pregunta": "¿En qué año se inauguró la Torre Eiffel en París?",
-            "opciones": [
-                "1889",
-                "1900",
-                "1855",
-                "1924"
-            ],
-            "respuesta": 1,
-            "explicacion": "La Torre Eiffel fue inaugurada en 1889 como una de las principales atracciones de la Exposición Universal de París.",
-            "pista": "Fue diseñada por Gustave Eiffel y originalmente iba a ser una estructura temporal."
-        },
-        {
-            "pregunta": "¿Cuál fue el primer país en enviar un ser humano al espacio?",
-            "opciones": [
-                "Estados Unidos",
-                "Unión Soviética",
-                "China",
-                "Francia"
-            ],
-            "respuesta": 1,
-            "explicacion": "La Unión Soviética fue el primer país en enviar a un ser humano al espacio, con Yuri Gagarin, el 12 de abril de 1961.",
-            "pista": "Yuri Gagarin orbító la Tierra una vez antes de regresar a la atmósfera."
-        },
-        {
-            "pregunta": "¿Qué continente se conoce como el 'continente negro'?",
-            "opciones": [
-                "Asia",
-                "África",
-                "América del Sur",
-                "Australia"
-            ],
-            "respuesta": 2,
-            "explicacion": "África es conocida como el 'continente negro' debido al color de su población mayoritaria, originaria de las etnias africanas.",
-            "pista": "África es el segundo continente más grande del mundo y cuna de la humanidad."
-        },
-        {
-            "pregunta": "¿Qué antiguo imperio tenía como capital la ciudad de Babilonia?",
-            "opciones": [
-                "Imperio Romano",
-                "Imperio Persa",
-                "Imperio Babilónico",
-                "Imperio Asirio"
-            ],
-            "respuesta": 3,
-            "explicacion": "Babilonia fue la capital del Imperio Babilónico y es famosa por sus jardines colgantes, considerados una de las siete maravillas del mundo antiguo.",
-            "pista": "Babilonia estaba situada en la actual Irak."
-        },
-        {
-            "pregunta": "¿Quién pintó el mural 'La última cena'?",
-            "opciones": [
-                "Pablo Picasso",
-                "Leonardo da Vinci",
-                "Vincent van Gogh",
-                "Michelangelo"
-            ],
-            "respuesta": 2,
-            "explicacion": "'La última cena' es una famosa obra de Leonardo da Vinci que representa el momento en que Jesús anuncia que uno de sus discípulos lo traicionará.",
-            "pista": "Este mural está ubicado en el convento de Santa Maria delle Grazie en Milán."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra la ciudad de El Cairo?",
-            "opciones": [
-                "Egipto",
-                "Jordania",
-                "Turquía",
-                "Arabia Saudita"
-            ],
-            "respuesta": 1,
-            "explicacion": "El Cairo es la capital de Egipto y la ciudad más grande del mundo árabe.",
-            "pista": "El Cairo es conocida por su proximidad a las Pirámides de Giza."
-        },
-        {
-            "pregunta": "¿Qué famoso físico desarrolló la ecuación E=mc²?",
-            "opciones": [
-                "Albert Einstein",
-                "Niels Bohr",
-                "Isaac Newton",
-                "Galileo Galilei"
-            ],
-            "respuesta": 1,
-            "explicacion": "Albert Einstein formuló la famosa ecuación E=mc², que expresa la equivalencia entre la energía y la masa.",
-            "pista": "Esta fórmula revolucionó la física y tuvo profundas implicaciones en el desarrollo de la energía nuclear."
-        },
-        {
-            "pregunta": "¿Qué famoso monumento está ubicado en la ciudad de Agra, India?",
-            "opciones": [
-                "La Gran Muralla China",
-                "Taj Mahal",
-                "Coliseo",
-                "Pirámides de Giza"
-            ],
-            "respuesta": 2,
-            "explicacion": "El Taj Mahal es un mausoleo de mármol blanco construido en Agra por el emperador mogol Shah Jahan en memoria de su esposa Mumtaz Mahal.",
-            "pista": "Este monumento es considerado una de las siete maravillas del mundo moderno."
-        },
-        {
-            "pregunta": "¿En qué país se encuentra la ciudad de Machu Picchu?",
-            "opciones": [
-                "Perú",
-                "Chile",
-                "Colombia",
-                "Ecuador"
-            ],
-            "respuesta": 1,
-            "explicacion": "Machu Picchu es una antigua ciudad inca ubicada en los Andes, en Perú, y es una de las nuevas siete maravillas del mundo.",
-            "pista": "La ciudad fue redescubierta en 1911 por Hiram Bingham."
-        },
-        {
-            "pregunta": "¿Qué océano se encuentra al este de África?",
-            "opciones": [
-                "Océano Atlántico",
-                "Océano Índico",
-                "Océano Pacífico",
-                "Océano Ártico"
-            ],
-            "respuesta": 2,
-            "explicacion": "El Océano Índico se encuentra al este de África y es el tercer océano más grande del mundo.",
-            "pista": "El Océano Índico es importante para el comercio entre Asia, África y Australia."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del primer ser humano que viajó al espacio?",
-            "opciones": [
-                "Neil Armstrong",
-                "Yuri Gagarin",
-                "Buzz Aldrin",
-                "John Glenn"
-            ],
-            "respuesta": 2,
-            "explicacion": "Yuri Gagarin, cosmonauta soviético, fue el primer ser humano en viajar al espacio el 12 de abril de 1961 a bordo de la nave Vostok 1.",
-            "pista": "Su vuelo duró 108 minutos y orbitó la Tierra una vez."
-        },
-        {
-            "pregunta": "¿Qué ciudad fue la capital del Imperio Romano durante la mayor parte de su existencia?",
-            "opciones": [
-                "Roma",
-                "Atenas",
-                "Constantinopla",
-                "Carthago"
-            ],
-            "respuesta": 1,
-            "explicacion": "Roma fue la capital del Imperio Romano desde su fundación hasta la caída del Imperio Romano de Occidente en el siglo V.",
-            "pista": "Roma también es conocida como la 'Ciudad Eterna'."
-        }
-    ],
+  {
+    "question": "¿En qué año fue asesinado Julio César?",
+    "options": ["44 a.C.", "31 a.C.", "55 a.C.", "27 a.C."],
+    "answer": 1,
+    "explanation": "Julio César fue asesinado el 15 de marzo del año 44 a.C., los Idus de Marzo, por un grupo de senadores encabezado por Bruto y Casio.",
+    "hint": "Ocurrió en los Idus de Marzo, una fecha famosa en la historia."
+  },
+  {
+    "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+    "options": ["Tratado de Versalles", "Tratado de París", "Tratado de Westfalia", "Tratado de Utrecht"],
+    "answer": 1,
+    "explanation": "El Tratado de Versalles, firmado en 1919, puso fin formalmente a la Primera Guerra Mundial e impuso duras condiciones a Alemania.",
+    "hint": "Se firmó en el palacio más famoso de Francia."
+  },
+  {
+    "question": "¿Qué cultura precolombina construyó la ciudad de Teotihuacán?",
+    "options": ["Azteca", "Maya", "Zapoteca", "Desconocida"],
+    "answer": 4,
+    "explanation": "La identidad de los constructores de Teotihuacán sigue siendo desconocida. Los aztecas encontraron la ciudad ya abandonada y le dieron ese nombre.",
+    "hint": "Los aztecas encontraron esta ciudad ya abandonada y no supieron quién la construyó."
+  },
+  {
+    "question": "¿Quién fue el último zar de Rusia?",
+    "options": ["Alejandro III", "Nicolás I", "Nicolás II", "Alejandro II"],
+    "answer": 3,
+    "explanation": "Nicolás II fue el último zar de Rusia, abdicó en 1917 durante la Revolución Rusa y fue ejecutado junto a su familia en 1918.",
+    "hint": "Fue ejecutado junto a su familia en 1918."
+  },
+  {
+    "question": "¿Qué batalla en 1815 supuso la derrota definitiva de Napoleón Bonaparte?",
+    "options": ["Batalla de Austerlitz", "Batalla de Leipzig", "Batalla de Trafalgar", "Batalla de Waterloo"],
+    "answer": 4,
+    "explanation": "La Batalla de Waterloo (18 de junio de 1815) supuso la derrota definitiva de Napoleón ante las fuerzas aliadas lideradas por Wellington y Blücher.",
+    "hint": "Dio lugar a la expresión 'encontrar su Waterloo'."
+  },
+  {
+    "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "options": ["410", "455", "476", "493"],
+    "answer": 3,
+    "explanation": "El Imperio Romano de Occidente cayó en el año 476 d.C. cuando Rómulo Augústulo fue depuesto por el caudillo germano Odoacro.",
+    "hint": "Esta fecha marca convencionalmente el inicio de la Edad Media."
+  },
+  {
+    "question": "¿Qué reino cristiano inició la Reconquista de la Península Ibérica?",
+    "options": ["Castilla", "Navarra", "Asturias", "León"],
+    "answer": 3,
+    "explanation": "El Reino de Asturias, fundado por Pelayo tras la batalla de Covadonga en 722, es considerado el inicio de la Reconquista cristiana de la Península Ibérica.",
+    "hint": "Su primer rey fue Pelayo, tras la batalla de Covadonga."
+  },
+  {
+    "question": "¿Cuántos años duró la Guerra de los Cien Años entre Francia e Inglaterra?",
+    "options": ["89 años", "100 años", "116 años", "135 años"],
+    "answer": 3,
+    "explanation": "A pesar de su nombre, la Guerra de los Cien Años duró 116 años, desde 1337 hasta 1453, entre el reino de Francia y el de Inglaterra.",
+    "hint": "A pesar de su nombre, duró más de un siglo."
+  },
+  {
+    "question": "¿Quién fue el primer secretario general de la ONU?",
+    "options": ["Dag Hammarskjöld", "Trygve Lie", "U Thant", "Kurt Waldheim"],
+    "answer": 2,
+    "explanation": "Trygve Lie, político noruego, fue el primer Secretario General de la ONU desde 1946 hasta 1952.",
+    "hint": "Era de nacionalidad noruega."
+  },
+  {
+    "question": "¿Qué civilización inventó el sistema de escritura cuneiforme?",
+    "options": ["Egipcios", "Fenicios", "Sumerios", "Hititas"],
+    "answer": 3,
+    "explanation": "Los sumerios, habitantes de Mesopotamia, inventaron la escritura cuneiforme alrededor del 3200 a.C., uno de los sistemas de escritura más antiguos conocidos.",
+    "hint": "Vivían en Mesopotamia, entre el Tigris y el Éufrates."
+  },
+  {
+    "question": "¿En qué año se produjo la Revolución Bolchevique en Rusia?",
+    "options": ["1905", "1914", "1917", "1921"],
+    "answer": 3,
+    "explanation": "La Revolución de Octubre de 1917 llevó a los bolcheviques liderados por Lenin al poder en Rusia, instaurando el primer Estado comunista del mundo.",
+    "hint": "Lenin la lideró y condujo al establecimiento de la URSS."
+  },
+  {
+    "question": "¿Qué país fue el primero en conceder el voto a las mujeres?",
+    "options": ["Finlandia", "Australia", "Nueva Zelanda", "Noruega"],
+    "answer": 3,
+    "explanation": "Nueva Zelanda fue el primer país del mundo en conceder el sufragio femenino en 1893, aunque las mujeres no podían presentarse a las elecciones hasta 1919.",
+    "hint": "Ocurrió en el siglo XIX, en el hemisferio sur."
+  },
+  {
+    "question": "¿Cuántas cruzadas hubo en total hacia Tierra Santa?",
+    "options": ["4", "6", "8", "10"],
+    "answer": 3,
+    "explanation": "Hubo 8 cruzadas principales hacia Tierra Santa entre 1096 y 1270, aunque algunos historiadores cuentan hasta 9 dependiendo de cómo se clasifiquen.",
+    "hint": "La última fue en el siglo XIII, liderada por Luis IX de Francia."
+  },
+  {
+    "question": "¿Qué emperador chino ordenó la construcción de la Gran Muralla en su forma actual?",
+    "options": ["Qin Shi Huang", "Kublai Kan", "Yongle", "Hongwu"],
+    "answer": 4,
+    "explanation": "La Gran Muralla en su forma actual fue construida principalmente durante la dinastía Ming, siendo el emperador Hongwu quien inició las grandes obras de reconstrucción.",
+    "hint": "Fue durante la dinastía Ming cuando tomó su forma más reconocible."
+  },
+  {
+    "question": "¿Qué ciudad fue incendiada durante las Guerras Médicas en el año 480 a.C.?",
+    "options": ["Esparta", "Corinto", "Atenas", "Tebas"],
+    "answer": 3,
+    "explanation": "Atenas fue saqueada e incendiada por las tropas persas de Jerjes I en el 480 a.C., después de que los atenienses abandonaran la ciudad antes de la batalla de Salamina.",
+    "hint": "Sus ciudadanos la evacuaron antes de la batalla de Salamina."
+  },
+  {
+    "question": "¿Quién escribió el 'Manifiesto Comunista' junto a Karl Marx?",
+    "options": ["León Trotsky", "Friedrich Engels", "Vladimir Lenin", "Rosa Luxemburgo"],
+    "answer": 2,
+    "explanation": "Friedrich Engels coescribió el Manifiesto Comunista junto a Karl Marx en 1848, uno de los documentos políticos más influyentes de la historia.",
+    "hint": "Era un empresario alemán y amigo íntimo de Marx."
+  },
+  {
+    "question": "¿Qué acontecimiento histórico desencadenó la entrada de Estados Unidos en la Segunda Guerra Mundial?",
+    "options": ["Invasión de Polonia", "Caída de Francia", "Ataque a Pearl Harbor", "Declaración de guerra de Hitler"],
+    "answer": 3,
+    "explanation": "El ataque japonés a la base naval de Pearl Harbor el 7 de diciembre de 1941 provocó la entrada de Estados Unidos en la Segunda Guerra Mundial.",
+    "hint": "Ocurrió en una base naval estadounidense en Hawái."
+  },
+  {
+    "question": "¿Cuál fue el primer país en abolir la esclavitud oficialmente?",
+    "options": ["Reino Unido", "Francia", "Haití", "Estados Unidos"],
+    "answer": 3,
+    "explanation": "Haití, tras su revolución de esclavos, se convirtió en el primer país en abolir permanentemente la esclavitud en 1804 al proclamar su independencia.",
+    "hint": "Fue resultado de una exitosa revolución de esclavos en el Caribe."
+  },
+  {
+    "question": "¿En qué ciudad se firmó la Declaración de Independencia de Estados Unidos?",
+    "options": ["Boston", "Nueva York", "Washington D.C.", "Filadelfia"],
+    "answer": 4,
+    "explanation": "La Declaración de Independencia fue firmada el 4 de julio de 1776 en Filadelfia, en el Independence Hall, por los delegados del Segundo Congreso Continental.",
+    "hint": "En el Independence Hall de esta ciudad de Pensilvania."
+  },
+  {
+    "question": "¿Qué faraón construyó la Gran Pirámide de Guiza?",
+    "options": ["Ramsés II", "Tutankamón", "Kefrén", "Keops"],
+    "answer": 4,
+    "explanation": "La Gran Pirámide de Guiza fue construida por el faraón Keops (Jufu) alrededor del 2560 a.C. durante la IV dinastía del Imperio Antiguo.",
+    "hint": "Es la más antigua y grande de las tres pirámides de Guiza."
+  },
+  {
+    "question": "¿Qué explorador portugués fue el primero en circunnavegar el globo terrestre completamente?",
+    "options": ["Vasco de Gama", "Pedro Álvares Cabral", "Juan Sebastián Elcano", "Fernando de Magallanes"],
+    "answer": 3,
+    "explanation": "Juan Sebastián Elcano completó la primera circunnavegación del globo en 1522 tras la muerte de Magallanes en Filipinas, siendo el primero en lograrlo.",
+    "hint": "Magallanes murió durante el viaje; otro completó la hazaña."
+  },
+  {
+    "question": "¿En qué año se disolvió la Unión Soviética?",
+    "options": ["1989", "1990", "1991", "1993"],
+    "answer": 3,
+    "explanation": "La Unión Soviética se disolvió oficialmente el 25 de diciembre de 1991, cuando Gorbachov renunció y se reconoció la independencia de las 15 repúblicas que la componían.",
+    "hint": "Fue el mismo año en que Gorbachov dimitió."
+  },
+  {
+    "question": "¿Qué civilización desarrolló el calendario solar de 365 días más preciso de la Antigüedad?",
+    "options": ["Griegos", "Babilonios", "Egipcios", "Mayas"],
+    "answer": 3,
+    "explanation": "Los egipcios desarrollaron uno de los primeros calendarios solares de 365 días, basado en la observación de la estrella Sirio y las crecidas del Nilo.",
+    "hint": "Lo basaron en las crecidas del Nilo y la posición de Sirio."
+  },
+  {
+    "question": "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?",
+    "options": ["Asdrúbal", "Amílcar", "Maharbal", "Aníbal"],
+    "answer": 4,
+    "explanation": "Aníbal Barca cruzó los Alpes en el 218 a.C. con su ejército y sus elefantes de guerra durante la Segunda Guerra Púnica para atacar Roma por sorpresa.",
+    "hint": "Su nombre significa 'el favorito de Baal' en fenicio."
+  },
+  {
+    "question": "¿Cuál fue la primera capital del Imperio Español en América?",
+    "options": ["Ciudad de México", "Lima", "La Habana", "Santo Domingo"],
+    "answer": 4,
+    "explanation": "Santo Domingo, fundada en 1498 en la isla La Española (actual República Dominicana), fue la primera ciudad europea permanente en América y capital del primer virreinato.",
+    "hint": "Está en la isla que compartían dos países del Caribe."
+  },
+  {
+    "question": "¿Qué invención de la Primera Revolución Industrial transformó el transporte?",
+    "options": ["El automóvil", "La locomotora de vapor", "El avión", "El barco de vapor transatlántico"],
+    "answer": 2,
+    "explanation": "La locomotora de vapor, perfeccionada por George Stephenson, transformó el transporte durante la Primera Revolución Industrial, permitiendo mover personas y mercancías a gran velocidad.",
+    "hint": "George Stephenson es considerado su inventor más influyente."
+  },
+  {
+    "question": "¿Qué cultura de la Edad del Bronce desapareció misteriosamente alrededor del 1200 a.C.?",
+    "options": ["Cultura de los campos de urnas", "Civilización minoica", "Civilización micénica", "Cultura de la cerámica de bandas"],
+    "answer": 3,
+    "explanation": "La civilización micénica del Egeo colapsó misteriosamente alrededor del 1200 a.C., junto con otras civilizaciones de la Edad del Bronce, en lo que se conoce como el Colapso de la Edad del Bronce.",
+    "hint": "Era la civilización griega de la época de la guerra de Troya."
+  },
+  {
+    "question": "¿Quién fue el líder de la Revolución Cubana que tomó el poder en 1959?",
+    "options": ["Ernesto Che Guevara", "Raúl Castro", "Camilo Cienfuegos", "Fidel Castro"],
+    "answer": 4,
+    "explanation": "Fidel Castro lideró la Revolución Cubana que derrocó al dictador Batista el 1 de enero de 1959, gobernando Cuba hasta 2008.",
+    "hint": "Gobernó Cuba durante casi 50 años."
+  },
+  {
+    "question": "¿En qué batalla de 1571 fue derrotada la flota otomana por la Liga Santa?",
+    "options": ["Batalla de Lepanto", "Batalla de Actium", "Batalla de Trafalgar", "Batalla del Nilo"],
+    "answer": 1,
+    "explanation": "La Batalla de Lepanto (1571) fue una victoria decisiva de la Liga Santa sobre el Imperio Otomano, frenando la expansión turca en el Mediterráneo.",
+    "hint": "Cervantes perdió la movilidad de un brazo en esta batalla."
+  },
+  {
+    "question": "¿Qué acuerdo internacional de 1648 puso fin a la Guerra de los Treinta Años?",
+    "options": ["Paz de Utrecht", "Paz de Westfalia", "Congreso de Viena", "Paz de Augsburgo"],
+    "answer": 2,
+    "explanation": "La Paz de Westfalia (1648) puso fin a la Guerra de los Treinta Años y estableció el principio de soberanía nacional, base del orden internacional moderno.",
+    "hint": "Estableció los principios del Estado-nación moderno."
+  }
+],
     "Deportes": [
-        {
-            "pregunta": "¿Quién es el máximo goleador histórico de la selección nacional de fútbol de Brasil?",
-            "opciones": [
-                "Neymar",
-                "Pelé",
-                "Ronaldo",
-                "Romario"
-            ],
-            "respuesta": 1,
-            "explicacion": "Neymar se convirtió en el máximo goleador histórico de la selección de Brasil en 2022, superando a Pelé.",
-            "pista": "Neymar ha jugado en varias Copas del Mundo y competiciones internacionales con Brasil."
-        },
-        {
-            "pregunta": "¿En qué año se celebró la primera Copa del Mundo de fútbol?",
-            "opciones": [
-                "1930",
-                "1920",
-                "1940",
-                "1950"
-            ],
-            "respuesta": 1,
-            "explicacion": "La primera Copa del Mundo de fútbol se celebró en 1930 en Uruguay, donde el país anfitrión se coronó campeón.",
-            "pista": "Uruguay fue el primer país en organizar y ganar el torneo."
-        },
-        {
-            "pregunta": "¿En qué equipo jugó Michael Jordan al final de su carrera en la NBA?",
-            "opciones": [
-                "Chicago Bulls",
-                "Los Angeles Lakers",
-                "Washington Wizards",
-                "Miami Heat"
-            ],
-            "respuesta": 3,
-            "explicacion": "Michael Jordan regresó a la NBA en 2001 para jugar con los Washington Wizards, después de su retiro con los Chicago Bulls.",
-            "pista": "Jordan jugó con los Wizards hasta su retiro definitivo en 2003."
-        },
-        {
-            "pregunta": "¿Qué tenista tiene el récord de más títulos de Grand Slam en la historia del tenis masculino?",
-            "opciones": [
-                "Roger Federer",
-                "Rafael Nadal",
-                "Novak Djokovic",
-                "Pete Sampras"
-            ],
-            "respuesta": 3,
-            "explicacion": "Novak Djokovic superó a Roger Federer y Rafael Nadal en 2021 al ganar su 21º título de Grand Slam, el mayor en la historia del tenis masculino.",
-            "pista": "Djokovic ha ganado todos los Grand Slam al menos dos veces."
-        },
-        {
-            "pregunta": "¿Quién fue el primer atleta en correr los 100 metros en menos de 9.6 segundos?",
-            "opciones": [
-                "Carl Lewis",
-                "Usain Bolt",
-                "Michael Johnson",
-                "Donovan Bailey"
-            ],
-            "respuesta": 2,
-            "explicacion": "Usain Bolt estableció un nuevo récord mundial de 9.58 segundos en los 100 metros en 2009, convirtiéndose en el primer atleta en romper la barrera de los 9.6 segundos.",
-            "pista": "Este récord aún permanece intacto en la actualidad."
-        },
-        {
-            "pregunta": "¿Qué país ha ganado más Copas del Mundo de Rugby?",
-            "opciones": [
-                "Sudáfrica",
-                "Nueva Zelanda",
-                "Australia",
-                "Inglaterra"
-            ],
-            "respuesta": 2,
-            "explicacion": "Nueva Zelanda ha ganado tres Copas del Mundo de Rugby (1987, 2011, 2015), lo que la coloca como el país más exitoso en este torneo.",
-            "pista": "Los 'All Blacks' son conocidos por su haka, un tradicional baile maorí."
-        },
-        {
-            "pregunta": "¿Cuál es el nombre del estadio donde juega el Real Madrid?",
-            "opciones": [
-                "Camp Nou",
-                "Parque de los Príncipes",
-                "Santiago Bernabéu",
-                "Old Trafford"
-            ],
-            "respuesta": 3,
-            "explicacion": "El Santiago Bernabéu es el estadio histórico del Real Madrid, ubicado en Madrid, España.",
-            "pista": "Este estadio ha sido sede de numerosas finales de competiciones internacionales."
-        },
-        {
-            "pregunta": "¿En qué país se celebraron los primeros Juegos Olímpicos modernos en 1896?",
-            "opciones": [
-                "Grecia",
-                "Francia",
-                "Inglaterra",
-                "Alemania"
-            ],
-            "respuesta": 1,
-            "explicacion": "Los primeros Juegos Olímpicos modernos se celebraron en Atenas, Grecia, en 1896, con la participación de 13 países.",
-            "pista": "Atenas sigue siendo la sede de importantes competiciones internacionales."
-        },
-        {
-            "pregunta": "¿Cuál es el récord de goles marcados por un solo jugador en una Copa del Mundo?",
-            "opciones": [
-                "Miroslav Klose",
-                "Ronaldo Nazário",
-                "Just Fontaine",
-                "Pelé"
-            ],
-            "respuesta": 3,
-            "explicacion": "Just Fontaine marcó 13 goles en la Copa del Mundo de 1958, un récord que aún permanece intacto.",
-            "pista": "Fontaine es considerado uno de los mejores goleadores de todos los tiempos."
-        },
-        {
-            "pregunta": "¿Quién tiene el récord de más medallas olímpicas de oro en la historia?",
-            "opciones": [
-                "Michael Phelps",
-                "Usain Bolt",
-                "Larisa Latynina",
-                "Carl Lewis"
-            ],
-            "respuesta": 1,
-            "explicacion": "Michael Phelps tiene el récord de más medallas olímpicas de oro con un total de 23 en la natación.",
-            "pista": "Phelps participó en cinco ediciones de los Juegos Olímpicos."
-        },
-        {
-            "pregunta": "¿Quién ganó el primer Tour de Francia en 1903?",
-            "opciones": [
-                "Eddy Merckx",
-                "Jacques Anquetil",
-                "Maurice Garin",
-                "Bernard Hinault"
-            ],
-            "respuesta": 3,
-            "explicacion": "Maurice Garin fue el primer ganador del Tour de Francia en 1903, la primera edición de la histórica carrera.",
-            "pista": "Garin también ganó el Tour en 1904, aunque fue descalificado por hacer trampas."
-        },
-        {
-            "pregunta": "¿Qué atleta estadounidense es conocido por su victoria en los 100 metros en los Juegos Olímpicos de 1968 con un gesto de protesta?",
-            "opciones": [
-                "Tommy Smith",
-                "John Carlos",
-                "Michael Johnson",
-                "Carl Lewis"
-            ],
-            "respuesta": 1,
-            "explicacion": "Tommy Smith ganó la medalla de oro en los 200 metros en los Juegos Olímpicos de 1968, y durante la ceremonia de premiación levantó el puño en un gesto de protesta contra la injusticia racial.",
-            "pista": "Este acto fue un símbolo poderoso durante los movimientos de derechos civiles."
-        },
-        {
-            "pregunta": "¿En qué año se jugó la primera Copa América de fútbol?",
-            "opciones": [
-                "1916",
-                "1923",
-                "1900",
-                "1930"
-            ],
-            "respuesta": 1,
-            "explicacion": "La primera Copa América se celebró en 1916 en Argentina, con la participación de varias selecciones sudamericanas.",
-            "pista": "Este torneo es el campeonato más antiguo de selecciones nacionales de fútbol en el continente americano."
-        },
-        {
-            "pregunta": "¿Quién fue el primer jugador en alcanzar los 500 goles en la NBA?",
-            "opciones": [
-                "Wilt Chamberlain",
-                "Kareem Abdul-Jabbar",
-                "Michael Jordan",
-                "LeBron James"
-            ],
-            "respuesta": 1,
-            "explicacion": "Wilt Chamberlain fue el primer jugador en la NBA en anotar más de 500 puntos en una sola temporada.",
-            "pista": "Chamberlain es conocido por sus récords impresionantes de anotación y rebotes."
-        },
-        {
-            "pregunta": "¿Qué equipo de fútbol tiene el récord de más títulos de la Liga de Campeones de la UEFA?",
-            "opciones": [
-                "FC Barcelona",
-                "Real Madrid",
-                "AC Milan",
-                "Liverpool"
-            ],
-            "respuesta": 2,
-            "explicacion": "El Real Madrid tiene el récord de más títulos de la Liga de Campeones de la UEFA, con 13 victorias en total.",
-            "pista": "Este equipo ha dominado la competición durante décadas."
-        },
-        {
-            "pregunta": "¿Qué corredor africano tiene el récord mundial de los 10,000 metros?",
-            "opciones": [
-                "Haile Gebrselassie",
-                "Kenenisa Bekele",
-                "Eliud Kipchoge",
-                "Sifan Hassan"
-            ],
-            "respuesta": 2,
-            "explicacion": "Kenenisa Bekele, de Etiopía, tiene el récord mundial de los 10,000 metros con un tiempo de 26:17.53.",
-            "pista": "Bekele también tiene múltiples títulos en los campeonatos mundiales de atletismo."
-        },
-        {
-            "pregunta": "¿En qué año se celebró el primer Mundial de Fútbol Femenino?",
-            "opciones": [
-                "1991",
-                "1999",
-                "1989",
-                "2003"
-            ],
-            "respuesta": 1,
-            "explicacion": "El primer Mundial de Fútbol Femenino se celebró en 1991 en China, siendo la selección de los Estados Unidos la primera campeona.",
-            "pista": "Este torneo marcó el comienzo del crecimiento del fútbol femenino a nivel global."
-        },
-        {
-            "pregunta": "¿Quién fue el primer boxeador en ganar cinco títulos mundiales en diferentes categorías de peso?",
-            "opciones": [
-                "Sugar Ray Leonard",
-                "Floyd Mayweather",
-                "Manny Pacquiao",
-                "Oscar De La Hoya"
-            ],
-            "respuesta": 3,
-            "explicacion": "Manny Pacquiao hizo historia al convertirse en el primer boxeador en ganar títulos mundiales en cinco categorías diferentes de peso.",
-            "pista": "Pacquiao es conocido por su velocidad y agilidad en el ring, así como por su impacto en el boxeo mundial."
-        },
-        {
-            "pregunta": "¿Quién ostenta el récord de más goles en una temporada de la Liga Española?",
-            "opciones": [
-                "Lionel Messi",
-                "Cristiano Ronaldo",
-                "Karim Benzema",
-                "Luis Suárez"
-            ],
-            "respuesta": 1,
-            "explicacion": "Lionel Messi ostenta el récord de más goles en una temporada de la Liga Española, con 50 goles anotados en la temporada 2011-2012.",
-            "pista": "Messi rompió el récord previamente establecido por Telmo Zarra."
-        },
-        {
-            "pregunta": "¿Quién es el ciclista con más victorias en el Tour de Francia?",
-            "opciones": [
-                "Eddy Merckx",
-                "Bernard Hinault",
-                "Miguel Induráin",
-                "Lance Armstrong"
-            ],
-            "respuesta": 1,
-            "explicacion": "Eddy Merckx es el ciclista con más victorias en el Tour de Francia, con un total de cinco títulos (1969, 1970, 1971, 1972, 1974).",
-            "pista": "Merckx es considerado uno de los mejores ciclistas de todos los tiempos, con una carrera impresionante."
-        }
-    ]
+  {
+    "question": "¿En qué año ganó España su primer Campeonato Europeo de fútbol?",
+    "options": ["1960", "1964", "1972", "1984"],
+    "answer": 2,
+    "explanation": "España ganó su primer Campeonato Europeo de fútbol en 1964, celebrado en Madrid, derrotando a la Unión Soviética en la final.",
+    "hint": "Se celebró en casa, en el estadio Santiago Bernabéu."
+  },
+  {
+    "question": "¿Cuántos Grand Slams ganó Pete Sampras a lo largo de su carrera?",
+    "options": ["10", "12", "14", "16"],
+    "answer": 3,
+    "explanation": "Pete Sampras ganó 14 títulos de Grand Slam a lo largo de su carrera, un récord que mantuvo hasta que Roger Federer lo superó en 2009.",
+    "hint": "Fue el récord absoluto durante varios años antes de Federer."
+  },
+  {
+    "question": "¿Qué equipo ganó la primera edición de la UEFA Champions League en su formato actual (desde 1992)?",
+    "options": ["AC Milan", "Marsella", "Ajax", "Barcelona"],
+    "answer": 2,
+    "explanation": "El Olympique de Marsella ganó la primera edición de la UEFA Champions League en su formato actual en 1993, derrotando al AC Milan.",
+    "hint": "Fue un equipo francés, lo que generó mucha sorpresa."
+  },
+  {
+    "question": "¿Cuál es el récord mundial de los 100 metros lisos masculinos y quién lo ostenta?",
+    "options": ["9.58s - Usain Bolt", "9.69s - Usain Bolt", "9.72s - Asafa Powell", "9.74s - Yohan Blake"],
+    "answer": 1,
+    "explanation": "Usain Bolt estableció el récord mundial de los 100 metros lisos con 9.58 segundos en el Mundial de Berlín 2009, una marca que aún sigue vigente.",
+    "hint": "Se estableció en el Mundial de Berlín 2009."
+  },
+  {
+    "question": "¿Qué país ha ganado más medallas de oro olímpicas en la historia de los Juegos?",
+    "options": ["Rusia/URSS", "China", "Estados Unidos", "Gran Bretaña"],
+    "answer": 3,
+    "explanation": "Estados Unidos es el país con más medallas de oro olímpicas en la historia de los Juegos Olímpicos, tanto en verano como en el cómputo total.",
+    "hint": "Es la nación más dominante en la historia olímpica."
+  },
+  {
+    "question": "¿En qué deporte se disputa el Trofeo Vince Lombardi?",
+    "options": ["Béisbol", "Baloncesto", "Fútbol americano", "Hockey sobre hielo"],
+    "answer": 3,
+    "explanation": "El Trofeo Vince Lombardi es el trofeo entregado al ganador del Super Bowl, el campeonato de la NFL de fútbol americano.",
+    "hint": "Se entrega al ganador del evento deportivo más visto en EE.UU."
+  },
+  {
+    "question": "¿Cuántas veces ha ganado Brasil la Copa del Mundo de fútbol?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 2,
+    "explanation": "Brasil ha ganado la Copa del Mundo de fútbol en 5 ocasiones: 1958, 1962, 1970, 1994 y 2002, siendo el país más laureado de la historia.",
+    "hint": "Es el único país en haber participado en todos los Mundiales."
+  },
+  {
+    "question": "¿Qué tenista tiene el récord de más semanas como número 1 del ranking ATP?",
+    "options": ["Rafael Nadal", "Pete Sampras", "Novak Djokovic", "Roger Federer"],
+    "answer": 3,
+    "explanation": "Novak Djokovic ostenta el récord de más semanas como número 1 del ranking ATP, superando las 400 semanas, récord histórico.",
+    "hint": "Es un tenista serbio que superó el récord de Federer."
+  },
+  {
+    "question": "¿En qué ciudad se celebraron los primeros Juegos Olímpicos modernos en 1896?",
+    "options": ["París", "Londres", "Atenas", "Estocolmo"],
+    "answer": 3,
+    "explanation": "Los primeros Juegos Olímpicos modernos se celebraron en Atenas, Grecia, en 1896, con 14 países participantes y 241 atletas.",
+    "hint": "Se eligió la ciudad en honor a la cuna de los juegos en la Antigüedad."
+  },
+  {
+    "question": "¿Cuántos títulos de la NBA ganó Michael Jordan con los Chicago Bulls?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 3,
+    "explanation": "Michael Jordan ganó 6 campeonatos de la NBA con los Chicago Bulls, en dos trilogías: 1991-93 y 1996-98, siendo MVP en todas las finales.",
+    "hint": "Los ganó en dos rachas de tres consecutivos."
+  },
+  {
+    "question": "¿Qué nadador ha ganado más medallas olímpicas en la historia?",
+    "options": ["Ian Thorpe", "Mark Spitz", "Michael Phelps", "Ryan Lochte"],
+    "answer": 3,
+    "explanation": "Michael Phelps es el deportista con más medallas olímpicas de la historia, con 28 en total (23 de oro), ganadas en los Juegos de 2000 a 2016.",
+    "hint": "Tiene más medallas olímpicas que muchos países enteros."
+  },
+  {
+    "question": "¿Cuántos sets ganó Rafa Nadal en su decimocuarto título de Roland Garros?",
+    "options": ["No perdió ningún set", "Perdió 1 set", "Perdió 2 sets", "Perdió 3 sets"],
+    "answer": 1,
+    "explanation": "En su decimocuarto título de Roland Garros en 2022, Rafael Nadal no cedió ningún set en todo el torneo, completando una actuación perfecta.",
+    "hint": "Fue una actuación perfecta sin ceder ningún set."
+  },
+  {
+    "question": "¿Qué equipo de fútbol ha ganado más veces la Copa Libertadores?",
+    "options": ["Boca Juniors", "River Plate", "Independiente", "Nacional de Uruguay"],
+    "answer": 3,
+    "explanation": "Independiente de Argentina es el club que más veces ha ganado la Copa Libertadores, con 7 títulos entre 1964 y 1984.",
+    "hint": "Es un club argentino conocido como 'el Rey de Copas'."
+  },
+  {
+    "question": "¿Cuántos kilómetros mide aproximadamente un maratón?",
+    "options": ["40 km", "41.195 km", "42.195 km", "43 km"],
+    "answer": 3,
+    "explanation": "Un maratón mide exactamente 42.195 kilómetros (26 millas y 385 yardas), distancia estandarizada desde los Juegos Olímpicos de Londres 1908.",
+    "hint": "La distancia se estandarizó en los Juegos Olímpicos de Londres 1908."
+  },
+  {
+    "question": "¿Qué boxeador fue conocido como 'The Greatest' y ganó el título mundial tres veces?",
+    "options": ["Joe Frazier", "George Foreman", "Muhammad Ali", "Sugar Ray Leonard"],
+    "answer": 3,
+    "explanation": "Muhammad Ali, conocido como 'The Greatest', ganó el campeonato mundial de los pesos pesados en tres ocasiones distintas a lo largo de su carrera.",
+    "hint": "Se llamó a sí mismo 'The Greatest' y muchos le dieron la razón."
+  },
+  {
+    "question": "¿En qué año se celebró por primera vez el Tour de Francia?",
+    "options": ["1895", "1899", "1903", "1910"],
+    "answer": 3,
+    "explanation": "El Tour de Francia se celebró por primera vez en 1903, organizado por el periódico L'Auto para aumentar sus ventas, con 60 participantes y 6 etapas.",
+    "hint": "Se organizó para promocionar un periódico deportivo francés."
+  },
+  {
+    "question": "¿Qué selección de rugby ha ganado más Copas del Mundo?",
+    "options": ["Australia", "Sudáfrica", "Nueva Zelanda", "Inglaterra"],
+    "answer": 3,
+    "explanation": "Nueva Zelanda (los All Blacks) ha ganado más Copas del Mundo de rugby con 3 títulos (1987, 2011 y 2015), empatada con Sudáfrica que ganó la cuarta en 2023.",
+    "hint": "Son los famosos 'All Blacks'."
+  },
+  {
+    "question": "¿Cuántos puntos vale un triple en baloncesto NBA?",
+    "options": ["2", "3", "4", "Depende de la distancia"],
+    "answer": 2,
+    "explanation": "Un triple en la NBA vale 3 puntos y debe lanzarse desde más allá de la línea de tres puntos, situada a 7.24 metros del aro.",
+    "hint": "Da nombre a uno de los tiros más espectaculares del baloncesto."
+  },
+  {
+    "question": "¿Qué atleta etíope ganó el maratón olímpico descalzo en Roma 1960?",
+    "options": ["Haile Gebreselassie", "Kenenisa Bekele", "Abebe Bikila", "Miruts Yifter"],
+    "answer": 3,
+    "explanation": "Abebe Bikila ganó el maratón olímpico de Roma 1960 descalzo, siendo además el primer africano subsahariano en ganar una medalla de oro olímpica.",
+    "hint": "Corrió descalzo por las calles de Roma de noche."
+  },
+  {
+    "question": "¿Qué equipo ganó la primera Copa del Mundo de rugby en 1987?",
+    "options": ["Australia", "Francia", "Sudáfrica", "Nueva Zelanda"],
+    "answer": 4,
+    "explanation": "Nueva Zelanda ganó la primera Copa del Mundo de rugby en 1987, celebrada en Nueva Zelanda y Australia, derrotando a Francia en la final.",
+    "hint": "Fue la primera edición de este torneo, celebrada en casa."
+  },
+  {
+    "question": "¿Cuántas veces ha ganado el Real Madrid la UEFA Champions League?",
+    "options": ["13", "14", "15", "16"],
+    "answer": 3,
+    "explanation": "El Real Madrid ha ganado 15 veces la UEFA Champions League/Copa de Europa, siendo el club más laureado de la historia de esta competición.",
+    "hint": "Es el club más laureado en la historia de esta competición europea."
+  },
+  {
+    "question": "¿En qué deporte se usa el término 'hat-trick'?",
+    "options": ["Solo en fútbol", "En fútbol, cricket y hockey", "Solo en cricket", "En cualquier deporte donde se marquen 3 tantos seguidos"],
+    "answer": 4,
+    "explanation": "El término 'hat-trick' se usa en múltiples deportes para referirse a conseguir tres logros del mismo tipo en un partido o actuación, ya sea en fútbol, cricket, hockey o incluso en fórmula 1.",
+    "hint": "El término nació en el cricket pero se extendió a muchos deportes."
+  },
+  {
+    "question": "¿Qué ciudad albergará los Juegos Olímpicos de verano de 2028?",
+    "options": ["Brisbane", "Los Ángeles", "París", "Roma"],
+    "answer": 2,
+    "explanation": "Los Juegos Olímpicos de verano de 2028 se celebrarán en Los Ángeles, Estados Unidos, siendo la tercera vez que esta ciudad albergue los Juegos.",
+    "hint": "Ya organizó los Juegos en 1932 y 1984."
+  },
+  {
+    "question": "¿Quién es el máximo goleador en la historia de los Mundiales de fútbol?",
+    "options": ["Pelé", "Ronaldo Nazário", "Miroslav Klose", "Gerd Müller"],
+    "answer": 3,
+    "explanation": "Miroslav Klose es el máximo goleador en la historia de los Mundiales con 16 goles, marcados en las ediciones de 2002, 2006, 2010 y 2014.",
+    "hint": "Es alemán y superó el récord de Ronaldo Nazário en 2014."
+  },
+  {
+    "question": "¿Cuántas disciplinas olímpicas se disputaron en los primeros Juegos de Atenas 1896?",
+    "options": ["6", "9", "12", "14"],
+    "answer": 2,
+    "explanation": "En los primeros Juegos Olímpicos modernos de Atenas 1896 se disputaron 9 disciplinas: atletismo, ciclismo, esgrima, gimnasia, halterofilia, lucha, natación, tenis y tiro.",
+    "hint": "Fueron muy pocos comparados con los actuales más de 30."
+  },
+  {
+    "question": "¿Qué jugador de la NBA anotó 100 puntos en un solo partido en 1962?",
+    "options": ["Bill Russell", "Oscar Robertson", "Jerry West", "Wilt Chamberlain"],
+    "answer": 4,
+    "explanation": "Wilt Chamberlain anotó 100 puntos en un solo partido el 2 de marzo de 1962, jugando con los Philadelphia Warriors contra los New York Knicks, un récord insuperado.",
+    "hint": "Es un récord que lleva más de 60 años sin igualarse."
+  },
+  {
+    "question": "¿En qué año se celebró el famoso 'Rumble in the Jungle' entre Muhammad Ali y George Foreman?",
+    "options": ["1971", "1974", "1977", "1980"],
+    "answer": 2,
+    "explanation": "El 'Rumble in the Jungle' se celebró el 30 de octubre de 1974 en Kinshasa, Zaire (actual Congo), donde Ali derrotó a Foreman y recuperó el título mundial.",
+    "hint": "Se celebró en África, en el actual Congo."
+  },
+  {
+    "question": "¿Cuál es el torneo de tenis que se juega sobre pista dura y se celebra en enero en Australia?",
+    "options": ["Roland Garros", "US Open", "Australian Open", "Wimbledon"],
+    "answer": 3,
+    "explanation": "El Australian Open se celebra cada enero en Melbourne sobre pista dura y es el primer Grand Slam del año en el calendario tenístico.",
+    "hint": "Es el primer Grand Slam del año en el calendario."
+  },
+  {
+    "question": "¿Qué selección de fútbol ganó la Copa del Mundo de 2022 en Qatar?",
+    "options": ["Francia", "Brasil", "Croacia", "Argentina"],
+    "answer": 4,
+    "explanation": "Argentina ganó la Copa del Mundo de 2022 en Qatar, derrotando a Francia en la final en una tanda de penaltis histórica, con Lionel Messi como figura.",
+    "hint": "Fue el tercer título mundial de este país sudamericano."
+  },
+  {
+    "question": "¿Cuántos puntos otorga un gol marcado desde el saque de banda en el fútbol gaélico?",
+    "options": ["No se puede marcar desde ahí", "1 punto", "2 puntos", "3 puntos"],
+    "answer": 1,
+    "explanation": "En el fútbol gaélico no existe el saque de banda tal como se conoce en el fútbol convencional; el balón que sale por la línea lateral se reanuda con un saque de suelo o de mano.",
+    "hint": "El fútbol gaélico tiene reglas muy distintas al fútbol convencional."
+  }
+],
+    "Videojuegos": [
+  {
+    "question": "¿En qué año fue lanzado el primer juego de The Legend of Zelda?",
+    "options": ["1984", "1986", "1988", "1990"],
+    "answer": 2,
+    "explanation": "El primer juego de The Legend of Zelda fue lanzado en Japón en 1986 para la consola Famicom Disk System, y llegó a occidente en 1987.",
+    "hint": "Fue lanzado en la misma época que Super Mario Bros."
+  },
+  {
+    "question": "¿Qué empresa desarrolló la saga Dark Souls?",
+    "options": ["Capcom", "Bandai Namco", "FromSoftware", "Square Enix"],
+    "answer": 3,
+    "explanation": "FromSoftware, el estudio japonés fundado en 1986, desarrolló la saga Dark Souls, conocida por su extrema dificultad y diseño de mundo interconectado.",
+    "hint": "También desarrollaron Elden Ring y Sekiro."
+  },
+  {
+    "question": "¿Cuántas versiones de Pokémon se lanzaron en la primera generación?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 2,
+    "explanation": "La primera generación de Pokémon se lanzó con dos versiones: Rojo y Verde en Japón (1996), y Rojo y Azul en occidente (1998). La versión Amarilla vino después.",
+    "hint": "Fueron Rojo y Verde en Japón, aunque occidente recibió versiones distintas."
+  },
+  {
+    "question": "¿Cuál fue el primer videojuego de la saga Grand Theft Auto?",
+    "options": ["GTA: San Andreas", "GTA 2", "GTA", "GTA: Vice City"],
+    "answer": 3,
+    "explanation": "El primer Grand Theft Auto fue lanzado en 1997 por DMA Design (ahora Rockstar North), con vista cenital y ambientado en tres ciudades ficticias.",
+    "hint": "Se lanzó en 1997 con vista desde arriba, no en tercera persona."
+  },
+  {
+    "question": "¿Qué personaje es el antagonista principal de la saga Metal Gear Solid?",
+    "options": ["Revolver Ocelot", "Liquid Snake", "Psycho Mantis", "Big Boss"],
+    "answer": 4,
+    "explanation": "Big Boss es el antagonista principal de la saga Metal Gear Solid, aunque su papel evoluciona a lo largo de los juegos entre villano y figura trágica.",
+    "hint": "Es el padre biológico del protagonista Solid Snake."
+  },
+  {
+    "question": "¿En qué consola se lanzó originalmente el juego Crash Bandicoot?",
+    "options": ["Nintendo 64", "Sega Saturn", "PlayStation 1", "Game Boy"],
+    "answer": 3,
+    "explanation": "Crash Bandicoot fue lanzado en 1996 exclusivamente para PlayStation 1, desarrollado por Naughty Dog como respuesta al Mario 64 de Nintendo.",
+    "hint": "Fue la respuesta de Sony a Super Mario 64."
+  },
+  {
+    "question": "¿Cuántos juegos principales componen la saga 'Dark Souls' de FromSoftware incluyendo sus obras espirituales?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 3,
+    "explanation": "La saga Soulsborne de FromSoftware incluye 5 entregas principales: Demon's Souls, Dark Souls I, II y III, y Bloodborne, más Sekiro y Elden Ring como obras espirituales.",
+    "hint": "Incluye Demon's Souls, los tres Dark Souls y Bloodborne."
+  },
+  {
+    "question": "¿Quién es el creador de la saga The Legend of Zelda y Super Mario?",
+    "options": ["Satoru Iwata", "Reggie Fils-Aimé", "Shigeru Miyamoto", "Koji Kondo"],
+    "answer": 3,
+    "explanation": "Shigeru Miyamoto es el genio creativo detrás de The Legend of Zelda, Super Mario, Donkey Kong y Pikmin, considerado uno de los diseñadores de videojuegos más influyentes de la historia.",
+    "hint": "Es considerado el 'padre' de los videojuegos modernos de Nintendo."
+  },
+  {
+    "question": "¿Qué videojuego introdujo por primera vez el concepto de 'mundo abierto' en 3D?",
+    "options": ["The Legend of Zelda: Ocarina of Time", "Super Mario 64", "GTA III", "Shenmue"],
+    "answer": 2,
+    "explanation": "Super Mario 64 (1996) fue pionero en ofrecer un mundo tridimensional abierto navegable de forma libre, revolucionando el diseño de videojuegos.",
+    "hint": "Fue un juego de lanzamiento de Nintendo 64 en 1996."
+  },
+  {
+    "question": "¿En qué año se lanzó la primera Xbox de Microsoft?",
+    "options": ["1999", "2000", "2001", "2002"],
+    "answer": 3,
+    "explanation": "La primera Xbox de Microsoft fue lanzada en noviembre de 2001 en Estados Unidos, compitiendo directamente con PlayStation 2 y GameCube.",
+    "hint": "Fue lanzada junto al juego Halo: Combat Evolved."
+  },
+  {
+    "question": "¿Cuál es el nombre del protagonista de la saga Assassin's Creed original?",
+    "options": ["Ezio Auditore", "Altaïr Ibn-La'Ahad", "Connor Kenway", "Edward Kenway"],
+    "answer": 2,
+    "explanation": "Altaïr Ibn-La'Ahad es el protagonista del primer Assassin's Creed (2007), un asesino sirio del siglo XII durante las Cruzadas.",
+    "hint": "Su nombre significa 'el que vuela' en árabe."
+  },
+  {
+    "question": "¿Qué estudio desarrolló el videojuego 'The Last of Us'?",
+    "options": ["Insomniac Games", "Santa Monica Studio", "Sucker Punch", "Naughty Dog"],
+    "answer": 4,
+    "explanation": "Naughty Dog, el estudio creador de Crash Bandicoot y Uncharted, desarrolló The Last of Us en 2013, considerado uno de los mejores videojuegos de la historia.",
+    "hint": "Es el mismo estudio que hizo Crash Bandicoot y Uncharted."
+  },
+  {
+    "question": "¿Cuántos Pokémon había en la primera generación?",
+    "options": ["149", "150", "151", "152"],
+    "answer": 3,
+    "explanation": "La primera generación de Pokémon incluía 151 Pokémon, siendo Mew el número 151, un Pokémon secreto que no aparecía en la Pokédex normal.",
+    "hint": "El último es un Pokémon legendario muy secreto cuyo nombre empieza por M."
+  },
+  {
+    "question": "¿Qué juego fue el primero en introducir las partidas clasificatorias online en los shooters en primera persona?",
+    "options": ["Quake", "Counter-Strike", "Halo 2", "Call of Duty 4"],
+    "answer": 3,
+    "explanation": "Halo 2 en 2004 fue pionero en implementar un sistema de matchmaking y partidas clasificatorias online en consolas, sentando las bases del multijugador moderno.",
+    "hint": "Fue un juego exclusivo de Xbox que revolucionó el multijugador en consolas."
+  },
+  {
+    "question": "¿Cuál es el videojuego más vendido de la historia sin contar juegos preinstalados?",
+    "options": ["Super Mario Bros.", "Grand Theft Auto V", "Minecraft", "Tetris"],
+    "answer": 3,
+    "explanation": "Minecraft es el videojuego más vendido de la historia con más de 300 millones de copias vendidas, superando ampliamente a títulos como GTA V o Tetris.",
+    "hint": "Es un juego de construcción con bloques desarrollado por Mojang."
+  },
+  {
+    "question": "¿Qué compañía desarrolló originalmente el juego Overwatch?",
+    "options": ["Riot Games", "Valve", "Blizzard Entertainment", "Epic Games"],
+    "answer": 3,
+    "explanation": "Overwatch fue desarrollado y lanzado por Blizzard Entertainment en 2016, convirtiéndose rápidamente en uno de los shooters más populares del mundo.",
+    "hint": "La misma compañía que hizo World of Warcraft y Diablo."
+  },
+  {
+    "question": "¿En qué videojuego aparece el personaje Geralt de Rivia como protagonista?",
+    "options": ["Dragon Age", "The Elder Scrolls", "The Witcher", "Kingdom Come: Deliverance"],
+    "answer": 3,
+    "explanation": "Geralt de Rivia es el protagonista de la saga The Witcher, desarrollada por CD Projekt Red y basada en las novelas del escritor polaco Andrzej Sapkowski.",
+    "hint": "Está basado en una saga de novelas polacas."
+  },
+  {
+    "question": "¿Qué significa la sigla 'RPG' y cuál fue uno de los primeros RPGs populares en videojuegos?",
+    "options": ["Role Playing Game - Dragon Quest (1986)", "Role Playing Game - Final Fantasy (1987)", "Reactive Play Game - Dungeons & Dragons (1974)", "Role Playing Game - Ultima (1981)"],
+    "answer": 1,
+    "explanation": "RPG significa Role Playing Game. Dragon Quest (1986) para NES, desarrollado por Enix, fue uno de los primeros RPGs masivamente populares en consolas domésticas.",
+    "hint": "Fue un juego japonés para NES que precedió a Final Fantasy."
+  },
+  {
+    "question": "¿Cuántos juegos principales tiene la saga principal de Final Fantasy?",
+    "options": ["14", "15", "16", "17"],
+    "answer": 3,
+    "explanation": "La saga principal de Final Fantasy cuenta con 16 entregas numeradas, siendo Final Fantasy XVI (2023) la más reciente entrega principal.",
+    "hint": "La última entrega numerada se lanzó en 2023."
+  },
+  {
+    "question": "¿Qué videojuego de estrategia en tiempo real fue considerado el más influyente de los años 90?",
+    "options": ["Age of Empires", "Command & Conquer", "StarCraft", "Warcraft II"],
+    "answer": 3,
+    "explanation": "StarCraft (1998) de Blizzard es considerado el RTS más influyente de los años 90, especialmente por su impacto en Corea del Sur donde se convirtió en deporte nacional.",
+    "hint": "Se convirtió en deporte nacional en Corea del Sur."
+  },
+  {
+    "question": "¿Cuál fue la primera consola de Sony en superar los 100 millones de unidades vendidas?",
+    "options": ["PlayStation 1", "PlayStation 2", "PlayStation 3", "PlayStation 4"],
+    "answer": 2,
+    "explanation": "La PlayStation 2, lanzada en 2000, fue la primera consola de Sony en superar los 100 millones de unidades vendidas, convirtiéndose en la consola más vendida de la historia con más de 155 millones.",
+    "hint": "Es la consola más vendida de toda la historia."
+  },
+  {
+    "question": "¿Quién compuso la banda sonora icónica de la saga Halo?",
+    "options": ["Nobuo Uematsu", "Koji Kondo", "Martin O'Donnell", "Yoko Shimomura"],
+    "answer": 3,
+    "explanation": "Martin O'Donnell compuso la icónica banda sonora de la saga Halo, incluyendo el famoso coro gregoriano del menú principal que se ha convertido en uno de los temas más reconocibles de los videojuegos.",
+    "hint": "El famoso coro gregoriano del menú principal es su obra más reconocida."
+  },
+  {
+    "question": "¿Qué videojuego introdujo el concepto de 'permadeath' moderno en los roguelikes?",
+    "options": ["Nethack", "Rogue", "Diablo", "FTL"],
+    "answer": 2,
+    "explanation": "Rogue (1980) fue el juego que dio nombre al género roguelike e introdujo el permadeath (muerte permanente) como mecánica central, donde morir significa empezar desde cero.",
+    "hint": "Dio nombre a todo un género de videojuegos."
+  },
+  {
+    "question": "¿En qué año se lanzó el primer Call of Duty?",
+    "options": ["2001", "2002", "2003", "2004"],
+    "answer": 3,
+    "explanation": "El primer Call of Duty fue lanzado en 2003 por Infinity Ward para PC, ambientado en la Segunda Guerra Mundial y publicado por Activision.",
+    "hint": "Fue un juego de PC ambientado en la Segunda Guerra Mundial."
+  },
+  {
+    "question": "¿Cuál es el nombre del sistema operativo que usa la consola Steam Deck de Valve?",
+    "options": ["Windows Gaming Edition", "SteamOS", "Linux Gamer", "Proton OS"],
+    "answer": 2,
+    "explanation": "La Steam Deck usa SteamOS, un sistema operativo basado en Linux desarrollado por Valve, que incluye la capa de compatibilidad Proton para ejecutar juegos de Windows.",
+    "hint": "Es un sistema operativo basado en Linux desarrollado por Valve."
+  },
+  {
+    "question": "¿Qué videojuego fue el primero en incluir un motor de física destructible de entornos de forma masiva?",
+    "options": ["Half-Life 2", "Red Faction", "Battlefield: Bad Company", "Crysis"],
+    "answer": 2,
+    "explanation": "Red Faction (2001) fue el primer juego en incluir el motor GeoMod, que permitía destruir casi cualquier elemento del entorno, siendo pionero en la destrucción de escenarios.",
+    "hint": "Usó un motor llamado GeoMod que permitía destruir casi todo el escenario."
+  },
+  {
+    "question": "¿Qué personaje de Street Fighter es conocido por su movimiento 'Hadouken'?",
+    "options": ["Ken Masters", "Ryu", "Guile", "Dhalsim"],
+    "answer": 2,
+    "explanation": "Ryu es el personaje icónico de Street Fighter, conocido por su movimiento especial Hadouken (bola de fuego) y el Shoryuken (uppercut), siendo el rostro de la franquicia.",
+    "hint": "Es el personaje más icónico y el 'rostro' de la franquicia Street Fighter."
+  },
+  {
+    "question": "¿Cuántas horas de contenido tiene aproximadamente The Witcher 3: Wild Hunt incluyendo todas sus expansiones?",
+    "options": ["50 horas", "100 horas", "150 horas", "200 horas"],
+    "answer": 4,
+    "explanation": "The Witcher 3 con todas sus expansiones (Hearts of Stone y Blood and Wine) ofrece aproximadamente 200 horas de contenido completando todas las misiones y actividades.",
+    "hint": "Con sus dos expansiones, es uno de los juegos con más contenido de la historia."
+  },
+  {
+    "question": "¿Qué videojuego de simulación fue el más vendido de los años 90 en PC?",
+    "options": ["SimCity 2000", "The Sims", "Age of Empires II", "Myst"],
+    "answer": 4,
+    "explanation": "Myst (1993) fue el juego de PC más vendido de la década de los 90, superando incluso a títulos de simulación como SimCity, hasta la llegada de The Sims en 2000.",
+    "hint": "Era un juego de aventura y puzzles en una isla misteriosa."
+  },
+  {
+    "question": "¿Cuál fue la primera consola en incluir un disco duro interno de forma estándar?",
+    "options": ["PlayStation 2", "Xbox original", "Dreamcast", "GameCube"],
+    "answer": 2,
+    "explanation": "La Xbox original (2001) fue la primera consola en incluir un disco duro interno de forma estándar en todos los modelos, con 8GB de almacenamiento.",
+    "hint": "Fue la primera consola de Microsoft, lanzada en 2001."
+  }
+],
+    "Programacion": [
+  {
+    "question": "¿Qué estructura de datos utiliza el principio LIFO (Last In, First Out)?",
+    "options": ["Cola", "Pila", "Lista enlazada", "Árbol binario"],
+    "answer": 2,
+    "explanation": "Una pila (stack) sigue el principio LIFO: el último elemento en entrar es el primero en salir, como una pila de platos donde solo puedes tomar el de arriba.",
+    "hint": "Piensa en una pila de platos: solo puedes tomar el de arriba."
+  },
+  {
+    "question": "¿Cuál es la complejidad temporal de un algoritmo de búsqueda binaria en el peor caso?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": 3,
+    "explanation": "La búsqueda binaria tiene complejidad O(log n) porque en cada paso divide el espacio de búsqueda a la mitad, siendo mucho más eficiente que la búsqueda lineal O(n).",
+    "hint": "Cada paso divide el problema a la mitad."
+  },
+  {
+    "question": "¿Qué patrón de diseño garantiza que una clase tenga una única instancia en toda la aplicación?",
+    "options": ["Factory", "Observer", "Singleton", "Decorator"],
+    "answer": 3,
+    "explanation": "El patrón Singleton garantiza que una clase tenga solo una instancia y proporciona un punto de acceso global a ella, útil para recursos compartidos como conexiones de base de datos.",
+    "hint": "Su nombre hace referencia a que solo existe 'uno' de ese objeto."
+  },
+  {
+    "question": "¿Qué significa el acrónimo SOLID en programación orientada a objetos?",
+    "options": [
+      "Single, Open, Liskov, Interface, Dependency",
+      "Simple, Object, Linked, Interface, Design",
+      "Single, Optimized, Liskov, Inheritance, Dependency",
+      "Structured, Open, Linked, Interface, Dependency"
+    ],
+    "answer": 1,
+    "explanation": "SOLID representa: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation y Dependency Inversion, cinco principios clave del diseño orientado a objetos.",
+    "hint": "Cada letra representa un principio de diseño orientado a objetos."
+  },
+  {
+    "question": "¿Qué tipo de dato en Python es inmutable?",
+    "options": ["Lista", "Diccionario", "Conjunto", "Tupla"],
+    "answer": 4,
+    "explanation": "Las tuplas en Python son inmutables: una vez creadas, sus elementos no pueden ser modificados, añadidos ni eliminados, a diferencia de las listas.",
+    "hint": "Se define con paréntesis en lugar de corchetes."
+  },
+  {
+    "question": "¿Cuál es la diferencia principal entre un proceso y un hilo (thread)?",
+    "options": [
+      "No hay diferencia, son sinónimos",
+      "Un proceso tiene su propio espacio de memoria; un hilo comparte memoria con otros hilos del mismo proceso",
+      "Un hilo tiene su propio espacio de memoria; un proceso comparte memoria",
+      "Los procesos son más rápidos que los hilos siempre"
+    ],
+    "answer": 2,
+    "explanation": "Un proceso tiene su propio espacio de memoria aislado, mientras que los hilos de un mismo proceso comparten el espacio de memoria, lo que los hace más ligeros pero requiere sincronización.",
+    "hint": "Uno comparte memoria con sus 'hermanos', el otro tiene la suya propia."
+  },
+  {
+    "question": "¿Qué es un 'closure' en programación funcional?",
+    "options": [
+      "Una función que cierra la aplicación",
+      "Un bloque de código que captura variables de su ámbito exterior",
+      "Un método para cerrar conexiones de base de datos",
+      "Un tipo de bucle infinito"
+    ],
+    "answer": 2,
+    "explanation": "Un closure es una función que recuerda y puede acceder a las variables del ámbito léxico donde fue definida, incluso cuando se ejecuta fuera de ese ámbito.",
+    "hint": "La función 'recuerda' las variables del contexto donde fue creada."
+  },
+  {
+    "question": "¿Qué algoritmo de ordenamiento tiene la mejor complejidad promedio?",
+    "options": ["Bubble Sort", "Insertion Sort", "QuickSort", "Selection Sort"],
+    "answer": 3,
+    "explanation": "QuickSort tiene una complejidad promedio de O(n log n), siendo uno de los algoritmos de ordenamiento más eficientes en la práctica, aunque su peor caso es O(n²).",
+    "hint": "Su nombre hace referencia a su velocidad en casos promedio."
+  },
+  {
+    "question": "¿Qué es el 'garbage collection' en programación?",
+    "options": [
+      "Un proceso para eliminar código muerto del proyecto",
+      "Un proceso automático que libera memoria ocupada por objetos no referenciados",
+      "Un patrón de diseño para limpiar bases de datos",
+      "Un algoritmo de compresión de datos"
+    ],
+    "answer": 2,
+    "explanation": "El garbage collection es el proceso automático por el cual el runtime del lenguaje identifica y libera la memoria ocupada por objetos que ya no son accesibles desde el programa.",
+    "hint": "Hace automáticamente lo que en C++ debes hacer manualmente con free()."
+  },
+  {
+    "question": "¿Qué protocolo HTTP se usa para enviar datos de forma segura y cifrada?",
+    "options": ["HTTP/1.1", "HTTP/2", "HTTPS", "FTP"],
+    "answer": 3,
+    "explanation": "HTTPS (HTTP Secure) cifra la comunicación usando TLS/SSL, garantizando que los datos transmitidos entre el cliente y el servidor no puedan ser interceptados ni modificados.",
+    "hint": "Añade una capa de cifrado al protocolo estándar mediante TLS."
+  },
+  {
+    "question": "¿Qué es la recursión en programación?",
+    "options": [
+      "Un bucle que se repite infinitamente",
+      "Una función que se llama a sí misma durante su ejecución",
+      "Un tipo de herencia en POO",
+      "Un patrón de diseño para repetir tareas"
+    ],
+    "answer": 2,
+    "explanation": "La recursión es una técnica donde una función se llama a sí misma para resolver un problema dividiéndolo en subproblemas más pequeños, necesitando siempre un caso base para terminar.",
+    "hint": "Necesita siempre un caso base para no ser infinita."
+  },
+  {
+    "question": "¿Qué tipo de base de datos usa documentos JSON en lugar de tablas relacionales?",
+    "options": ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
+    "answer": 3,
+    "explanation": "MongoDB es una base de datos NoSQL orientada a documentos que almacena datos en formato BSON (similar a JSON), ofreciendo mayor flexibilidad que las bases de datos relacionales.",
+    "hint": "Es una base de datos NoSQL muy popular, orientada a documentos."
+  },
+  {
+    "question": "¿Qué es un API REST?",
+    "options": [
+      "Un lenguaje de programación para servidores",
+      "Una interfaz de programación que sigue principios de arquitectura REST usando HTTP",
+      "Un framework de JavaScript para frontend",
+      "Un protocolo de comunicación de bases de datos"
+    ],
+    "answer": 2,
+    "explanation": "Una API REST es una interfaz de programación de aplicaciones que sigue los principios de la arquitectura REST (Representational State Transfer) usando los métodos HTTP (GET, POST, PUT, DELETE).",
+    "hint": "Usa los métodos HTTP como GET, POST, PUT y DELETE."
+  },
+  {
+    "question": "¿Qué hace el método 'map()' en JavaScript?",
+    "options": [
+      "Busca un elemento en un array",
+      "Ordena los elementos de un array",
+      "Filtra elementos de un array según una condición",
+      "Crea un nuevo array aplicando una función a cada elemento"
+    ],
+    "answer": 4,
+    "explanation": "El método map() de JavaScript recorre cada elemento de un array, aplica una función de transformación y retorna un nuevo array con los resultados, sin modificar el original.",
+    "hint": "Transforma cada elemento y devuelve un nuevo array del mismo tamaño."
+  },
+  {
+    "question": "¿Qué es el polimorfismo en programación orientada a objetos?",
+    "options": [
+      "La capacidad de una clase de heredar de múltiples clases",
+      "La capacidad de ocultar los detalles internos de una clase",
+      "La capacidad de diferentes objetos de responder al mismo mensaje de formas distintas",
+      "La capacidad de crear múltiples instancias de una clase"
+    ],
+    "answer": 3,
+    "explanation": "El polimorfismo permite que objetos de diferentes clases respondan al mismo método de maneras distintas, lo que facilita escribir código más flexible y reutilizable.",
+    "hint": "Su nombre significa 'muchas formas' en griego."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre '==' y '===' en JavaScript?",
+    "options": [
+      "No hay diferencia, son equivalentes",
+      "'==' compara valor y tipo; '===' solo compara valor",
+      "'===' compara valor y tipo; '==' solo compara valor con conversión de tipos",
+      "'===' es para objetos y '==' para primitivos"
+    ],
+    "answer": 3,
+    "explanation": "'===' es igualdad estricta: compara valor Y tipo sin conversión. '==' es igualdad abstracta: convierte tipos antes de comparar (ej: '5' == 5 es true, pero '5' === 5 es false).",
+    "hint": "'===' es más estricto y no hace conversión de tipos."
+  },
+  {
+    "question": "¿Qué es Docker?",
+    "options": [
+      "Un lenguaje de programación para sistemas",
+      "Un sistema de control de versiones",
+      "Una plataforma para crear y gestionar contenedores de aplicaciones",
+      "Un framework de testing automatizado"
+    ],
+    "answer": 3,
+    "explanation": "Docker es una plataforma que permite crear, desplegar y ejecutar aplicaciones en contenedores, entornos aislados que incluyen todo lo necesario para ejecutar la aplicación de forma consistente.",
+    "hint": "Permite empaquetar una aplicación con todas sus dependencias en un contenedor."
+  },
+  {
+    "question": "¿Qué es la notación Big O?",
+    "options": [
+      "Una forma de escribir números muy grandes en programación",
+      "Un estándar de codificación de caracteres",
+      "Un protocolo de comunicación entre APIs",
+      "Una notación matemática que describe el comportamiento de un algoritmo según el tamaño de la entrada"
+    ],
+    "answer": 4,
+    "explanation": "La notación Big O describe cómo crece el tiempo de ejecución o el uso de memoria de un algoritmo en función del tamaño de la entrada, permitiendo comparar eficiencias.",
+    "hint": "Se usa para comparar la eficiencia de algoritmos independientemente del hardware."
+  },
+  {
+    "question": "¿Qué es la herencia en programación orientada a objetos?",
+    "options": [
+      "La capacidad de una clase de adquirir propiedades y métodos de otra clase",
+      "La capacidad de ocultar datos internos de una clase",
+      "La capacidad de crear objetos sin definir una clase",
+      "La capacidad de una función de llamarse a sí misma"
+    ],
+    "answer": 1,
+    "explanation": "La herencia permite que una clase (hija) adquiera atributos y métodos de otra clase (padre), promoviendo la reutilización de código y estableciendo jerarquías de clases.",
+    "hint": "Como en la vida real, los hijos heredan características de los padres."
+  },
+  {
+    "question": "¿Qué comando de Git se usa para fusionar dos ramas?",
+    "options": ["git rebase", "git merge", "git pull", "git fetch"],
+    "answer": 2,
+    "explanation": "El comando 'git merge' fusiona los cambios de una rama en otra, creando un commit de fusión. Es una de las operaciones más comunes en el flujo de trabajo con Git.",
+    "hint": "Su nombre en inglés significa 'fusionar'."
+  },
+  {
+    "question": "¿Qué es el principio DRY en programación?",
+    "options": [
+      "Don't Repeat Yourself: evitar la duplicación de código",
+      "Dynamic Resource Yielding: optimizar recursos del sistema",
+      "Data Retrieval Yielding: optimizar consultas de datos",
+      "Don't Risk Yourself: principio de seguridad en código"
+    ],
+    "answer": 1,
+    "explanation": "DRY (Don't Repeat Yourself) es un principio de desarrollo de software que establece que cada pieza de conocimiento debe tener una única representación en el sistema, evitando duplicar código.",
+    "hint": "Literalmente significa 'no te repitas'."
+  },
+  {
+    "question": "¿Cuál es la diferencia entre programación síncrona y asíncrona?",
+    "options": [
+      "La síncrona es más moderna que la asíncrona",
+      "No hay diferencia práctica entre ambas",
+      "La síncrona ejecuta operaciones en secuencia bloqueando el hilo; la asíncrona permite continuar sin esperar",
+      "La asíncrona solo se usa en backend; la síncrona en frontend"
+    ],
+    "answer": 3,
+    "explanation": "En la programación síncrona cada operación espera a que termine la anterior. En la asíncrona, operaciones lentas (como peticiones de red) no bloquean el hilo principal, mejorando la eficiencia.",
+    "hint": "Una bloquea el hilo esperando, la otra permite seguir ejecutando mientras espera."
+  },
+  {
+    "question": "¿Qué es un 'deadlock' en sistemas concurrentes?",
+    "options": [
+      "Un error de compilación irrecuperable",
+      "Una situación donde dos o más procesos se bloquean mutuamente esperando recursos que el otro tiene",
+      "Un tipo de ataque de seguridad informática",
+      "Una técnica de optimización de memoria"
+    ],
+    "answer": 2,
+    "explanation": "Un deadlock ocurre cuando dos o más procesos quedan bloqueados indefinidamente porque cada uno espera un recurso que tiene el otro, creando un ciclo de espera sin solución.",
+    "hint": "Es como un cruce donde todos se bloquean mutuamente y nadie puede avanzar."
+  },
+  {
+    "question": "¿Qué framework de JavaScript se usa principalmente para crear aplicaciones móviles nativas?",
+    "options": ["Angular", "Vue.js", "React Native", "Next.js"],
+    "answer": 3,
+    "explanation": "React Native, desarrollado por Meta, permite crear aplicaciones móviles nativas para iOS y Android usando JavaScript y React, compilando a código nativo en lugar de usar una WebView.",
+    "hint": "Está basado en React pero genera apps nativas para móvil."
+  },
+  {
+    "question": "¿Cuál es la función del operador ternario en programación?",
+    "options": [
+      "Realizar operaciones matemáticas con tres operandos",
+      "Definir tres variables simultáneamente",
+      "Crear bucles de tres iteraciones",
+      "Evaluar una condición y retornar uno de dos valores según el resultado"
+    ],
+    "answer": 4,
+    "explanation": "El operador ternario (condición ? valor_si_true : valor_si_false) es una forma compacta de escribir una estructura if-else en una sola línea.",
+    "hint": "Es una forma abreviada de escribir un if-else en una sola línea."
+  },
+  {
+    "question": "¿Qué es el 'event loop' en JavaScript?",
+    "options": [
+      "Un bucle for especializado para eventos del DOM",
+      "Un mecanismo que permite a JavaScript manejar operaciones asíncronas siendo single-threaded",
+      "Un patrón de diseño para gestionar eventos de usuario",
+      "Una librería para gestionar eventos en Node.js"
+    ],
+    "answer": 2,
+    "explanation": "El event loop es el mecanismo que permite a JavaScript, siendo single-threaded, manejar operaciones asíncronas. Revisa continuamente la call stack y la cola de callbacks para ejecutarlos en orden.",
+    "hint": "Permite que JavaScript sea no bloqueante a pesar de ser single-threaded."
+  },
+  {
+    "question": "¿Qué es la inyección de dependencias?",
+    "options": [
+      "Un tipo de ataque de seguridad SQL",
+      "Una técnica donde las dependencias de una clase se proporcionan desde el exterior en lugar de crearlas internamente",
+      "Un método para instalar librerías en un proyecto",
+      "Una forma de importar módulos en Python"
+    ],
+    "answer": 2,
+    "explanation": "La inyección de dependencias es un patrón donde una clase recibe sus dependencias desde el exterior (por constructor, setter o interfaz) en lugar de instanciarlas ella misma, facilitando el testing y la flexibilidad.",
+    "hint": "Las dependencias se 'inyectan' desde fuera de la clase, no se crean dentro."
+  },
+  {
+    "question": "¿Cuál de estos es un lenguaje de programación de tipado estático?",
+    "options": ["Python", "JavaScript", "Ruby", "TypeScript"],
+    "answer": 4,
+    "explanation": "TypeScript es un superset de JavaScript con tipado estático: los tipos de las variables se verifican en tiempo de compilación, lo que ayuda a detectar errores antes de ejecutar el código.",
+    "hint": "Es un superset de JavaScript que añade tipos estáticos."
+  },
+  {
+    "question": "¿Qué es la programación funcional?",
+    "options": [
+      "Programación basada exclusivamente en funciones matemáticas sin efectos secundarios",
+      "Un paradigma que trata la computación como evaluación de funciones matemáticas puras evitando el estado mutable",
+      "Un estilo de programación que solo usa funciones, sin variables",
+      "Un paradigma exclusivo de lenguajes como Haskell y Erlang"
+    ],
+    "answer": 2,
+    "explanation": "La programación funcional es un paradigma que trata la computación como la evaluación de funciones matemáticas puras, evitando el estado mutable y los efectos secundarios, lo que hace el código más predecible.",
+    "hint": "Se basa en funciones puras, inmutabilidad y ausencia de efectos secundarios."
+  },
+  {
+    "question": "¿Qué hace el comando 'git rebase' a diferencia de 'git merge'?",
+    "options": [
+      "Elimina commits del historial permanentemente",
+      "Crea una rama nueva a partir de otra",
+      "Reescribe el historial moviendo commits encima de otra rama, creando un historial lineal",
+      "Fusiona ramas creando siempre un commit de merge"
+    ],
+    "answer": 3,
+    "explanation": "Git rebase mueve o reaplica commits de una rama encima de otra, reescribiendo el historial para crear una línea de commits limpia y lineal, a diferencia de merge que crea un commit de fusión.",
+    "hint": "Reescribe el historial para que parezca que los cambios partieron de otro punto."
+  }
+]
 }
