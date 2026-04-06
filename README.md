@@ -1,6 +1,6 @@
 # QuizMaster
 
-A modular quiz game built in Python, designed with a clear separation between core logic and interface layer — allowing the same backend to power a CLI, a TUI, and eventually a GUI without modification.
+A modular quiz game built in Python, designed with a clear separation between core logic and interface layer — allowing the same backend to power a CLI and TUI.
 
 ---
 
@@ -108,7 +108,7 @@ python main.py
 
 ## Design Decisions
 
-- **Interface-agnostic core** — `app/` has no dependency on any interface. CLI, TUI, and GUI versions import from it without modification.
+- **Interface-agnostic core** — `app/` has no dependency on any interface. CLI and TUI versions import from it without modification.
 - **Centralized configuration** — all game constants (points, lives, delays, commands) are defined in `config.py` for easy adjustment without modifying core logic.
 - **Input validation** — strict validation ensures users provide correct input types (e.g., numeric answers 1-4, confirmation as 's' or 'n').
 - **Encapsulated lifelines** — each lifeline is its own class, keeping state and behavior isolated.
