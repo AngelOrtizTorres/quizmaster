@@ -1,5 +1,6 @@
 from typeguard import typechecked
 from app.models.lifelines import FiftyFifty, Hint, Roulette
+import app.config as config
     
 @typechecked
 class Player:
@@ -8,7 +9,7 @@ class Player:
         self.__name = name
         self.__difficulty = difficulty
         self.__category = category
-        self.__lives = 3
+        self.__lives = config.INITIAL_LIVES
         self.__score = 0
         self.__fifty_fifty = FiftyFifty()
         self.__hint = Hint()

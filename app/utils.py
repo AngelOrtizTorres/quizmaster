@@ -1,6 +1,7 @@
 import os
 import time
 from colorama import Fore, Style
+import app.config as config
 
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -65,6 +66,6 @@ def counter_start():
     for banner in banners:
         clear_terminal()
         print(banner)
-        time.sleep(1)
+        time.sleep(config.UI_DELAY_COUNTDOWN)
     
     clear_terminal()

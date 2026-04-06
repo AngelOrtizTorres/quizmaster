@@ -45,13 +45,13 @@ def main():
             case 2:
                 selected_difficulty = set_difficulty()
                 print(f"\nHas elegido dificultad: {config.DIFFICULTY_DISPLAY[selected_difficulty]}")
-                time.sleep(1.5)
+                time.sleep(config.UI_DELAY_AFTER_SELECTION)
                 utils.clear_terminal()
 
             case 3:
                 selected_category = set_category()
                 print(f"\nHas elegido categoría: {selected_category}")
-                time.sleep(1.5)
+                time.sleep(config.UI_DELAY_AFTER_SELECTION)
                 utils.clear_terminal()            
 
             case 4:

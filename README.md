@@ -10,7 +10,6 @@ A modular quiz game built in Python, designed with a clear separation between co
 |---------|-----------|--------|
 | v1.0.0 | CLI | ✅ Complete |
 | v2.0.0 | TUI (Textual) | 🚧 In progress |
-| v3.0.0 | GUI | 📋 Planned |
 
 ---
 
@@ -29,7 +28,7 @@ A modular quiz game built in Python, designed with a clear separation between co
 
 ## Screenshots
 
-> CLI (v1.0.0)
+> CLI (v1.1.0)
 
 <!-- Main menu -->
 ![Main menu](assets/main-menu.png)
@@ -88,9 +87,13 @@ python main.py
 1. Enter your name
 2. Select a difficulty and category
 3. Answer 10 multiple choice questions
-4. Use lifelines strategically — once used, they're gone
-5. Lose all 3 lives and the game ends early
-6. Finish all questions and optionally save your score to the ranking
+   - Enter a number **1 to 4** (or available options after lifelines)
+   - The game validates your input and requires a valid option
+4. For each question, choose to use a lifeline:
+   - Enter **'s'** (yes) to use a lifeline, or **'n'** (no) to skip
+5. Use lifelines strategically — once used, they're gone
+6. Lose all 3 lives and the game ends early
+7. Finish all questions and optionally save your score to the ranking
 
 **Scoring:**
 
@@ -106,6 +109,8 @@ python main.py
 ## Design Decisions
 
 - **Interface-agnostic core** — `app/` has no dependency on any interface. CLI, TUI, and GUI versions import from it without modification.
+- **Centralized configuration** — all game constants (points, lives, delays, commands) are defined in `config.py` for easy adjustment without modifying core logic.
+- **Input validation** — strict validation ensures users provide correct input types (e.g., numeric answers 1-4, confirmation as 's' or 'n').
 - **Encapsulated lifelines** — each lifeline is its own class, keeping state and behavior isolated.
 - **Roulette mechanic** — eliminating 0 options is a valid outcome by design; the uncertainty is the point.
 - **JSON persistence** — no database dependency for a local game; keeps the project self-contained.

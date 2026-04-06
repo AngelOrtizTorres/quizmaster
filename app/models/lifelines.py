@@ -1,4 +1,5 @@
 import random
+import app.config as config
 
 class FiftyFifty:
 
@@ -35,7 +36,7 @@ class Roulette:
         if not self.is_available:
             return options
         incorrect = [opt for opt in options if opt != correct_option]
-        num_to_remove = random.randint(0, 3)
+        num_to_remove = random.randint(0, config.ROULETTE_MAX_REMOVE)
         to_remove = random.sample(incorrect, min(num_to_remove, len(incorrect)))
         self.is_available = False
         return [opt for opt in options if opt not in to_remove]
